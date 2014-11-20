@@ -7,6 +7,7 @@ ETCS Subset026 as reqif
 # General Structure of this repo
 
 There is a directory for each chapter of the subset026. In each of those directories you will find
+
 1. the input document which was used for the conversion (in MS DOC format)
 2. the output document (uncompressed reqif data)
 3. a text document containing the output of the tool during the conversion process (mostly warnings)
@@ -32,7 +33,7 @@ There is a directory for each chapter of the subset026. In each of those directo
 
 # Remarks
 
-1. The reference renderer for the input files is Microsoft Word 2003 on Windows XP. Other versions of Word (from Version 97 onwards) should produce similar renderings. However, please *do not* attempt to compare the output reqif with the visual representation obtained from any third-party tool (e.g. one of the many Staroffice decendants) or even the PDFs.
+1. The reference renderer for the input files is Microsoft Word 2003 on Windows XP. Other versions of Word (from Version 97 onwards) should produce similar renderings. However, please *do not* attempt to compare the output reqif with the visual representation obtained from any third-party tool (e.g. one of the many Staroffice descendants) or even the PDFs.
 2. The reference renderer for the output files is formalmind Studio in version 0.11.0.201411181506. Please *do not* attempt to open the files with stock Pror or the openETCS tool. You may, however, try with other tools known to support XHTML (DOORS and friends) and report the results back to me.
 3. By default only the most important fields of each requirement are visible in the grid. Select a requirement and use the properties view (Main Menu: `ProR->Show Properties View`) to see all fields. Their meaning is as follows:
  1. *ListNumberText*: The original string that Word used for numbering this item in a list (only set for requirements which are in a list)
