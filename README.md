@@ -12,6 +12,8 @@ There is a directory for each chapter of the subset026. In each of those directo
 2. the output document (uncompressed reqif data)
 3. a text document containing the output of the tool during the conversion process (mostly warnings)
 4. a README with specific information about the chapter (if applicable)
+5. a `media` subdirectory with linked media artifacts (if the respective chapter contains media)
+ 1. within this folder is an automatically generated file `conversion.bat` which was used to convert the original media files into a reqif-compatible format and remains there for reference only
 
 
 # Prerequisites to use the reqif files
@@ -27,8 +29,9 @@ There is a directory for each chapter of the subset026. In each of those directo
  2. Click on `Browse` and select the directory where you stored the reqif from step 1
  3. Tick the reqif file from step 1 in the right panel
  4. Click `Finish`
-6. Open the tree of artifacts in your Project Explorer and double click the newly imported reqif
- 1. Either you already see the requirements grid or it needs another final double click on that single button below the text *Doubleclick below to open a specification.*
+6. If there is also a `media` subdirectory for your chapter, import this the same way. For Step 5.2: Make sure the Option `Create top-level folder` is active and select all files in this folder. In the Project Tree you should end up with a copy of the entire `media` directory as a subdirectory of the folder containing your reqif file.
+7. Open the Project Tree in your Project Explorer and double click the newly imported reqif
+ 1. Either you already see the requirements grid or it needs another final double click on that single button below the text: *Doubleclick below to open a specification.*
 
 
 # Remarks
