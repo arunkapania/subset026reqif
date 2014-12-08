@@ -52,3 +52,8 @@ There is a directory for each chapter of the subset026. In each of those directo
 5. There is an issue tracker in this repo. Feel free to use it if you find anything spurious in the provided files.
 6. **DO NOT USE ANY OF THESE FILES FOR PRODUCTION.** These are only intermediate results and they *will* change.
 
+
+# Known bugs
+
+1. If a single word has several styles attached, the rich text representation of that word will contain spaces at the positions where the style changes. The plain text version is correct, though.
+2. In very long tables the background shadings of certain cells are not always properly extracted.
