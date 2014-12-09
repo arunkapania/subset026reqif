@@ -48,7 +48,8 @@ There is a directory for each chapter of the subset026. In each of those directo
  1. *lightblue* stands for tracing data inside table cells. This is meant as a visual helper to quickly find the actual (traceable) cell below the RichText version of a table.
  2. *lightpurple* represents a flattened arrow (used in Transition Tables)
  3. *yellow* indicates numbering which was computed (i.e. the Word file only contains a marker but not the actual number itself)
- 4. *underlined blue text* (no background here) is a proper (= non-broken) cross-reference link in the Word document. However, the link target is not yet encoded in the reqif.
+ 4. *green* marks inline footnotes (big `N`-prepender) or endnotes (small `n`-prepender). The actual footnote text is a child of the requirement where the mark occurs.
+ 5. *underlined blue text* (no background here) is a proper (= non-broken) cross-reference link in the Word document. However, the link target is not yet encoded in the reqif.
 5. There is an issue tracker in this repo. Feel free to use it if you find anything spurious in the provided files.
 6. **DO NOT USE ANY OF THESE FILES FOR PRODUCTION.** These are only intermediate results and they *will* change.
 
