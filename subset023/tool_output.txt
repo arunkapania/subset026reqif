@@ -1,0 +1,75 @@
+Dez 29, 2014 9:22:10 AM docreader.ReaderData checkDocumentAssumptions
+INFORMATION: This document contains textboxes. Will skip them.
+--------------------------------------------------------------------------------
+Subset26 reader Version 0.2
+
+INPUT
+Input filename      : /tmp/subset023.doc                                        
+Document title      : Subset-023 Glossary of UNISIG Terms and Abbreviation      
+Document subject    :                                                           
+Revision            : 2                                                         
+Creation time       : 10.12.14 11:20                                            
+Last saved time     : 10.12.14 11:20                                            
+Last saved by       : Field not set                                             
+Last saved location : Field not set                                             
+Creation tool       : Microsoft Office Word                                     
+Operating System    : Windows 7 or Windows Server 2008 R2                       
+#Pages              : 27                                                        
+#Paragraphs         : 90                                                        
+#Words              : 6213                                                      
+#Characters         : 39142                                                     
+Author              : Bernhard Stamm                                            
+Last Author         : Jan Welte                                                 
+Last RevMark Author : CR906                                                     
+Keywords            :                                                           
+Comments            : Field not set                                             
+Security            : No security                                               
+
+OUTPUT
+Output filename     : /tmp/out.reqif                                            
+Media output dir    : media                                                     
+Prefix              : TODO_FIND_A_NAME-                                         
+--------------------------------------------------------------------------------
+Dez 29, 2014 9:22:10 AM docreader.range.TitleReader extractChapterNum
+WARNUNG: Could not extract a chapter number from the input document. Will use "R".
+  18/1268                            1.: Modification History
+  20/1268                              : Issue NumberDate
+ 106/1268                            2.: Table of Contents
+ 117/1268                            3.: General
+ 118/1268                          3.1.: Scope of this document
+ 119/1268                              : This document defines the significant T
+ 121/1268                          3.2.: 3.2.		Introduction
+ 122/1268                              : Many of the terms and abbreviations use
+ 124/1268                              : European Interoperability Directive 200
+ 125/1268                              : Control Command Signalling Technical Sp
+ 126/1268                              : CENELEC EN50126 – September 1999							
+ 127/1268                              : CENELEC EN50129 -	December 1999								
+ 130/1268                              : Note:  1. Only the highest level terms 
+ 131/1268                              :   2. Any term not given a numbered refe
+ 132/1268                              :   3. Some terms from the references hav
+ 133/1268                              :   4. Low level ETCS documents such as t
+ 135/1268                            4.: Terms
+ 136/1268                              : ACKNOWLEDGEment
+Dez 29, 2014 9:22:12 AM docreader.range.paragraph.characterRun.OfficeDrawingReader extractArrow
+WARNUNG: OfficeDrawing contains a shape which is not a simple line. Cannot handle that. Will skip this drawing. Current offset: 13695
+Dez 29, 2014 9:22:12 AM docreader.range.table.TableContentOverrideManager computeOverrides
+WARNUNG: Current cell contains an OfficeDrawing which is not an arrow. No idea how to formalize that. Will skip.
+Dez 29, 2014 9:22:12 AM docreader.range.paragraph.characterRun.OfficeDrawingReader extractArrow
+WARNUNG: OfficeDrawing contains a shape which is not a simple line. Cannot handle that. Will skip this drawing. Current offset: 13696
+Dez 29, 2014 9:22:12 AM docreader.range.table.TableContentOverrideManager computeOverrides
+WARNUNG: Current cell contains an OfficeDrawing which is not an arrow. No idea how to formalize that. Will skip.
+Dez 29, 2014 9:22:12 AM docreader.range.paragraph.characterRun.OfficeDrawingReader extractArrow
+WARNUNG: Not enough data for this drawing available. Will skip.
+Dez 29, 2014 9:22:12 AM docreader.range.table.TableContentOverrideManager computeOverrides
+WARNUNG: Current cell contains an OfficeDrawing which is not an arrow. No idea how to formalize that. Will skip.
+Dez 29, 2014 9:22:12 AM docreader.range.paragraph.characterRun.OfficeDrawingReader extractArrow
+WARNUNG: OfficeDrawing contains a shape which is not a simple line. Cannot handle that. Will skip this drawing. Current offset: 13699
+Dez 29, 2014 9:22:12 AM docreader.range.table.TableContentOverrideManager computeOverrides
+WARNUNG: Current cell contains an OfficeDrawing which is not an arrow. No idea how to formalize that. Will skip.
+Dez 29, 2014 9:22:12 AM docreader.range.paragraph.characterRun.OfficeDrawingReader extractArrow
+WARNUNG: Not enough data for this drawing available. Will skip.
+Dez 29, 2014 9:22:12 AM docreader.range.table.TableContentOverrideManager computeOverrides
+WARNUNG: Current cell contains an OfficeDrawing which is not an arrow. No idea how to formalize that. Will skip.
+ 930/1268                            5.: Abbreviations
+ 931/1268                              : ACK
+DONE
