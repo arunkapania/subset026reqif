@@ -1,5 +1,5 @@
 --------------------------------------------------------------------------------
-Subset26 reader Version 0.2
+Subset26 reader Version 0.3
 
 INPUT
 Input filename      : /tmp/chap4.doc                                            
@@ -26,10 +26,10 @@ Security            : No security
 OUTPUT
 Output filename     : /tmp/out.reqif                                            
 Media output dir    : media                                                     
-Prefix              : TODO_FIND_A_NAME-                                         
+Prefix              : Subset026-                                                
 --------------------------------------------------------------------------------
   19/8232                           4.1: Modification History
-  20/8232                              : Issue NumberDate
+  20/8232                        4.1[2]: 
  192/8232                           4.2: Table of Contents
  241/8232                           4.3: Introduction
  242/8232                         4.3.1: Presentation of the document
@@ -42,29 +42,29 @@ Prefix              : TODO_FIND_A_NAME-
  249/8232                       4.3.1.7: Some notes appear in this document. The
  250/8232                         4.3.2: Identification of the possible modes
  251/8232                       4.3.2.1: List of the modes:
- 252/8232                              : Full Supervision		(FS)
- 253/8232                              : Limited Supervision	(LS)
- 254/8232                              : On Sight			(OS)
- 255/8232                              : Staff Responsible	(SR)
- 256/8232                              : Shunting			(SH)
- 257/8232                              : Unfitted			(UN)
- 258/8232                              : Passive Shunting	(PS)
- 259/8232                              : Sleeping			(SL)
- 260/8232                              : Stand By			(SB)
- 261/8232                              : Trip				(TR)
- 262/8232                              : Post Trip			(PT)
- 263/8232                              : System Failure		(SF)
- 264/8232                              : Isolation			(IS)
- 265/8232                              : No Power			(NP)
- 266/8232                              : Non Leading		(NL)
- 267/8232                              :  National System		(SN)
- 268/8232                              : Reversing			(RV)
+ 252/8232                    4.3.2.1[2]: Full Supervision  (FS)
+ 253/8232                    4.3.2.1[3]: Limited Supervision (LS)
+ 254/8232                    4.3.2.1[4]: On Sight   (OS)
+ 255/8232                    4.3.2.1[5]: Staff Responsible (SR)
+ 256/8232                    4.3.2.1[6]: (SH)
+ 257/8232                    4.3.2.1[7]: (UN)
+ 258/8232                    4.3.2.1[8]: Passive Shunting (PS)
+ 259/8232                    4.3.2.1[9]: (SL)
+ 260/8232                   4.3.2.1[10]: Stand By   (SB)
+ 261/8232                   4.3.2.1[11]: (TR)
+ 262/8232                   4.3.2.1[12]: Post Trip   (PT)
+ 263/8232                   4.3.2.1[13]: System Failure  (SF)
+ 264/8232                   4.3.2.1[14]: (IS)
+ 265/8232                   4.3.2.1[15]: No Power   (NP)
+ 266/8232                   4.3.2.1[16]: Non Leading  (NL)
+ 267/8232                   4.3.2.1[17]: National System  (SN)
+ 268/8232                   4.3.2.1[18]: (RV)
  269/8232                           4.4: Definition of the modes
  270/8232                         4.4.1: Introduction
  271/8232                       4.4.1.1: For each mode the following information
- 272/8232                            a): The context of utilisation of the mode 
- 273/8232                            b): The ERTMS/ETCS levels in which the mode
- 274/8232                            c): The related responsibility of the ERTMS
+ 272/8232                     4.4.1.1.a: The context of utilisation of the mode 
+ 273/8232                     4.4.1.1.b: The ERTMS/ETCS levels in which the mode
+ 274/8232                     4.4.1.1.c: The related responsibility of the ERTMS
  275/8232                       4.4.1.2: A complete list of transitions to and f
  276/8232                         4.4.2: General Requirements
  277/8232                       4.4.2.1: When the desk is open, a clear indicati
@@ -114,9 +114,9 @@ Prefix              : TODO_FIND_A_NAME-
  331/8232                     4.4.6.1.8: If the “sleeping input signal” is lost 
  332/8232                     4.4.6.1.9: Intentionally deleted.
  333/8232                    4.4.6.1.10: The ERTMS/ETCS on-board equipment shall
- 334/8232                            a): in all levels, on receipt of the order 
- 335/8232                            b): In level 2/3, when entering or exiting 
- 336/8232                            c): In level 2/3, when a safety critical fa
+ 334/8232                  4.4.6.1.10.a: in all levels, on receipt of the order 
+ 335/8232                  4.4.6.1.10.b: In level 2/3, when entering or exiting 
+ 336/8232                  4.4.6.1.10.c: In level 2/3, when a safety critical fa
  337/8232                    4.4.6.1.11: Note: for the list of main functions re
  338/8232                    4.4.6.1.12: In case of balise group message consist
  339/8232                    4.4.6.1.13: When in levels 2 or 3, if no compatible
@@ -142,10 +142,10 @@ Prefix              : TODO_FIND_A_NAME-
  365/8232                         4.4.8: SHUNTING
  366/8232                       4.4.8.1: Description
  367/8232                     4.4.8.1.1: The purpose of the Shunting mode is to 
- 368/8232                            a): a ceiling speed: the shunting mode spee
- 369/8232                            b): a list of expected balise groups (if su
- 370/8232                            c): “stop if in shunting mode” information.
- 371/8232                            d): Intentionally deleted
+ 368/8232                   4.4.8.1.1.a: a ceiling speed: the shunting mode spee
+ 369/8232                   4.4.8.1.1.b: a list of expected balise groups (if su
+ 370/8232                   4.4.8.1.1.c: “stop if in shunting mode” information.
+ 371/8232                   4.4.8.1.1.d: Intentionally deleted
  372/8232                     4.4.8.1.2: The Shunting mode shall not require Tra
  373/8232                     4.4.8.1.3: The ERTMS/ETCS on-board equipment shall
  374/8232                     4.4.8.1.4: Intentionally deleted.
@@ -154,11 +154,11 @@ Prefix              : TODO_FIND_A_NAME-
  377/8232                   4.4.8.1.5.2: When in Shunting mode, the ERTMS/ETCS o
  378/8232                     4.4.8.1.6: Shunting mode can be selected by the dr
  379/8232                     4.4.8.1.7: In case of selection of Shunting mode b
- 380/8232                             ·: in level 1 operations, the switch to sh
- 381/8232                             ·: in level 2 and 3 areas, the on-board sh
+ 380/8232                4.4.8.1.7.*[1]: in level 1 operations, the switch to sh
+ 381/8232                4.4.8.1.7.*[2]: in level 2 and 3 areas, the on-board sh
  382/8232                     4.4.8.1.8: In case of order to switch to Shunting 
- 383/8232                             ·: in level 1 is given by a balise group. 
- 384/8232                             ·: in level 2 and 3 is sent via radio. A l
+ 383/8232                4.4.8.1.8.*[1]: in level 1 is given by a balise group. 
+ 384/8232                4.4.8.1.8.*[2]: in level 2 and 3 is sent via radio. A l
  385/8232                     4.4.8.1.9: When the switch to shunting is ordered 
  386/8232                   4.4.8.1.9.1: Note: in Shunting mode the train is onl
  387/8232                    4.4.8.1.10: The ERTMS/ETCS on-board equipment shall
@@ -169,8 +169,8 @@ Prefix              : TODO_FIND_A_NAME-
  394/8232                       4.4.8.3: Responsibilities
  395/8232                     4.4.8.3.1: The ERTMS/ETCS on-board equipment is re
  396/8232                     4.4.8.3.2: The driver is responsible for:
- 397/8232                            a): Remaining inside the shunting area defi
- 398/8232                            b): Train/engine movements and shunting ope
+ 397/8232                   4.4.8.3.2.a: Remaining inside the shunting area defi
+ 398/8232                   4.4.8.3.2.b: Train/engine movements and shunting ope
  400/8232                         4.4.9: FULL SUPERVISION
  401/8232                       4.4.9.1: Description
  402/8232                     4.4.9.1.1: The ERTMS/ETCS on-board equipment shall
@@ -190,9 +190,9 @@ Prefix              : TODO_FIND_A_NAME-
  419/8232                        4.4.10: UNFITTED
  420/8232                      4.4.10.1: Description
  421/8232                    4.4.10.1.1: The Unfitted mode is used to allow trai
- 422/8232                            a): Areas that are equipped neither with ER
- 423/8232                            b): Intentionally deleted
- 424/8232                            c): Areas that are equipped with ERTMS/ETCS
+ 422/8232                  4.4.10.1.1.a: Areas that are equipped neither with ER
+ 423/8232                  4.4.10.1.1.b: Intentionally deleted
+ 424/8232                  4.4.10.1.1.c: Areas that are equipped with ERTMS/ETCS
  425/8232                    4.4.10.1.2: The ERTMS/ETCS on-board equipment shall
  426/8232                  4.4.10.1.2.1: Intentionally deleted.
  427/8232                    4.4.10.1.3: The ERTMS/ETCS on-board equipment shall
@@ -207,20 +207,20 @@ Prefix              : TODO_FIND_A_NAME-
  439/8232                      4.4.11.1: Description
  440/8232                    4.4.11.1.1: The Staff Responsible mode allows the d
  441/8232                    4.4.11.1.2: This mode is used when the system does 
- 442/8232                            a): After the ERTMS/ETCS on-board equipment
- 443/8232                            b): To pass a signal at danger / override a
- 444/8232                            c): After a trackside failure (for example:
+ 442/8232                  4.4.11.1.2.a: After the ERTMS/ETCS on-board equipment
+ 443/8232                  4.4.11.1.2.b: To pass a signal at danger / override a
+ 444/8232                  4.4.11.1.2.c: After a trackside failure (for example:
  445/8232                    4.4.11.1.3: The ERTMS/ETCS on-board equipment shall
- 446/8232                            a): a ceiling speed: the staff responsible 
- 447/8232                            b): a given distance (regarding its origin 
- 448/8232                            c): a list of expected balise groups, if th
- 449/8232                            d): balise groups giving the order ‘stop if
- 450/8232                            e): running in the direction opposite to th
+ 446/8232                  4.4.11.1.3.a: a ceiling speed: the staff responsible 
+ 447/8232                  4.4.11.1.3.b: a given distance (regarding its origin 
+ 448/8232                  4.4.11.1.3.c: a list of expected balise groups, if th
+ 449/8232                  4.4.11.1.3.d: balise groups giving the order ‘stop if
+ 450/8232                  4.4.11.1.3.e: running in the direction opposite to th
  451/8232                  4.4.11.1.3.1: The ERTMS/ETCS on-board shall determine
- 452/8232                            a): If the National/Default value determine
- 453/8232                            b): If the max permitted distance to run in
- 454/8232                            c): If the max permitted distance to run in
- 455/8232                              : In case the LRBG is, due to a change of
+ 452/8232                4.4.11.1.3.1.a: If the National/Default value determine
+ 453/8232                4.4.11.1.3.1.b: If the max permitted distance to run in
+ 454/8232                4.4.11.1.3.1.c: If the max permitted distance to run in
+ 455/8232             4.4.11.1.3.1.c[2]: In case the LRBG is, due to a change of
  456/8232                    4.4.11.1.4: Note: Since the gradient is unknown, th
  457/8232                    4.4.11.1.5: The ERTMS/ETCS on-board equipment shall
  458/8232                  4.4.11.1.5.1: If a train movement is detected while t
@@ -229,8 +229,8 @@ Prefix              : TODO_FIND_A_NAME-
  461/8232                  4.4.11.1.6.2: When entering SR mode, the value applic
  462/8232                  4.4.11.1.6.3: While in SR mode, the value applicable 
  463/8232                  4.4.11.1.6.4: While in SR mode, the value applicable 
- 464/8232                            a): the distance to run in SR entered by th
- 465/8232                            b): the distance to run in SR given by trac
+ 464/8232                4.4.11.1.6.4.a: the distance to run in SR entered by th
+ 465/8232                4.4.11.1.6.4.b: the distance to run in SR given by trac
  466/8232                  4.4.11.1.6.5: When "Override" is selected, the SR mod
  467/8232                  4.4.11.1.6.6: If the train is in SR and receives a ne
  468/8232                  4.4.11.1.6.7: If an ERTMS/ETCS on-board equipment in 
@@ -338,8 +338,8 @@ Prefix              : TODO_FIND_A_NAME-
  588/8232                    4.4.18.1.1: The Reversing mode allows the driver to
  589/8232                    4.4.18.1.2: Note: This mode is used to allow the tr
  590/8232                    4.4.18.1.3: The ERTMS/ETCS on-board equipment shall
- 591/8232                            a): a ceiling speed: the Reversing mode spe
- 592/8232                            b): a distance to run in the direction oppo
+ 591/8232                  4.4.18.1.3.a: a ceiling speed: the Reversing mode spe
+ 592/8232                  4.4.18.1.3.b: a distance to run in the direction oppo
  593/8232                    4.4.18.1.4: After the release of a brake command in
  594/8232                    4.4.18.1.5: The ERTMS/ETCS on-board equipment shall
  595/8232                    4.4.18.1.6: In case the SBI supervision limit is ex
@@ -398,8 +398,8 @@ Prefix              : TODO_FIND_A_NAME-
  650/8232                       4.5.1.2: Note: Modes are not the only thing that
  651/8232                       4.5.1.3: Note: for DMI depending on modes, refer
  652/8232                         4.5.2: Active Functions Table
- 653/8232                       4.5.2.1: X = functions shall be activeEmpty cas
- 655/8232                              : ONBOARD-FUNCTIONS
+ 653/8232                       4.5.2.1: X = functions shall be active Empty cas
+ 655/8232                    4.5.2.1[2]: 
 2353/8232                           4.6: Transitions between modes
 2354/8232                         4.6.1: Symbols
 2355/8232                       4.6.1.1: The indication “4>” means: The conditio
@@ -409,17 +409,17 @@ Prefix              : TODO_FIND_A_NAME-
 2359/8232                       4.6.1.5: Some transitions have received the same
 2360/8232                       4.6.1.6: "16, 17, 18" means "16 or 17 or 18".
 2362/8232                         4.6.2: Transitions Table
-2363/8232                              : NP
+2363/8232                      4.6.2[2]: 
 2806/8232                         4.6.3: Transitions Conditions Table
-2808/8232                              : Condition Id
-3024/8232                              : {1} The request to acknowledge On Sigh
-3025/8232                              : {2} This transition to the Unfitted mod
-3026/8232                              : {3} See the “Override” procedure” of SR
-3027/8232                              : {4} The Staff Responsible mode is propo
-3028/8232                              : {5} The request to acknowledge Shunting
-3029/8232                              : {6} The request to acknowledge Reversin
-3030/8232                              : {7} The request to acknowledge Limited 
-3031/8232                              : {8} Refer to Subset-035 for details.
+2808/8232                      4.6.3[2]: 
+3024/8232                      4.6.3[3]: {1} The request to acknowledge On Sight
+3025/8232                      4.6.3[4]: {2} This transition to the Unfitted mod
+3026/8232                      4.6.3[5]: {3} See the “Override” procedure” of SR
+3027/8232                      4.6.3[6]: {4} The Staff Responsible mode is propo
+3028/8232                      4.6.3[7]: {5} The request to acknowledge Shunting
+3029/8232                      4.6.3[8]: {6} The request to acknowledge Reversin
+3030/8232                      4.6.3[9]: {7} The request to acknowledge Limited 
+3031/8232                     4.6.3[10]: {8} Refer to Subset-035 for details.
 3032/8232                           4.7: DMI depending on modes
 3033/8232                         4.7.1: Introduction
 3034/8232                       4.7.1.1: The DMI is an interface that allows the
@@ -432,8 +432,8 @@ Prefix              : TODO_FIND_A_NAME-
 3041/8232                     4.7.2.1.2: A = available: This means that the inpu
 3042/8232                     4.7.2.1.3: Grey cells: availability and meaning de
 3043/8232                     4.7.2.1.4: NA = Not Applicable: This concerns the 
-3044/8232                              : Input information
-3734/8232                              : Output information
+3044/8232                  4.7.2.1.4[2]: 
+3734/8232                  4.7.2.1.4[3]: 
 4712/8232                           4.8: Acceptance of received information
 4713/8232                         4.8.1: Introduction
 4714/8232                       4.8.1.1: The aim of this chapter is to give an o
@@ -443,36 +443,36 @@ Prefix              : TODO_FIND_A_NAME-
 4718/8232                       4.8.1.4: Note: As shown in Figure 3, information
 4719/8232                       4.8.1.5: If a message contains infill informatio
 4720/8232                       4.8.1.6: When evaluating trackside information r
-4721/8232                              :  EMBED Word.Picture.8  
+4721/8232                    4.8.1.6[2]: 
 4723/8232                         4.8.2: Assumptions
 4724/8232                       4.8.2.1: The following tables shall be applied a
-4725/8232                            a): the information complies with the data 
-4726/8232                            b): the direction for which the information
-4727/8232                            c): In levels 2/3, it is assumed that the “
-4728/8232                            d): to check exception [4] in 4.8.3, the tr
+4725/8232                     4.8.2.1.a: the information complies with the data 
+4726/8232                     4.8.2.1.b: the direction for which the information
+4727/8232                     4.8.2.1.c: In levels 2/3, it is assumed that the “
+4728/8232                     4.8.2.1.d: to check exception [4] in 4.8.3, the tr
 4729/8232                       4.8.2.2: Regarding 4.8.2.1 a): In case a balise 
 4730/8232                       4.8.2.3: In case a balise telegram contains the 
 4731/8232                       4.8.2.4: Note: with the exception of the data th
 4732/8232                         4.8.3: Accepted information depending on the l
 4733/8232                       4.8.3.1: From RBC or not
 4734/8232                     4.8.3.1.1: Note: “No” in column “From RBC” has to 
-4736/8232                              : A = Accepted	R = Rejected
-4737/8232                              : 
-5751/8232                              : [1] exception: stored onboard if an ord
-5752/8232                              : [2] exception: stored onboard if an ord
-5753/8232                              : [3] exception: rejected if Train Data h
-5754/8232                              : [4] exception: rejected if the SSP and 
-5755/8232                              : [5] exception: rejected if emergency st
-5756/8232                              : [8] exception: revocable TSRs shall be 
-5757/8232                              : [9] exception: rejected if no level 2/3
-5758/8232                              : [10] exception: rejected if the referre
-5759/8232                              : [11] exception: rejected if a level tra
-5760/8232                              : [12] exception: rejected if the text me
-5761/8232                              : [13] exception: rejected if not receive
+4736/8232                  4.8.3.1.1[2]: A = Accepted R = Rejected
+4737/8232                  4.8.3.1.1[3]: 
+5751/8232                  4.8.3.1.1[4]: [1] exception: stored onboard if an ord
+5752/8232                  4.8.3.1.1[5]: [2] exception: stored onboard if an ord
+5753/8232                  4.8.3.1.1[6]: [3] exception: rejected if Train Data h
+5754/8232                  4.8.3.1.1[7]: [4] exception: rejected if the SSP and 
+5755/8232                  4.8.3.1.1[8]: [5] exception: rejected if emergency st
+5756/8232                  4.8.3.1.1[9]: [8] exception: revocable TSRs shall be 
+5757/8232                 4.8.3.1.1[10]: [9] exception: rejected if no level 2/3
+5758/8232                 4.8.3.1.1[11]: [10] exception: rejected if the referre
+5759/8232                 4.8.3.1.1[12]: [11] exception: rejected if a level tra
+5760/8232                 4.8.3.1.1[13]: [12] exception: rejected if the text me
+5761/8232                 4.8.3.1.1[14]: [13] exception: rejected if not receive
 5762/8232                       4.8.3.2: From National System X (through STM int
-5763/8232                              : 
-5800/8232                              : [6] exception: stored by ETCS onboard i
-5801/8232                              : [7] exception: rejected by ETCS onboard
+5763/8232                    4.8.3.2[2]: 
+5800/8232                    4.8.3.2[3]: [6] exception: stored by ETCS onboard i
+5801/8232                    4.8.3.2[4]: [7] exception: rejected by ETCS onboard
 5803/8232                       4.8.3.3: Intentionally deleted.
 5804/8232                       4.8.3.4: Intentionally deleted.
 5806/8232                         4.8.4: Accepted Information depending on the m
@@ -480,30 +480,30 @@ Prefix              : TODO_FIND_A_NAME-
 5808/8232                     4.8.4.1.1: For infill information, only the column
 5809/8232                     4.8.4.1.2: Intentionally deleted.
 5810/8232                       4.8.4.2: Intentionally deleted.
-5812/8232                              : NR = Not Relevant	A = Accepted	R = Reje
-5813/8232                              : 
-7071/8232                              : [1]: for level 2/3: only if following t
-7072/8232                              : [2]: only if a cab is active
-7073/8232                              : [3]: for order to establish a communica
-7074/8232                              : [4]: only if valid Train Data are store
-7075/8232                              : [5]: only level transition announcement
-7076/8232                              : [6]: rejected if override is active
-7077/8232                              : [7]: only immediate level transition or
-7078/8232                              : [8]: only RBC transition order with nul
+5812/8232                    4.8.4.2[2]: NR = Not Relevant A = Accepted R = Reje
+5813/8232                    4.8.4.2[3]: 
+7071/8232                    4.8.4.2[4]: [1]: for level 2/3: only if following t
+7072/8232                    4.8.4.2[5]: [2]: only if a cab is active
+7073/8232                    4.8.4.2[6]: [3]: for order to establish a communica
+7074/8232                    4.8.4.2[7]: [4]: only if valid Train Data are store
+7075/8232                    4.8.4.2[8]: [5]: only level transition announcement
+7076/8232                    4.8.4.2[9]: [6]: rejected if override is active
+7077/8232                   4.8.4.2[10]: [7]: only immediate level transition or
+7078/8232                   4.8.4.2[11]: [8]: only RBC transition order with nul
 7079/8232                         4.8.5: Handling of transition buffer in case o
 7080/8232                       4.8.5.1: If an order to switch to level NTC, 1, 
 7081/8232                       4.8.5.2: If a RBC transition order has been rece
 7082/8232                     4.8.5.2.1: Note: the term “set of information” ref
 7083/8232                       4.8.5.3: In case three sets of information are a
 7084/8232                       4.8.5.4: The sets of information stored in the t
-7085/8232                            a): in case the level transition order is d
-7086/8232                            b): in case the RBC transition order is del
-7087/8232                            c): in case the communication session with 
+7085/8232                     4.8.5.4.a: in case the level transition order is d
+7086/8232                     4.8.5.4.b: in case the RBC transition order is del
+7087/8232                     4.8.5.4.c: in case the communication session with 
 7088/8232                       4.8.5.5: At the same time the level transition i
 7089/8232                       4.8.5.6: This sequential re-evaluation of all th
-7090/8232                            a): Starting from the information currently
-7091/8232                            b): For each information update related to 
-7092/8232                            c): The information resulting from this seq
+7090/8232                     4.8.5.6.a: Starting from the information currently
+7091/8232                     4.8.5.6.b: For each information update related to 
+7092/8232                     4.8.5.6.c: The information resulting from this seq
 7093/8232                       4.8.5.7: Accepting re-evaluated Conditional Emer
 7094/8232                     4.8.5.7.1: Note: For the case of the Unconditional
 7095/8232                       4.8.5.8: Note: The requirement to acknowledge an
@@ -519,50 +519,49 @@ Prefix              : TODO_FIND_A_NAME-
 7105/8232                      4.10.1.1: Every data that can be stored onboard a
 7106/8232                      4.10.1.2: A mode transition acts on the “status” 
 7107/8232                      4.10.1.3: Depending on which mode is entered, the
-7108/8232                            a): data is deleted,
-7109/8232                            b): data is to be revalidated,
-7110/8232                            c): data is reset (set to default values)
-7111/8232                            d): data status is unchanged,
-7112/8232                            e): not relevant (the action on the data ca
-7115/8232                              : D = Deleted
-7122/8232                              : 
-8134/8232                              : [1]: exception: “U” when coming from SH
-8135/8232                              : [2]: exception: “U” when coming from PS
+7108/8232                    4.10.1.3.a: data is deleted,
+7109/8232                    4.10.1.3.b: data is to be revalidated,
+7110/8232                    4.10.1.3.c: data is reset (set to default values)
+7111/8232                    4.10.1.3.d: data status is unchanged,
+7112/8232                    4.10.1.3.e: not relevant (the action on the data ca
+7115/8232                 4.10.1.3.e[2]: 
+7122/8232                 4.10.1.3.e[3]: 
+8134/8232                 4.10.1.3.e[4]: [1]: exception: “U” when coming from SH
+8135/8232                 4.10.1.3.e[5]: [2]: exception: “U” when coming from PS
 8136/8232                      4.10.1.4: NOTES:
 8137/8232                    4.10.1.4.1: Intentionally deleted.
 8138/8232                    4.10.1.4.2: The following information is not consid
-8139/8232                            a): Repositioning information
-8140/8232                            b): Session Management (exception: the RBC 
-8141/8232                            c): Danger for SH information
-8142/8232                            d): Assignment of Co-ordinate system
-8143/8232                            e): Infill Location Reference
-8144/8232                            f): Location Identity (NID_C + NID_BG trans
-8145/8232                            g): Recognition of exit from TRIP mode
-8146/8232                            h): Acknowledgement of Train Data
-8147/8232                            i): SH refused
-8148/8232                            j): SH authorised
-8149/8232                            k): Balise/loop System Version
-8150/8232                            l): Track Condition Station Platforms
-8151/8232                            m): Track Condition Change of Allowed Curre
-8152/8232                            n): Revocation of Emergency Stop (Condition
-8153/8232                            o): Temporary Speed Restriction Revocation
-8154/8232                            p): Initiation of communication session
-8155/8232                            q): Acknowledgement of session termination
-8156/8232                            r): Default Balise Information
-8157/8232                            s): Co-operative shortening of MA (if this 
-8158/8232                            t): Train Rejected
-8159/8232                            u): Train Accepted
-8160/8232                            v): SoM position report confirmed by RBC
-8161/8232                            w): Track Ahead Free up to level 2/3 transi
-8162/8232                            x): Signalling related speed restriction va
-8163/8232                            y): Stop if in SR mode
-8164/8232                            z): Data to be forwarded to a National Syst
+8139/8232                  4.10.1.4.2.a: Repositioning information
+8140/8232                  4.10.1.4.2.b: Session Management (exception: the RBC 
+8141/8232                  4.10.1.4.2.c: Danger for SH information
+8142/8232                  4.10.1.4.2.d: Assignment of Co-ordinate system
+8143/8232                  4.10.1.4.2.e: Infill Location Reference
+8144/8232                  4.10.1.4.2.f: Location Identity (NID_C + NID_BG trans
+8145/8232                  4.10.1.4.2.g: Recognition of exit from TRIP mode
+8146/8232                  4.10.1.4.2.h: Acknowledgement of Train Data
+8147/8232                  4.10.1.4.2.i: SH refused
+8148/8232                  4.10.1.4.2.j: SH authorised
+8149/8232                  4.10.1.4.2.k: Balise/loop System Version
+8150/8232                  4.10.1.4.2.l: Track Condition Station Platforms
+8151/8232                  4.10.1.4.2.m: Track Condition Change of Allowed Curre
+8152/8232                  4.10.1.4.2.n: Revocation of Emergency Stop (Condition
+8153/8232                  4.10.1.4.2.o: Temporary Speed Restriction Revocation
+8154/8232                  4.10.1.4.2.p: Initiation of communication session
+8155/8232                  4.10.1.4.2.q: Acknowledgement of session termination
+8156/8232                  4.10.1.4.2.r: Default Balise Information
+8157/8232                  4.10.1.4.2.s: Co-operative shortening of MA (if this 
+8158/8232                  4.10.1.4.2.t: Train Rejected
+8159/8232                  4.10.1.4.2.u: Train Accepted
+8160/8232                  4.10.1.4.2.v: SoM position report confirmed by RBC
+8161/8232                  4.10.1.4.2.w: Track Ahead Free up to level 2/3 transi
+8162/8232                  4.10.1.4.2.x: Signalling related speed restriction va
+8163/8232                  4.10.1.4.2.y: Stop if in SR mode
+8164/8232                  4.10.1.4.2.z: Data to be forwarded to a National Syst
 8165/8232                          4.11: What happens to stored information when
 8166/8232                      4.11.1.1: Status of stored information, which is 
-8168/8232                              : 
+8168/8232                   4.11.1.1[2]: 
 8230/8232                      4.11.1.2: Note: Status of stored information, whi
 8231/8232                      4.11.1.3: If a cold movement has been detected, o
 DONE
 There are 1 images waiting to be converted.
 Please run media/conversion.bat
-

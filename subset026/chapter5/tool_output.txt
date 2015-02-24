@@ -1,7 +1,5 @@
-Feb 09, 2015 7:08:18 PM docreader.ReaderData checkDocumentAssumptions
-INFORMATION: This document contains textboxes. Will skip them.
 --------------------------------------------------------------------------------
-Subset26 reader Version 0.2
+Subset26 reader Version 0.3
 
 INPUT
 Input filename      : /tmp/chap5.doc                                            
@@ -28,8 +26,10 @@ Security            : No security
 OUTPUT
 Output filename     : /tmp/out.reqif                                            
 Media output dir    : media                                                     
-Prefix              : TODO_FIND_A_NAME-                                         
+Prefix              : Subset026-                                                
 --------------------------------------------------------------------------------
+Feb 24, 2015 6:33:59 PM docreader.ReaderData checkDocumentAssumptions
+INFORMATION: This document contains textboxes. Will skip them.
   21/2083                           5.1: Modification History
   22/2083                        5.1[2]: 
  170/2083                           5.2: Table of Contents
@@ -657,10 +657,10 @@ Prefix              : TODO_FIND_A_NAME-
 1911/2083                  5.18.2.5.1.1: Note: Whether the operation is automati
 1912/2083                      5.18.2.6: The “Raise pantograph” information shal
 1913/2083                    5.18.2.6.1: Note: The train front end position when
-Feb 09, 2015 7:08:21 PM docreader.range.paragraph.characterRun.FieldReader$FieldHandler$7 process
+Feb 24, 2015 6:34:06 PM docreader.range.paragraph.characterRun.FieldReader$FieldHandler$7 process
 INFORMATION: Got a shape with an OfficeDrawing here. Will try obtain an image representation.
-Feb 09, 2015 7:08:21 PM docreader.range.paragraph.characterRun.ImageReader writeToFile
-WARNUNG: Picture "media/TODO_FIND_A_NAME-5_18_2_6_1[2]_[f]13_I" seems to be empty. Will not write to disk. Please extract manually.
+Feb 24, 2015 6:34:06 PM docreader.range.paragraph.characterRun.ImageReader writeToFile
+WARNUNG: Picture "media/Subset026-5_18_2_6_1[2]_[f]13_I" seems to be empty. Will not write to disk. Please extract manually.
 1915/2083                 5.18.2.6.1[2]: 
 1917/2083                        5.18.3: Passing a powerless section with main p
 1918/2083                      5.18.3.1: This procedure is dealing with the anno
@@ -682,10 +682,10 @@ WARNUNG: Picture "media/TODO_FIND_A_NAME-5_18_2_6_1[2]_[f]13_I" seems to be empt
 1934/2083                  5.18.3.4.1.1: Note: Whether the operation is automati
 1935/2083                      5.18.3.5: The “End of Neutral section” informatio
 1936/2083                    5.18.3.5.1: Note: The train front end position, whe
-Feb 09, 2015 7:08:21 PM docreader.range.paragraph.characterRun.FieldReader$FieldHandler$7 process
+Feb 24, 2015 6:34:06 PM docreader.range.paragraph.characterRun.FieldReader$FieldHandler$7 process
 INFORMATION: Got a shape with an OfficeDrawing here. Will try obtain an image representation.
-Feb 09, 2015 7:08:21 PM docreader.range.paragraph.characterRun.ImageReader writeToFile
-WARNUNG: Picture "media/TODO_FIND_A_NAME-5_18_3_5_1[2]_[f]14_I" seems to be empty. Will not write to disk. Please extract manually.
+Feb 24, 2015 6:34:06 PM docreader.range.paragraph.characterRun.ImageReader writeToFile
+WARNUNG: Picture "media/Subset026-5_18_3_5_1[2]_[f]14_I" seems to be empty. Will not write to disk. Please extract manually.
 1938/2083                 5.18.3.5.1[2]: 
 1940/2083                        5.18.4: Passing a non stopping area
 1941/2083                      5.18.4.1: This procedure is dealing with the anno
@@ -699,19 +699,19 @@ WARNUNG: Picture "media/TODO_FIND_A_NAME-5_18_3_5_1[2]_[f]14_I" seems to be empt
 1949/2083                 5.18.4.4.*[2]: “Non stopping area” information shall b
 1950/2083                      5.18.4.5: When the min safe front end reaches the
 1951/2083                      5.18.4.6: Note: the display of the “non stopping 
-Feb 09, 2015 7:08:21 PM docreader.range.paragraph.characterRun.FieldReader$FieldHandler$7 process
+Feb 24, 2015 6:34:06 PM docreader.range.paragraph.characterRun.FieldReader$FieldHandler$7 process
 INFORMATION: Got a shape with an OfficeDrawing here. Will try obtain an image representation.
-Feb 09, 2015 7:08:21 PM docreader.range.paragraph.characterRun.ImageReader writeToFile
-WARNUNG: Picture "media/TODO_FIND_A_NAME-5_18_4_6[2]_[f]15_I" seems to be empty. Will not write to disk. Please extract manually.
+Feb 24, 2015 6:34:06 PM docreader.range.paragraph.characterRun.ImageReader writeToFile
+WARNUNG: Picture "media/Subset026-5_18_4_6[2]_[f]15_I" seems to be empty. Will not write to disk. Please extract manually.
 1952/2083                   5.18.4.6[2]: 
 1954/2083                        5.18.5: Passing a radio hole
 1955/2083                      5.18.5.1: This procedure is dealing with the auto
 1956/2083                      5.18.5.2: When the max safe front end of the trai
 1957/2083                      5.18.5.3: When the min safe rear end of the train
-Feb 09, 2015 7:08:21 PM docreader.range.paragraph.characterRun.FieldReader$FieldHandler$7 process
+Feb 24, 2015 6:34:06 PM docreader.range.paragraph.characterRun.FieldReader$FieldHandler$7 process
 INFORMATION: Got a shape with an OfficeDrawing here. Will try obtain an image representation.
-Feb 09, 2015 7:08:21 PM docreader.range.paragraph.characterRun.ImageReader writeToFile
-WARNUNG: Picture "media/TODO_FIND_A_NAME-5_18_5_3[2]_[f]16_I" seems to be empty. Will not write to disk. Please extract manually.
+Feb 24, 2015 6:34:06 PM docreader.range.paragraph.characterRun.ImageReader writeToFile
+WARNUNG: Picture "media/Subset026-5_18_5_3[2]_[f]16_I" seems to be empty. Will not write to disk. Please extract manually.
 1959/2083                   5.18.5.3[2]: 
 1961/2083                        5.18.6: Passing an “air tightness” area
 1962/2083                      5.18.6.1: This procedure is dealing with the anno
@@ -733,10 +733,10 @@ WARNUNG: Picture "media/TODO_FIND_A_NAME-5_18_5_3[2]_[f]16_I" seems to be empty.
 1978/2083                  5.18.6.4.1.1: Note: Whether the operation is automati
 1979/2083                      5.18.6.5: The “Open Air Conditioning intake” info
 1980/2083                    5.18.6.5.1: Note: The train front end position, whe
-Feb 09, 2015 7:08:21 PM docreader.range.paragraph.characterRun.FieldReader$FieldHandler$7 process
+Feb 24, 2015 6:34:06 PM docreader.range.paragraph.characterRun.FieldReader$FieldHandler$7 process
 INFORMATION: Got a shape with an OfficeDrawing here. Will try obtain an image representation.
-Feb 09, 2015 7:08:21 PM docreader.range.paragraph.characterRun.ImageReader writeToFile
-WARNUNG: Picture "media/TODO_FIND_A_NAME-5_18_6_5_1[2]_[f]17_I" seems to be empty. Will not write to disk. Please extract manually.
+Feb 24, 2015 6:34:06 PM docreader.range.paragraph.characterRun.ImageReader writeToFile
+WARNUNG: Picture "media/Subset026-5_18_6_5_1[2]_[f]17_I" seems to be empty. Will not write to disk. Please extract manually.
 1981/2083                 5.18.6.5.1[2]: 
 1983/2083                        5.18.7: Inhibition of a defined type of brake
 1984/2083                      5.18.7.1: This procedure is dealing with the anno
@@ -751,10 +751,10 @@ WARNUNG: Picture "media/TODO_FIND_A_NAME-5_18_6_5_1[2]_[f]17_I" seems to be empt
 1993/2083                 5.18.7.4.*[1]: Indication “Inhibition of Regenerative 
 1994/2083                 5.18.7.4.*[2]: Indication “Inhibition of Regenerative 
 1995/2083                      5.18.7.5: When the min safe rear end of the train
-Feb 09, 2015 7:08:21 PM docreader.range.paragraph.characterRun.FieldReader$FieldHandler$7 process
+Feb 24, 2015 6:34:06 PM docreader.range.paragraph.characterRun.FieldReader$FieldHandler$7 process
 INFORMATION: Got a shape with an OfficeDrawing here. Will try obtain an image representation.
-Feb 09, 2015 7:08:21 PM docreader.range.paragraph.characterRun.ImageReader writeToFile
-WARNUNG: Picture "media/TODO_FIND_A_NAME-5_18_7_5[2]_[f]18_I" seems to be empty. Will not write to disk. Please extract manually.
+Feb 24, 2015 6:34:06 PM docreader.range.paragraph.characterRun.ImageReader writeToFile
+WARNUNG: Picture "media/Subset026-5_18_7_5[2]_[f]18_I" seems to be empty. Will not write to disk. Please extract manually.
 1996/2083                   5.18.7.5[2]: 
 1998/2083                        5.18.8: Advising a tunnel stopping area
 1999/2083                      5.18.8.1: This procedure is dealing with the indi
@@ -768,10 +768,10 @@ WARNUNG: Picture "media/TODO_FIND_A_NAME-5_18_7_5[2]_[f]18_I" seems to be empty.
 2007/2083                 5.18.8.5.*[1]: “Tunnel stopping area announcement” sha
 2008/2083                 5.18.8.5.*[2]: “Tunnel stopping area” information shal
 2009/2083                      5.18.8.6: Note: the display of the “tunnel stoppi
-Feb 09, 2015 7:08:21 PM docreader.range.paragraph.characterRun.FieldReader$FieldHandler$7 process
+Feb 24, 2015 6:34:06 PM docreader.range.paragraph.characterRun.FieldReader$FieldHandler$7 process
 INFORMATION: Got a shape with an OfficeDrawing here. Will try obtain an image representation.
-Feb 09, 2015 7:08:21 PM docreader.range.paragraph.characterRun.ImageReader writeToFile
-WARNUNG: Picture "media/TODO_FIND_A_NAME-5_18_8_6[2]_[f]19_I" seems to be empty. Will not write to disk. Please extract manually.
+Feb 24, 2015 6:34:06 PM docreader.range.paragraph.characterRun.ImageReader writeToFile
+WARNUNG: Picture "media/Subset026-5_18_8_6[2]_[f]19_I" seems to be empty. Will not write to disk. Please extract manually.
 2010/2083                   5.18.8.6[2]: 
 2012/2083                        5.18.9: Sounding the horn
 2013/2083                      5.18.9.1: This procedure is dealing with the indi
@@ -779,10 +779,10 @@ WARNUNG: Picture "media/TODO_FIND_A_NAME-5_18_8_6[2]_[f]19_I" seems to be empty.
 2015/2083                    5.18.9.2.1: This location (point C) shall be determ
 2016/2083                      5.18.9.3: When the estimated front end of the tra
 2017/2083                      5.18.9.4: Note: In order not to encourage the dri
-Feb 09, 2015 7:08:21 PM docreader.range.paragraph.characterRun.FieldReader$FieldHandler$7 process
+Feb 24, 2015 6:34:06 PM docreader.range.paragraph.characterRun.FieldReader$FieldHandler$7 process
 INFORMATION: Got a shape with an OfficeDrawing here. Will try obtain an image representation.
-Feb 09, 2015 7:08:21 PM docreader.range.paragraph.characterRun.ImageReader writeToFile
-WARNUNG: Picture "media/TODO_FIND_A_NAME-5_18_9_4[2]_[f]20_I" seems to be empty. Will not write to disk. Please extract manually.
+Feb 24, 2015 6:34:06 PM docreader.range.paragraph.characterRun.ImageReader writeToFile
+WARNUNG: Picture "media/Subset026-5_18_9_4[2]_[f]20_I" seems to be empty. Will not write to disk. Please extract manually.
 2018/2083                   5.18.9.4[2]: 
 2020/2083                       5.18.10: Changing the traction system
 2021/2083                     5.18.10.1: This procedure is dealing with the anno
@@ -797,10 +797,10 @@ WARNUNG: Picture "media/TODO_FIND_A_NAME-5_18_9_4[2]_[f]20_I" seems to be empty.
 2030/2083                5.18.10.5.*[2]: the “New traction system” information s
 2031/2083                     5.18.10.6: The “New traction system” information s
 2032/2083                   5.18.10.6.1: Note: The train front end position when
-Feb 09, 2015 7:08:21 PM docreader.range.paragraph.characterRun.FieldReader$FieldHandler$7 process
+Feb 24, 2015 6:34:06 PM docreader.range.paragraph.characterRun.FieldReader$FieldHandler$7 process
 INFORMATION: Got a shape with an OfficeDrawing here. Will try obtain an image representation.
-Feb 09, 2015 7:08:21 PM docreader.range.paragraph.characterRun.ImageReader writeToFile
-WARNUNG: Picture "media/TODO_FIND_A_NAME-5_18_10_6_1[2]_[f]21_I" seems to be empty. Will not write to disk. Please extract manually.
+Feb 24, 2015 6:34:06 PM docreader.range.paragraph.characterRun.ImageReader writeToFile
+WARNUNG: Picture "media/Subset026-5_18_10_6_1[2]_[f]21_I" seems to be empty. Will not write to disk. Please extract manually.
 2033/2083                5.18.10.6.1[2]: 
 2036/2083                          5.19: Procedure Limited Supervision
 2037/2083                        5.19.1: General Requirements
