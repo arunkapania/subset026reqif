@@ -3,6 +3,10 @@ subset026reqif
 
 ETCS Subset026 as ReqIF
 
+This is a repository to host preconverted [ReqIF](http://www.omg.org/spec/ReqIF/) files of the ETCS [subset023](http://www.era.europa.eu/Document-Register/Pages/New-Annex-A-for-ETCS-Baseline-3-and-GSM-R-Baseline-0.aspx) (baseline 3.0.0) and [subset026](http://www.era.europa.eu/Document-Register/Pages/New-Annex-A-for-ETCS-Baseline-3-and-GSM-R-Baseline-0.aspx) (baseline 3.3.0). The tool used to create these files will soon be published as well.
+See the image below (excerpt taken from chapter 3) to get an impression of what this is all about.
+
+![Visualization of tool input and output](/conversion_visualized.png?raw=true "Original *.doc and generated *.reqif")
 
 # General Structure of this repo
 
