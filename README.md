@@ -36,7 +36,7 @@ There is a directory for each chapter of the subset026. In each of those directo
 # Remarks
 
 1. The reference renderer for the input files is Microsoft Word 2003 on Windows XP. Other versions of Word (from Version 97 onwards) should produce similar renderings. However, please *do not* attempt to compare the output ReqIF with the visual representation obtained from any third-party tool (e.g. one of the many Staroffice descendants) or even the PDFs.
-2. The reference renderer for the output files is formalmind Studio in version 1.0.0.201502201232. Please *do not* attempt to open the files with stock ProR or the openETCS tool. You may, however, try with other tools known to support XHTML (DOORS and friends) and report the results back to me.
+2. The reference renderer for the output files is formalmind Studio in version 1.0.0.201503131109. Please *do not* attempt to open the files with stock ProR or the openETCS tool. You may, however, try with other tools known to support XHTML (DOORS and friends) and report the results back to me.
 3. By default only the most important fields of each requirement are visible in the grid. Select a requirement and use the properties view (Main Menu: `ProR->Show Properties View`) to see all fields. Their meaning is as follows:
  1. *ListNumberText*: The original string that Word used for numbering this item in a list (only set for requirements which are in a list)
  2. *PlainText*: pure textual version of the requirement text. Does not include vanished text and numberTexts of fake list paragraphs. Line breaks are flattened to spaces. Special characters resolved. May be empty if the current object only serves as a visual helper (e.g. the object representing an entire table) or there is no meaningful textual representation available (e.g. an image).
@@ -62,3 +62,4 @@ There is a directory for each chapter of the subset026. In each of those directo
 2. In very long tables the background shadings of certain cells are not always properly extracted.
 3. (very minor) Word apprently does print out `0x0` (Unicode NUL) to the user. The tool does not and does not (yet) emit a warning.
 4. The heading detection for the *Kind*-field (see above) is not very sophisticated does not detect all headings.
+5. Extraction of fake links (i.e. textual references to another artifact which are not using Word's crossreferencing feature) come with some false positives

@@ -1,3 +1,16 @@
+## 0.4 (2015-03-13)
+
+Features:
+
+- add internal and external links (SpecRelations)
+- shapes can now be automatically extracted
+
+Bugfixes:
+
+- minor amendmends to tracestrings to facilitate linking (mainly 4.5.2.1[2].[t]1)
+- fixed detection of tables 3.13.10.5.4[2].[t]13 and 3.13.10.5.4[3].[t]14
+
+
 ## 0.3 (2015-02-24)
 
 Features:

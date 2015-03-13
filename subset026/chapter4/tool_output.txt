@@ -1,5 +1,5 @@
 --------------------------------------------------------------------------------
-Subset26 reader Version 0.3
+Subset26 reader Version 0.4
 
 INPUT
 Input filename      : /tmp/chap4.doc                                            
@@ -563,5 +563,7 @@ Prefix              : Subset026-
 8230/8232                      4.11.1.2: Note: Status of stored information, whi
 8231/8232                      4.11.1.3: If a cold movement has been detected, o
 DONE
-There are 1 images waiting to be converted.
-Please run media/conversion.bat
+Processed 6402 traceable artifacts.
+
+Media summary:
+1 images. Please run media/images.csv

@@ -1,5 +1,5 @@
 --------------------------------------------------------------------------------
-Subset26 reader Version 0.3
+Subset26 reader Version 0.4
 
 INPUT
 Input filename      : /tmp/chap1.doc                                            
@@ -81,3 +81,4 @@ Prefix              : Subset026-
 226/227                       1.8.9.1: Chapter 8 defines the application protoco
 227/227                       1.8.9.2: The scope of this chapter is limited to t
 DONE
+Processed 62 traceable artifacts.

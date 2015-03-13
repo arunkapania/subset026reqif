@@ -1,5 +1,5 @@
 --------------------------------------------------------------------------------
-Subset26 reader Version 0.3
+Subset26 reader Version 0.4
 
 INPUT
 Input filename      : /tmp/chap7.doc                                            
@@ -648,3 +648,4 @@ Prefix              : Subset026-
 10232/10249                     7.5.1.174: X_TEXT
 10233/10249                  7.5.1.174[2]: 
 DONE
+Processed 6742 traceable artifacts.
