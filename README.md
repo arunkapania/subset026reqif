@@ -1,10 +1,21 @@
 subset026reqif
 ==============
 
-ETCS Subset026 as ReqIF
+This is a repository to host preconverted [ReqIF](http://www.omg.org/spec/ReqIF/) files of the ETCS [subset023](http://www.era.europa.eu/Document-Register/Pages/New-Annex-A-for-ETCS-Baseline-3-and-GSM-R-Baseline-0.aspx) (Baseline 3.0.0) and [subset026](http://www.era.europa.eu/Document-Register/Pages/New-Annex-A-for-ETCS-Baseline-3-and-GSM-R-Baseline-0.aspx) (Baseline 3.3.0). The tool used to create these files will soon be published as well.
+See the image below (excerpt taken from chapter 3) to get an impression of what this is all about.
+
+![Visualization of tool input and output](/conversion_visualized.png?raw=true "Original *.doc and generated *.reqif")
 
 
-# General Structure of this repo
+The main benefits of ReqIF over Word as the file format for storing / exchaning ETCS requirements may be summarized as follows: **ReqIF...**
+
+* ... was particularly invented with requirement specifications in mind. Hence it has features like *traceability* and *custom metadata* for each requirement built in.
+* ... is an open standard and (due to being XML-based and domain-targeted) easily parsable. This lends it to long-term storage.
+* ... is supported natively by a wide range of industry-standard RM-tools (DOORS / DOORS NG, reqtify / SCADE, ProR, etc.)
+* ... adds a lot of structure to a requirement document. So properties like *links between requirements*, their *legal obligation*, *types of textual artifacts* (Note, Example, etc.) all become automatically processable (e.g. they can be searched for) and differences between different revisions (Baselines) of a document can be much easier computed.
+
+
+# General structure of this repo
 
 There is a directory for each chapter of the subset026. In each of those directories you will find
 
