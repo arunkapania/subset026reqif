@@ -24,7 +24,7 @@ There is a directory for each chapter of the subset026. In each of those directo
 3. a text document containing the output of the tool during the conversion process (mostly warnings)
 4. a README with specific information about the chapter (if applicable)
 5. a `media` subdirectory with linked media artifacts (if the respective chapter contains media)
-
+6. a `statistics` subdirectory (only for subse026). See the dedicated [README](/subset026/README.md) for details.
 
 # Prerequisites to use the ReqIF files
 
