@@ -14,10 +14,19 @@ Such trees are a byproduct of the Word to ReqIF conversion. All artifacts which 
 
 Each folder contains the following files:
 
-* **nodes.csv** - a CSV containing all nodes (i.e. traceable artifacts / requirements) of the respective chapter. First column is a unique id (based on the tracestring), second is the first 25 characters of the contents and the third contains the hierarchical level of the tracestring associated with the artifact (0 means root, +1 for each level)
-* **edges.csv** - a CSV containing all links between nodes. First column is the source (unique id), second the target (unique id) and the third the weight of the link (1 means it is a crossreference link, 2 stands for a parent/child link)
+* **nodes.csv** - a CSV containing all nodes (i.e. traceable artifacts / requirements) of the respective chapter. Columns map as follows:
+ 1. unique id (based on the tracestring); value is a String
+ 2. first 25 characters of the contents of the artifact; value is a String
+ 3. hierarchical level of the tracestring associated with the artifact (0 means root, +1 for each level); value is an Integer
+ 4. Implementation flag of the artifact (same as in ReqIF); value is a Boolean
+* **edges.csv** - a CSV containing all links between nodes. Columns map as follows:
+ 1. source (unique id); value is a String
+ 2. target (unique id); value is a String
+ 3. weight of the link (1 means it is a crossreference link, 2 stands for a parent/child link); value is a Float
 * **chapter*N*.gephi** - a zipped XML that can be opened with [Gephi](http://www.gephi.org). It was created using the CSVs from above.
-* **chapter*N*.pdf** - an example rendering produced by Gephi
+* **chapter*N*.pdf** - an example rendering produced by Gephi (a colorful tree as shown in the screenshot on this page; see below for how it was created)
+
+*Note: The CSVs have Unix-style line endings (`\n`), use commas (`,`) as separators and all values are enclosed in hyphens (`"`)*
 
 
 ## Interpretation of the PDF-renderings
@@ -58,7 +67,7 @@ On Unix this will do:
 ```head -n1 nodes.csv | cat - nodesCombinedCleaned.csv > nodesFinal.csv```
  6. Prefix `edgesCombinded.csv` with the original CSV-header. I.e.
 ```head -n1 edges.csv | cat - edgesCombined.csv > edgesFinal.csv```
- 7. `nodesFinal.csv` and `edgesFinal.csv` can now be used as an input to Gephi/Excel/whatever
+ 7. `nodesFinal.csv` and `edgesFinal.csv` can now be used as an input to Gephi/Excel/R/whatever
 
 
 ### Gephi preferences
@@ -92,5 +101,5 @@ This lists the preferences used to create the example renderings.
 
 #### Layout
 
-* Run `graphviz` with the default settings; make sure to use a patches version of the respective plugin - otherwise it will break for large networks
+* Run `graphviz` with the default settings; make sure to use a patched version of the respective plugin - otherwise it will break for large networks
 * Optionally run `Noverlap` afterwards to make the graph look nicer (graphviz does not know about the node sizes)
