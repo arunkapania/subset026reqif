@@ -1,5 +1,5 @@
 --------------------------------------------------------------------------------
-Subset26 reader Version 0.4
+Subset26 reader Version 0.5
 
 INPUT
 Input filename      : /tmp/chap4.doc                                            
@@ -46,19 +46,19 @@ Prefix              : Subset026-
  253/8232                    4.3.2.1[3]: Limited Supervision (LS)
  254/8232                    4.3.2.1[4]: On Sight   (OS)
  255/8232                    4.3.2.1[5]: Staff Responsible (SR)
- 256/8232                    4.3.2.1[6]: (SH)
- 257/8232                    4.3.2.1[7]: (UN)
+ 256/8232                    4.3.2.1[6]: Shunting   (SH)
+ 257/8232                    4.3.2.1[7]: Unfitted   (UN)
  258/8232                    4.3.2.1[8]: Passive Shunting (PS)
- 259/8232                    4.3.2.1[9]: (SL)
+ 259/8232                    4.3.2.1[9]: Sleeping   (SL)
  260/8232                   4.3.2.1[10]: Stand By   (SB)
- 261/8232                   4.3.2.1[11]: (TR)
+ 261/8232                   4.3.2.1[11]: Trip    (TR)
  262/8232                   4.3.2.1[12]: Post Trip   (PT)
  263/8232                   4.3.2.1[13]: System Failure  (SF)
- 264/8232                   4.3.2.1[14]: (IS)
+ 264/8232                   4.3.2.1[14]: Isolation   (IS)
  265/8232                   4.3.2.1[15]: No Power   (NP)
  266/8232                   4.3.2.1[16]: Non Leading  (NL)
  267/8232                   4.3.2.1[17]: National System  (SN)
- 268/8232                   4.3.2.1[18]: (RV)
+ 268/8232                   4.3.2.1[18]: Reversing   (RV)
  269/8232                           4.4: Definition of the modes
  270/8232                         4.4.1: Introduction
  271/8232                       4.4.1.1: For each mode the following information
@@ -562,8 +562,64 @@ Prefix              : Subset026-
 8168/8232                   4.11.1.1[2]: 
 8230/8232                      4.11.1.2: Note: Status of stored information, whi
 8231/8232                      4.11.1.3: If a cold movement has been detected, o
+Performing second pass of generated document hierarchy.
+NLP is active. Processing may take a while...
+Apr 20, 2015 6:27:22 PM helper.subset26.MetadataDeterminerSecondPass processRequirement
+WARNUNG: 4.4.13.1.1: Encountered a deleted requirement with children.
+  654 NLP-jobs remaining.
+  630 NLP-jobs remaining.
+  621 NLP-jobs remaining.
+  609 NLP-jobs remaining.
+  597 NLP-jobs remaining.
+  577 NLP-jobs remaining.
+  562 NLP-jobs remaining.
+  550 NLP-jobs remaining.
+  541 NLP-jobs remaining.
+  531 NLP-jobs remaining.
+  517 NLP-jobs remaining.
+  516 NLP-jobs remaining.
+  512 NLP-jobs remaining.
+  503 NLP-jobs remaining.
+  499 NLP-jobs remaining.
+  490 NLP-jobs remaining.
+  479 NLP-jobs remaining.
+  470 NLP-jobs remaining.
+  462 NLP-jobs remaining.
+  451 NLP-jobs remaining.
+  438 NLP-jobs remaining.
+  424 NLP-jobs remaining.
+  416 NLP-jobs remaining.
+  409 NLP-jobs remaining.
+  403 NLP-jobs remaining.
+  399 NLP-jobs remaining.
+  393 NLP-jobs remaining.
+  370 NLP-jobs remaining.
+  311 NLP-jobs remaining.
+  297 NLP-jobs remaining.
+  286 NLP-jobs remaining.
+  280 NLP-jobs remaining.
+  268 NLP-jobs remaining.
+  256 NLP-jobs remaining.
+  245 NLP-jobs remaining.
+  233 NLP-jobs remaining.
+  188 NLP-jobs remaining.
+  183 NLP-jobs remaining.
+  176 NLP-jobs remaining.
+  176 NLP-jobs remaining.
+  161 NLP-jobs remaining.
+  127 NLP-jobs remaining.
+   88 NLP-jobs remaining.
+   74 NLP-jobs remaining.
+   67 NLP-jobs remaining.
+   63 NLP-jobs remaining.
+   56 NLP-jobs remaining.
+    1 NLP-jobs remaining.
+Starting XML serialization
 DONE
 Processed 6402 traceable artifacts.
 
 Media summary:
-1 images. Please run media/images.csv
+1 images. Please process /tmp/media/images.csv
+
+Running time: 5 min, 05 sec
+

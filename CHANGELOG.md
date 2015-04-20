@@ -1,3 +1,19 @@
+## 0.5 (2015-04-20)
+
+Features:
+
+- export of statistical CSVs (nodes and edges of the generated requirement tree)
+- add several new properties to the indvidual SpecObjects: *LegalObligation*, *implementerEnhanced*, *atomic*
+- add colorful tagging of words in requirements (new field *implementerEnhanced*); detection is based on NLP (a little) and Regexes (a lot)
+- add new Kind values for boolean lists (alpha quality)
+- improved algorithms to determine the correct Kind property
+- add linking of non qualified requirement references (i.e. "Regarding b): bla bla")
+
+Bugfixes:
+
+- additional artifacs (media / statistics data) are now saved in the same directory as the resulting ReqIF
+- small fix to fake number text detection which caused some raw paragraph texts in chapter 4 to be truncated (rich texts were ok)
+
 ## 0.4 (2015-03-13)
 
 Features:

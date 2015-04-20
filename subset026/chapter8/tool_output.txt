@@ -1,5 +1,5 @@
 --------------------------------------------------------------------------------
-Subset26 reader Version 0.4
+Subset26 reader Version 0.5
 
 INPUT
 Input filename      : /tmp/chap8.doc                                            
@@ -197,8 +197,21 @@ Prefix              : Subset026-
 2005/2061                     8.7.21[2]: 
 2030/2061                        8.7.22: Message 45: Assignment of coordinate sy
 2032/2061                     8.7.22[2]: 
+Performing second pass of generated document hierarchy.
+NLP is active. Processing may take a while...
+  198 NLP-jobs remaining.
+  189 NLP-jobs remaining.
+  184 NLP-jobs remaining.
+  166 NLP-jobs remaining.
+  135 NLP-jobs remaining.
+  114 NLP-jobs remaining.
+   62 NLP-jobs remaining.
+Starting XML serialization
 DONE
 Processed 1392 traceable artifacts.
 
 Media summary:
-1 images. Please run media/images.csv
+1 images. Please process /tmp/media/images.csv
+
+Running time: 1 min, 16 sec
+

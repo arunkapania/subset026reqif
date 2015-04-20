@@ -1,5 +1,5 @@
 --------------------------------------------------------------------------------
-Subset26 reader Version 0.4
+Subset26 reader Version 0.5
 
 INPUT
 Input filename      : /tmp/chap7.doc                                            
@@ -647,5 +647,29 @@ Prefix              : Subset026-
 10212/10249                  7.5.1.173[2]: 
 10232/10249                     7.5.1.174: X_TEXT
 10233/10249                  7.5.1.174[2]: 
+Performing second pass of generated document hierarchy.
+NLP is active. Processing may take a while...
+  901 NLP-jobs remaining.
+  885 NLP-jobs remaining.
+  865 NLP-jobs remaining.
+  810 NLP-jobs remaining.
+  756 NLP-jobs remaining.
+  678 NLP-jobs remaining.
+  650 NLP-jobs remaining.
+  588 NLP-jobs remaining.
+  514 NLP-jobs remaining.
+  458 NLP-jobs remaining.
+  396 NLP-jobs remaining.
+  323 NLP-jobs remaining.
+  264 NLP-jobs remaining.
+  199 NLP-jobs remaining.
+  166 NLP-jobs remaining.
+  132 NLP-jobs remaining.
+   73 NLP-jobs remaining.
+    1 NLP-jobs remaining.
+Starting XML serialization
 DONE
 Processed 6742 traceable artifacts.
+
+Running time: 3 min, 53 sec
+
