@@ -266,17 +266,9 @@ Prefix              : Subset026-
 457/459                  2.6.8.3[2].b: Transitions between level 2 and level 2 r
 Performing second pass of generated document hierarchy.
 NLP is active. Processing may take a while...
-  179 NLP-jobs remaining.
-  163 NLP-jobs remaining.
-  152 NLP-jobs remaining.
   145 NLP-jobs remaining.
-  136 NLP-jobs remaining.
-  126 NLP-jobs remaining.
-  118 NLP-jobs remaining.
-   83 NLP-jobs remaining.
-   60 NLP-jobs remaining.
-   30 NLP-jobs remaining.
-    1 NLP-jobs remaining.
+  110 NLP-jobs remaining.
+   47 NLP-jobs remaining.
 Starting XML serialization
 DONE
 Processed 299 traceable artifacts.
@@ -284,5 +276,5 @@ Processed 299 traceable artifacts.
 Media summary:
 7 images. Please process /tmp/media/images.csv
 
-Running time: 1 min, 12 sec
+Running time: 0 min, 23 sec
 

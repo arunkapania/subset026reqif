@@ -564,55 +564,25 @@ Prefix              : Subset026-
 8231/8232                      4.11.1.3: If a cold movement has been detected, o
 Performing second pass of generated document hierarchy.
 NLP is active. Processing may take a while...
-Apr 20, 2015 6:27:22 PM helper.subset26.MetadataDeterminerSecondPass processRequirement
+Apr 21, 2015 1:29:36 PM helper.subset26.MetadataDeterminerSecondPass processRequirement
 WARNUNG: 4.4.13.1.1: Encountered a deleted requirement with children.
-  654 NLP-jobs remaining.
-  630 NLP-jobs remaining.
-  621 NLP-jobs remaining.
-  609 NLP-jobs remaining.
-  597 NLP-jobs remaining.
-  577 NLP-jobs remaining.
-  562 NLP-jobs remaining.
-  550 NLP-jobs remaining.
-  541 NLP-jobs remaining.
-  531 NLP-jobs remaining.
+  617 NLP-jobs remaining.
+  578 NLP-jobs remaining.
+  545 NLP-jobs remaining.
   517 NLP-jobs remaining.
-  516 NLP-jobs remaining.
-  512 NLP-jobs remaining.
-  503 NLP-jobs remaining.
-  499 NLP-jobs remaining.
-  490 NLP-jobs remaining.
-  479 NLP-jobs remaining.
-  470 NLP-jobs remaining.
-  462 NLP-jobs remaining.
-  451 NLP-jobs remaining.
-  438 NLP-jobs remaining.
-  424 NLP-jobs remaining.
+  502 NLP-jobs remaining.
+  473 NLP-jobs remaining.
+  449 NLP-jobs remaining.
   416 NLP-jobs remaining.
-  409 NLP-jobs remaining.
-  403 NLP-jobs remaining.
-  399 NLP-jobs remaining.
-  393 NLP-jobs remaining.
-  370 NLP-jobs remaining.
-  311 NLP-jobs remaining.
-  297 NLP-jobs remaining.
-  286 NLP-jobs remaining.
-  280 NLP-jobs remaining.
-  268 NLP-jobs remaining.
-  256 NLP-jobs remaining.
-  245 NLP-jobs remaining.
+  398 NLP-jobs remaining.
+  322 NLP-jobs remaining.
+  284 NLP-jobs remaining.
+  257 NLP-jobs remaining.
   233 NLP-jobs remaining.
-  188 NLP-jobs remaining.
-  183 NLP-jobs remaining.
-  176 NLP-jobs remaining.
-  176 NLP-jobs remaining.
-  161 NLP-jobs remaining.
-  127 NLP-jobs remaining.
-   88 NLP-jobs remaining.
-   74 NLP-jobs remaining.
-   67 NLP-jobs remaining.
-   63 NLP-jobs remaining.
-   56 NLP-jobs remaining.
+  179 NLP-jobs remaining.
+  166 NLP-jobs remaining.
+   77 NLP-jobs remaining.
+   64 NLP-jobs remaining.
     1 NLP-jobs remaining.
 Starting XML serialization
 DONE
@@ -621,5 +591,5 @@ Processed 6402 traceable artifacts.
 Media summary:
 1 images. Please process /tmp/media/images.csv
 
-Running time: 5 min, 05 sec
+Running time: 1 min, 47 sec
 

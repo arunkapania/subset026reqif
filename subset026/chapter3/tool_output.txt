@@ -28,7 +28,7 @@ Output filename     : /tmp/out.reqif
 Media output dir    : media                                                     
 Prefix              : Subset026-                                                
 --------------------------------------------------------------------------------
-Apr 20, 2015 5:33:04 PM docreader.ReaderData checkDocumentAssumptions
+Apr 21, 2015 1:10:22 PM docreader.ReaderData checkDocumentAssumptions
 INFORMATION: This document contains textboxes. Will skip them.
   21/4220                           3.1: Modification History
   22/4220                        3.1[2]: 
@@ -68,13 +68,13 @@ INFORMATION: This document contains textboxes. Will skip them.
  352/4220                   3.4.2.3.3.2: When a single balise group is detected 
  353/4220                   3.4.2.3.3.3: If the “previous LRBG “ is not known, t
  354/4220                   3.4.2.3.3.4: If a new single balise group (BG2), dif
-Apr 20, 2015 5:33:17 PM docreader.range.paragraph.characterRun.FieldReader$FieldHandler$7 process
+Apr 21, 2015 1:10:25 PM docreader.range.paragraph.characterRun.FieldReader$FieldHandler$7 process
 INFORMATION: Got a shape with an OfficeDrawing here. Will try obtain an image representation.
  355/4220                3.4.2.3.3.4[2]: 
  357/4220                   3.4.2.3.3.5: If a single balise group, being the LRB
  358/4220                   3.4.2.3.3.6: The assignment of a co-ordinate system 
  359/4220                 3.4.2.3.3.6.1: Note: From the sequence of reported bal
-Apr 20, 2015 5:33:17 PM docreader.range.paragraph.characterRun.FieldReader$FieldHandler$7 process
+Apr 21, 2015 1:10:25 PM docreader.range.paragraph.characterRun.FieldReader$FieldHandler$7 process
 INFORMATION: Got a shape with an OfficeDrawing here. Will try obtain an image representation.
  361/4220              3.4.2.3.3.6.1[2]: 
  363/4220                   3.4.2.3.3.7: For single balise groups reported as LR
@@ -2513,11 +2513,11 @@ INFORMATION: Got a shape with an OfficeDrawing here. Will try obtain an image re
 4177/4220                  A.3.10.4[41]: Q_Tbslocked = false
 4178/4220                  A.3.10.4[42]: Q_feedback_started = false
 4179/4220                  A.3.10.4[43]: End If
-Apr 20, 2015 5:33:45 PM docreader.range.paragraph.characterRun.FieldReader$FieldHandler$7 process
+Apr 21, 2015 1:10:37 PM docreader.range.paragraph.characterRun.FieldReader$FieldHandler$7 process
 INFORMATION: Got a shape with an OfficeDrawing here. Will try obtain an image representation.
-Apr 20, 2015 5:33:45 PM docreader.range.RequirementReader read
+Apr 21, 2015 1:10:37 PM docreader.range.RequirementReader read
 WARNUNG: Current paragraph contains an OfficeDrawing. Cannot formalize. Will skip the drawing but process the rest of the paragraph.
-Apr 20, 2015 5:33:46 PM docreader.range.paragraph.characterRun.FieldReader$FieldHandler$7 process
+Apr 21, 2015 1:10:37 PM docreader.range.paragraph.characterRun.FieldReader$FieldHandler$7 process
 INFORMATION: Got a shape with an OfficeDrawing here. Will try obtain an image representation.
 4180/4220                  A.3.10.4[44]: 
 4182/4220                  A.3.10.4[45]: The reference pressure p0 (nominal valu
@@ -2532,202 +2532,118 @@ INFORMATION: Got a shape with an OfficeDrawing here. Will try obtain an image re
 4219/4220                      A.3.10.6: Note: If feedback has started but T_bs1
 Performing second pass of generated document hierarchy.
 NLP is active. Processing may take a while...
- 2173 NLP-jobs remaining.
- 2163 NLP-jobs remaining.
  2161 NLP-jobs remaining.
- 2157 NLP-jobs remaining.
  2154 NLP-jobs remaining.
- 2154 NLP-jobs remaining.
- 2144 NLP-jobs remaining.
- 2129 NLP-jobs remaining.
- 2112 NLP-jobs remaining.
- 2089 NLP-jobs remaining.
- 2067 NLP-jobs remaining.
- 2049 NLP-jobs remaining.
- 2032 NLP-jobs remaining.
- 2018 NLP-jobs remaining.
- 2002 NLP-jobs remaining.
+ 2117 NLP-jobs remaining.
+ 2068 NLP-jobs remaining.
+ 2024 NLP-jobs remaining.
  1996 NLP-jobs remaining.
- 1988 NLP-jobs remaining.
- 1985 NLP-jobs remaining.
  1979 NLP-jobs remaining.
- 1972 NLP-jobs remaining.
- 1957 NLP-jobs remaining.
- 1940 NLP-jobs remaining.
- 1922 NLP-jobs remaining.
+ 1950 NLP-jobs remaining.
  1916 NLP-jobs remaining.
- 1909 NLP-jobs remaining.
- 1884 NLP-jobs remaining.
- 1866 NLP-jobs remaining.
- 1857 NLP-jobs remaining.
- 1850 NLP-jobs remaining.
- 1837 NLP-jobs remaining.
- 1821 NLP-jobs remaining.
- 1800 NLP-jobs remaining.
- 1791 NLP-jobs remaining.
- 1763 NLP-jobs remaining.
- 1745 NLP-jobs remaining.
- 1735 NLP-jobs remaining.
- 1729 NLP-jobs remaining.
- 1722 NLP-jobs remaining.
- 1714 NLP-jobs remaining.
+ 1875 NLP-jobs remaining.
+ 1845 NLP-jobs remaining.
+ 1799 NLP-jobs remaining.
+ 1757 NLP-jobs remaining.
+ 1724 NLP-jobs remaining.
  1712 NLP-jobs remaining.
- 1709 NLP-jobs remaining.
- 1703 NLP-jobs remaining.
- 1701 NLP-jobs remaining.
- 1695 NLP-jobs remaining.
+ 1702 NLP-jobs remaining.
  1694 NLP-jobs remaining.
- 1680 NLP-jobs remaining.
- 1673 NLP-jobs remaining.
  1670 NLP-jobs remaining.
- 1666 NLP-jobs remaining.
- 1655 NLP-jobs remaining.
- 1653 NLP-jobs remaining.
- 1642 NLP-jobs remaining.
- 1632 NLP-jobs remaining.
- 1629 NLP-jobs remaining.
- 1615 NLP-jobs remaining.
- 1607 NLP-jobs remaining.
- 1572 NLP-jobs remaining.
- 1550 NLP-jobs remaining.
- 1528 NLP-jobs remaining.
- 1513 NLP-jobs remaining.
- 1499 NLP-jobs remaining.
- 1485 NLP-jobs remaining.
- 1463 NLP-jobs remaining.
- 1449 NLP-jobs remaining.
- 1439 NLP-jobs remaining.
- 1429 NLP-jobs remaining.
- 1420 NLP-jobs remaining.
- 1406 NLP-jobs remaining.
- 1398 NLP-jobs remaining.
+ 1654 NLP-jobs remaining.
+ 1635 NLP-jobs remaining.
+ 1612 NLP-jobs remaining.
+ 1551 NLP-jobs remaining.
+ 1510 NLP-jobs remaining.
+ 1473 NLP-jobs remaining.
+ 1436 NLP-jobs remaining.
+ 1407 NLP-jobs remaining.
  1378 NLP-jobs remaining.
- 1366 NLP-jobs remaining.
- 1357 NLP-jobs remaining.
- 1340 NLP-jobs remaining.
- 1334 NLP-jobs remaining.
- 1322 NLP-jobs remaining.
- 1301 NLP-jobs remaining.
- 1278 NLP-jobs remaining.
- 1268 NLP-jobs remaining.
- 1250 NLP-jobs remaining.
- 1238 NLP-jobs remaining.
- 1223 NLP-jobs remaining.
- 1204 NLP-jobs remaining.
- 1192 NLP-jobs remaining.
- 1187 NLP-jobs remaining.
+ 1346 NLP-jobs remaining.
+ 1320 NLP-jobs remaining.
+ 1272 NLP-jobs remaining.
+ 1233 NLP-jobs remaining.
+ 1196 NLP-jobs remaining.
  1184 NLP-jobs remaining.
- 1181 NLP-jobs remaining.
  1180 NLP-jobs remaining.
- 1168 NLP-jobs remaining.
- 1152 NLP-jobs remaining.
- 1138 NLP-jobs remaining.
- 1119 NLP-jobs remaining.
+ 1140 NLP-jobs remaining.
  1103 NLP-jobs remaining.
- 1097 NLP-jobs remaining.
- 1090 NLP-jobs remaining.
- 1067 NLP-jobs remaining.
- 1053 NLP-jobs remaining.
+ 1075 NLP-jobs remaining.
  1050 NLP-jobs remaining.
- 1040 NLP-jobs remaining.
- 1017 NLP-jobs remaining.
- 1003 NLP-jobs remaining.
-  981 NLP-jobs remaining.
-  961 NLP-jobs remaining.
+ 1014 NLP-jobs remaining.
+  978 NLP-jobs remaining.
   945 NLP-jobs remaining.
-  936 NLP-jobs remaining.
   928 NLP-jobs remaining.
-  926 NLP-jobs remaining.
-  907 NLP-jobs remaining.
-  899 NLP-jobs remaining.
+  908 NLP-jobs remaining.
   883 NLP-jobs remaining.
-  875 NLP-jobs remaining.
   865 NLP-jobs remaining.
-  860 NLP-jobs remaining.
   856 NLP-jobs remaining.
-  848 NLP-jobs remaining.
-  845 NLP-jobs remaining.
-  837 NLP-jobs remaining.
-  831 NLP-jobs remaining.
-  821 NLP-jobs remaining.
-  813 NLP-jobs remaining.
-  807 NLP-jobs remaining.
+  843 NLP-jobs remaining.
+  826 NLP-jobs remaining.
+  810 NLP-jobs remaining.
   803 NLP-jobs remaining.
-  801 NLP-jobs remaining.
   795 NLP-jobs remaining.
-  792 NLP-jobs remaining.
   791 NLP-jobs remaining.
-  789 NLP-jobs remaining.
   780 NLP-jobs remaining.
-  779 NLP-jobs remaining.
-  773 NLP-jobs remaining.
-  768 NLP-jobs remaining.
+  772 NLP-jobs remaining.
   754 NLP-jobs remaining.
-  751 NLP-jobs remaining.
-  747 NLP-jobs remaining.
-  740 NLP-jobs remaining.
-  731 NLP-jobs remaining.
-  724 NLP-jobs remaining.
-  722 NLP-jobs remaining.
-  705 NLP-jobs remaining.
-  689 NLP-jobs remaining.
+  742 NLP-jobs remaining.
+  730 NLP-jobs remaining.
+  712 NLP-jobs remaining.
   684 NLP-jobs remaining.
-  678 NLP-jobs remaining.
   674 NLP-jobs remaining.
-  667 NLP-jobs remaining.
   662 NLP-jobs remaining.
-  653 NLP-jobs remaining.
-  648 NLP-jobs remaining.
-  639 NLP-jobs remaining.
-  621 NLP-jobs remaining.
-  609 NLP-jobs remaining.
-  596 NLP-jobs remaining.
-  588 NLP-jobs remaining.
-  572 NLP-jobs remaining.
-  558 NLP-jobs remaining.
-  542 NLP-jobs remaining.
-  537 NLP-jobs remaining.
-  523 NLP-jobs remaining.
-  514 NLP-jobs remaining.
+  651 NLP-jobs remaining.
+  624 NLP-jobs remaining.
+  598 NLP-jobs remaining.
+  585 NLP-jobs remaining.
+  551 NLP-jobs remaining.
+  530 NLP-jobs remaining.
+  512 NLP-jobs remaining.
   503 NLP-jobs remaining.
-  493 NLP-jobs remaining.
-  477 NLP-jobs remaining.
-  471 NLP-jobs remaining.
+  497 NLP-jobs remaining.
+  488 NLP-jobs remaining.
+  476 NLP-jobs remaining.
+  472 NLP-jobs remaining.
   467 NLP-jobs remaining.
-  458 NLP-jobs remaining.
-  448 NLP-jobs remaining.
-  438 NLP-jobs remaining.
+  466 NLP-jobs remaining.
+  457 NLP-jobs remaining.
+  449 NLP-jobs remaining.
+  441 NLP-jobs remaining.
+  436 NLP-jobs remaining.
   421 NLP-jobs remaining.
   413 NLP-jobs remaining.
-  403 NLP-jobs remaining.
-  388 NLP-jobs remaining.
+  411 NLP-jobs remaining.
+  402 NLP-jobs remaining.
+  391 NLP-jobs remaining.
+  387 NLP-jobs remaining.
   384 NLP-jobs remaining.
   381 NLP-jobs remaining.
-  377 NLP-jobs remaining.
-  368 NLP-jobs remaining.
-  364 NLP-jobs remaining.
-  357 NLP-jobs remaining.
-  346 NLP-jobs remaining.
-  342 NLP-jobs remaining.
-  331 NLP-jobs remaining.
-  322 NLP-jobs remaining.
-  317 NLP-jobs remaining.
-  307 NLP-jobs remaining.
+  378 NLP-jobs remaining.
+  372 NLP-jobs remaining.
+  365 NLP-jobs remaining.
+  363 NLP-jobs remaining.
+  352 NLP-jobs remaining.
+  344 NLP-jobs remaining.
+  338 NLP-jobs remaining.
+  329 NLP-jobs remaining.
+  320 NLP-jobs remaining.
+  313 NLP-jobs remaining.
   302 NLP-jobs remaining.
-  300 NLP-jobs remaining.
-  293 NLP-jobs remaining.
-  283 NLP-jobs remaining.
-  252 NLP-jobs remaining.
-  201 NLP-jobs remaining.
-  169 NLP-jobs remaining.
+  301 NLP-jobs remaining.
+  295 NLP-jobs remaining.
+  284 NLP-jobs remaining.
+  251 NLP-jobs remaining.
+  199 NLP-jobs remaining.
+  168 NLP-jobs remaining.
   158 NLP-jobs remaining.
-  135 NLP-jobs remaining.
+  133 NLP-jobs remaining.
   122 NLP-jobs remaining.
   120 NLP-jobs remaining.
   112 NLP-jobs remaining.
-  108 NLP-jobs remaining.
-   78 NLP-jobs remaining.
-   33 NLP-jobs remaining.
+  104 NLP-jobs remaining.
+   58 NLP-jobs remaining.
+   24 NLP-jobs remaining.
     1 NLP-jobs remaining.
 Starting XML serialization
 DONE
@@ -2737,5 +2653,5 @@ Media summary:
 291 images. Please process /tmp/media/images.csv
 3 shapes. Please process /tmp/media/shapes.csv
 
-Running time: 17 min, 26 sec
+Running time: 9 min, 50 sec
 
