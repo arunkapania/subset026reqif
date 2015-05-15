@@ -7,7 +7,7 @@ See the image below (excerpt taken from chapter 3) to get an impression of what 
 ![Visualization of tool input and output](/conversion_visualized.png?raw=true "Original *.doc and generated *.reqif")
 
 
-The main benefits of ReqIF over Word as the file format for storing / exchaning ETCS requirements may be summarized as follows: **ReqIF...**
+The main benefits of ReqIF over Word as the file format for storing / exchanging ETCS requirements may be summarized as follows: **ReqIF...**
 
 * ... was particularly invented with requirement specifications in mind. Hence it has features like *traceability* and *custom metadata* for each requirement built in.
 * ... is an open standard and (due to being XML-based and domain-targeted) easily parsable. This lends it to long-term storage.
@@ -47,7 +47,7 @@ There is a directory for each chapter of the subset026. In each of those directo
 # Remarks
 
 1. The reference renderer for the input files is Microsoft Word 2003 on Windows XP. Other versions of Word (from Version 97 onwards) should produce similar renderings. However, please *do not* attempt to compare the output ReqIF with the visual representation obtained from any third-party tool (e.g. one of the many Staroffice descendants) or even the PDFs.
-2. The reference renderer for the output files is formalmind Studio in version 1.0.0.201503131109. Please *do not* attempt to open the files with stock ProR or the openETCS tool. You may, however, try with other tools known to support XHTML (DOORS and friends) and report the results back to me.
+2. The reference renderer for the output files is formalmind Studio in version 1.0.0.201505141419. Please *do not* attempt to open the files with stock ProR or the openETCS tool. You may, however, try with other tools known to support XHTML (DOORS and friends) and report the results back to me.
 3. By default only the most important fields of each requirement are visible in the grid. Select a requirement and use the properties view (Main Menu: `ProR->Show Properties View`) to see all fields. Their meaning is as follows:
  1. *LegalObligation*: Whether or not this requirement shall/may be implemented; there are special fields for lists (i.e. 1 out of n requirements shall be implemented)
  2. *ListNumberText*: The original string that Word used for numbering this item in a list (only set for requirements which are in a list)

@@ -1,5 +1,5 @@
 --------------------------------------------------------------------------------
-Subset26 reader Version 0.5
+Subset26 reader Version 0.6
 
 INPUT
 Input filename      : /tmp/chap4.doc                                            
@@ -564,26 +564,25 @@ Prefix              : Subset026-
 8231/8232                      4.11.1.3: If a cold movement has been detected, o
 Performing second pass of generated document hierarchy.
 NLP is active. Processing may take a while...
-Apr 21, 2015 1:29:36 PM helper.subset26.MetadataDeterminerSecondPass processRequirement
+Mai 15, 2015 3:45:12 PM helper.subset26.MetadataDeterminerSecondPass processRequirement
 WARNUNG: 4.4.13.1.1: Encountered a deleted requirement with children.
   617 NLP-jobs remaining.
-  578 NLP-jobs remaining.
-  545 NLP-jobs remaining.
+  583 NLP-jobs remaining.
+  547 NLP-jobs remaining.
   517 NLP-jobs remaining.
-  502 NLP-jobs remaining.
-  473 NLP-jobs remaining.
-  449 NLP-jobs remaining.
-  416 NLP-jobs remaining.
-  398 NLP-jobs remaining.
-  322 NLP-jobs remaining.
-  284 NLP-jobs remaining.
+  503 NLP-jobs remaining.
+  479 NLP-jobs remaining.
+  457 NLP-jobs remaining.
+  422 NLP-jobs remaining.
+  401 NLP-jobs remaining.
+  355 NLP-jobs remaining.
+  286 NLP-jobs remaining.
   257 NLP-jobs remaining.
-  233 NLP-jobs remaining.
-  179 NLP-jobs remaining.
-  166 NLP-jobs remaining.
-   77 NLP-jobs remaining.
-   64 NLP-jobs remaining.
-    1 NLP-jobs remaining.
+  231 NLP-jobs remaining.
+  176 NLP-jobs remaining.
+  133 NLP-jobs remaining.
+   72 NLP-jobs remaining.
+   57 NLP-jobs remaining.
 Starting XML serialization
 DONE
 Processed 6402 traceable artifacts.
@@ -591,5 +590,4 @@ Processed 6402 traceable artifacts.
 Media summary:
 1 images. Please process /tmp/media/images.csv
 
-Running time: 1 min, 47 sec
-
+Running time: 1 min, 46 sec

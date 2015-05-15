@@ -1,5 +1,5 @@
 --------------------------------------------------------------------------------
-Subset26 reader Version 0.5
+Subset26 reader Version 0.6
 
 INPUT
 Input filename      : /tmp/chap8.doc                                            
@@ -199,8 +199,8 @@ Prefix              : Subset026-
 2032/2061                     8.7.22[2]: 
 Performing second pass of generated document hierarchy.
 NLP is active. Processing may take a while...
-  184 NLP-jobs remaining.
-  127 NLP-jobs remaining.
+  183 NLP-jobs remaining.
+  124 NLP-jobs remaining.
 Starting XML serialization
 DONE
 Processed 1392 traceable artifacts.
@@ -209,4 +209,3 @@ Media summary:
 1 images. Please process /tmp/media/images.csv
 
 Running time: 0 min, 32 sec
-

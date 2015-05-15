@@ -1,3 +1,15 @@
+## 0.6 (2015-05-15)
+
+Features:
+
+- detect and link recurring phrases with special link type (e.g. detect "Linking information is used" in 3.4.4.2.1.1 and link it whenever it is referenced again)
+
+Bugfixes:
+
+- removed root object in SPEC-HIERARCHY (not xsd conformant)
+- fixed small bug concerning path separators for media files on non-Unix OSes (this only affects the tool itself, not the ReqIF-output)
+- improved detection of adjacent groups of merged cells in tables (affects display of `3.13.10.4.10[4].[t]9`)
+
 ## 0.5 (2015-04-20)
 
 Features:
