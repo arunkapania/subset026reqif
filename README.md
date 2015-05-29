@@ -4,8 +4,8 @@ subset026reqif
 This is a repository to host preconverted [ReqIF](http://www.omg.org/spec/ReqIF/) files of the ETCS [subset023](http://www.era.europa.eu/Document-Register/Pages/New-Annex-A-for-ETCS-Baseline-3-and-GSM-R-Baseline-0.aspx) (Baseline 3.0.0) and [subset026](http://www.era.europa.eu/Document-Register/Pages/New-Annex-A-for-ETCS-Baseline-3-and-GSM-R-Baseline-0.aspx) (Baseline 3.3.0). The tool used to create these files will soon be published as well.
 See the image below (excerpt taken from chapter 3) to get an impression of what this is all about.
 
-![Visualization of tool input and output](/conversion_visualized.png?raw=true "Original *.doc and generated *.reqif")
 
+![Visualization of tool input and output](/conversion_visualized.png?raw=true "Original *.doc and generated *.reqif")
 
 The main benefits of ReqIF over Word as the file format for storing / exchanging ETCS requirements may be summarized as follows: **ReqIF...**
 
@@ -46,9 +46,12 @@ There is a directory for each chapter of the subset026. In each of those directo
 
 # Remarks
 
+
+![Pror's properties view](/properties__3_8_5_2_2.png?raw=true "Properties of 3.8.5.2.2")
+
 1. The reference renderer for the input files is Microsoft Word 2003 on Windows XP. Other versions of Word (from Version 97 onwards) should produce similar renderings. However, please *do not* attempt to compare the output ReqIF with the visual representation obtained from any third-party tool (e.g. one of the many Staroffice descendants) or even the PDFs.
 2. The reference renderer for the output files is formalmind Studio in version 1.0.0.201505141419. Please *do not* attempt to open the files with stock ProR or the openETCS tool. You may, however, try with other tools known to support XHTML (DOORS and friends) and report the results back to me.
-3. By default only the most important fields of each requirement are visible in the grid. Select a requirement and use the properties view (Main Menu: `ProR->Show Properties View`) to see all fields. Their meaning is as follows:
+3. By default only the most important fields of each requirement are visible in the grid. Select a requirement and use the properties view (Main Menu: `ProR->Show Properties View`; see the screenshot above) to see all fields. Their meaning is as follows:
  1. *LegalObligation*: Whether or not this requirement shall/may be implemented; there are special fields for lists (i.e. 1 out of n requirements shall be implemented)
  2. *ListNumberText*: The original string that Word used for numbering this item in a list (only set for requirements which are in a list)
  3. *PlainText*: pure textual version of the requirement text. Does not include vanished text and numberTexts of fake list paragraphs. Line breaks are flattened to spaces. Special characters resolved. May be empty if the current object only serves as a visual helper (e.g. the object representing an entire table) or there is no meaningful textual representation available (e.g. an image).
