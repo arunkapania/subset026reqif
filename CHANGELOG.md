@@ -1,3 +1,18 @@
+## 0.7 (2015-10-06)
+
+Features:
+
+- add basic support for Baseline 2 of subset026
+
+Bugfixes:
+
+- better detection of fake links in requirement texts
+- detection of ambigous list numbering due to excessive use of revision marking
+- corrected off-by-one error in annotation engine for the *implementerEnhanced*-field
+- ensured correct ordering of closing XHTML tags for *RichText*-field
+- better handling of non-figure images
+
+
 ## 0.6 (2015-05-15)
 
 Features:
