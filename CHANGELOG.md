@@ -1,3 +1,15 @@
+## 0.8 (2015-12-10)
+
+Features:
+
+- make the files of subset026 3.3.0 pass the new ReqIF validator of ProR
+- add switch to disable class-attributes in XHTML
+
+Bugfixes:
+
+- external file references (images) are now anyURI-compliant
+
+
 ## 0.7 (2015-10-06)
 
 Features:

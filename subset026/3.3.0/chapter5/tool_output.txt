@@ -1,5 +1,5 @@
 --------------------------------------------------------------------------------
-Subset26 reader Version 0.6
+Subset26 reader Version 0.8
 
 INPUT
 Input filename      : /tmp/chap5.doc                                            
@@ -28,7 +28,7 @@ Output filename     : /tmp/out.reqif
 Media output dir    : media                                                     
 Prefix              : Subset026-                                                
 --------------------------------------------------------------------------------
-Mai 15, 2015 3:48:39 PM docreader.ReaderData checkDocumentAssumptions
+Dez 10, 2015 11:58:38 PM docreader.ReaderData checkDocumentAssumptions
 INFORMATION: This document contains textboxes. Will skip them.
   21/2083                           5.1: Modification History
   22/2083                        5.1[2]: 
@@ -657,7 +657,7 @@ INFORMATION: This document contains textboxes. Will skip them.
 1911/2083                  5.18.2.5.1.1: Note: Whether the operation is automati
 1912/2083                      5.18.2.6: The “Raise pantograph” information shal
 1913/2083                    5.18.2.6.1: Note: The train front end position when
-Mai 15, 2015 3:48:47 PM docreader.range.paragraph.characterRun.FieldReader$FieldHandler$7 process
+Dez 10, 2015 11:58:42 PM docreader.range.paragraph.characterRun.FieldReader$FieldHandler$7 process
 INFORMATION: Got a shape with an OfficeDrawing here. Will try obtain an image representation.
 1915/2083                 5.18.2.6.1[2]: 
 1917/2083                        5.18.3: Passing a powerless section with main p
@@ -680,7 +680,7 @@ INFORMATION: Got a shape with an OfficeDrawing here. Will try obtain an image re
 1934/2083                  5.18.3.4.1.1: Note: Whether the operation is automati
 1935/2083                      5.18.3.5: The “End of Neutral section” informatio
 1936/2083                    5.18.3.5.1: Note: The train front end position, whe
-Mai 15, 2015 3:48:47 PM docreader.range.paragraph.characterRun.FieldReader$FieldHandler$7 process
+Dez 10, 2015 11:58:42 PM docreader.range.paragraph.characterRun.FieldReader$FieldHandler$7 process
 INFORMATION: Got a shape with an OfficeDrawing here. Will try obtain an image representation.
 1938/2083                 5.18.3.5.1[2]: 
 1940/2083                        5.18.4: Passing a non stopping area
@@ -695,14 +695,14 @@ INFORMATION: Got a shape with an OfficeDrawing here. Will try obtain an image re
 1949/2083                 5.18.4.4.*[2]: “Non stopping area” information shall b
 1950/2083                      5.18.4.5: When the min safe front end reaches the
 1951/2083                      5.18.4.6: Note: the display of the “non stopping 
-Mai 15, 2015 3:48:47 PM docreader.range.paragraph.characterRun.FieldReader$FieldHandler$7 process
+Dez 10, 2015 11:58:42 PM docreader.range.paragraph.characterRun.FieldReader$FieldHandler$7 process
 INFORMATION: Got a shape with an OfficeDrawing here. Will try obtain an image representation.
 1952/2083                   5.18.4.6[2]: 
 1954/2083                        5.18.5: Passing a radio hole
 1955/2083                      5.18.5.1: This procedure is dealing with the auto
 1956/2083                      5.18.5.2: When the max safe front end of the trai
 1957/2083                      5.18.5.3: When the min safe rear end of the train
-Mai 15, 2015 3:48:47 PM docreader.range.paragraph.characterRun.FieldReader$FieldHandler$7 process
+Dez 10, 2015 11:58:42 PM docreader.range.paragraph.characterRun.FieldReader$FieldHandler$7 process
 INFORMATION: Got a shape with an OfficeDrawing here. Will try obtain an image representation.
 1959/2083                   5.18.5.3[2]: 
 1961/2083                        5.18.6: Passing an “air tightness” area
@@ -725,7 +725,7 @@ INFORMATION: Got a shape with an OfficeDrawing here. Will try obtain an image re
 1978/2083                  5.18.6.4.1.1: Note: Whether the operation is automati
 1979/2083                      5.18.6.5: The “Open Air Conditioning intake” info
 1980/2083                    5.18.6.5.1: Note: The train front end position, whe
-Mai 15, 2015 3:48:47 PM docreader.range.paragraph.characterRun.FieldReader$FieldHandler$7 process
+Dez 10, 2015 11:58:42 PM docreader.range.paragraph.characterRun.FieldReader$FieldHandler$7 process
 INFORMATION: Got a shape with an OfficeDrawing here. Will try obtain an image representation.
 1981/2083                 5.18.6.5.1[2]: 
 1983/2083                        5.18.7: Inhibition of a defined type of brake
@@ -741,7 +741,7 @@ INFORMATION: Got a shape with an OfficeDrawing here. Will try obtain an image re
 1993/2083                 5.18.7.4.*[1]: Indication “Inhibition of Regenerative 
 1994/2083                 5.18.7.4.*[2]: Indication “Inhibition of Regenerative 
 1995/2083                      5.18.7.5: When the min safe rear end of the train
-Mai 15, 2015 3:48:47 PM docreader.range.paragraph.characterRun.FieldReader$FieldHandler$7 process
+Dez 10, 2015 11:58:42 PM docreader.range.paragraph.characterRun.FieldReader$FieldHandler$7 process
 INFORMATION: Got a shape with an OfficeDrawing here. Will try obtain an image representation.
 1996/2083                   5.18.7.5[2]: 
 1998/2083                        5.18.8: Advising a tunnel stopping area
@@ -756,7 +756,7 @@ INFORMATION: Got a shape with an OfficeDrawing here. Will try obtain an image re
 2007/2083                 5.18.8.5.*[1]: “Tunnel stopping area announcement” sha
 2008/2083                 5.18.8.5.*[2]: “Tunnel stopping area” information shal
 2009/2083                      5.18.8.6: Note: the display of the “tunnel stoppi
-Mai 15, 2015 3:48:47 PM docreader.range.paragraph.characterRun.FieldReader$FieldHandler$7 process
+Dez 10, 2015 11:58:42 PM docreader.range.paragraph.characterRun.FieldReader$FieldHandler$7 process
 INFORMATION: Got a shape with an OfficeDrawing here. Will try obtain an image representation.
 2010/2083                   5.18.8.6[2]: 
 2012/2083                        5.18.9: Sounding the horn
@@ -765,7 +765,7 @@ INFORMATION: Got a shape with an OfficeDrawing here. Will try obtain an image re
 2015/2083                    5.18.9.2.1: This location (point C) shall be determ
 2016/2083                      5.18.9.3: When the estimated front end of the tra
 2017/2083                      5.18.9.4: Note: In order not to encourage the dri
-Mai 15, 2015 3:48:47 PM docreader.range.paragraph.characterRun.FieldReader$FieldHandler$7 process
+Dez 10, 2015 11:58:42 PM docreader.range.paragraph.characterRun.FieldReader$FieldHandler$7 process
 INFORMATION: Got a shape with an OfficeDrawing here. Will try obtain an image representation.
 2018/2083                   5.18.9.4[2]: 
 2020/2083                       5.18.10: Changing the traction system
@@ -781,7 +781,7 @@ INFORMATION: Got a shape with an OfficeDrawing here. Will try obtain an image re
 2030/2083                5.18.10.5.*[2]: the “New traction system” information s
 2031/2083                     5.18.10.6: The “New traction system” information s
 2032/2083                   5.18.10.6.1: Note: The train front end position when
-Mai 15, 2015 3:48:47 PM docreader.range.paragraph.characterRun.FieldReader$FieldHandler$7 process
+Dez 10, 2015 11:58:42 PM docreader.range.paragraph.characterRun.FieldReader$FieldHandler$7 process
 INFORMATION: Got a shape with an OfficeDrawing here. Will try obtain an image representation.
 2033/2083                5.18.10.6.1[2]: 
 2036/2083                          5.19: Procedure Limited Supervision
@@ -830,39 +830,6 @@ INFORMATION: Got a shape with an OfficeDrawing here. Will try obtain an image re
 2081/2083                        5.19.7: Flowchart
 2082/2083                     5.19.7[2]: 
 Performing second pass of generated document hierarchy.
-NLP is active. Processing may take a while...
-  884 NLP-jobs remaining.
-  855 NLP-jobs remaining.
-  813 NLP-jobs remaining.
-  751 NLP-jobs remaining.
-  726 NLP-jobs remaining.
-  696 NLP-jobs remaining.
-  664 NLP-jobs remaining.
-  641 NLP-jobs remaining.
-  605 NLP-jobs remaining.
-  576 NLP-jobs remaining.
-  560 NLP-jobs remaining.
-  535 NLP-jobs remaining.
-  516 NLP-jobs remaining.
-  485 NLP-jobs remaining.
-  455 NLP-jobs remaining.
-  427 NLP-jobs remaining.
-  366 NLP-jobs remaining.
-  342 NLP-jobs remaining.
-  319 NLP-jobs remaining.
-  302 NLP-jobs remaining.
-  271 NLP-jobs remaining.
-  238 NLP-jobs remaining.
-  231 NLP-jobs remaining.
-  217 NLP-jobs remaining.
-  208 NLP-jobs remaining.
-  177 NLP-jobs remaining.
-  140 NLP-jobs remaining.
-  107 NLP-jobs remaining.
-   69 NLP-jobs remaining.
-   51 NLP-jobs remaining.
-   24 NLP-jobs remaining.
-    7 NLP-jobs remaining.
 Starting XML serialization
 DONE
 Processed 1341 traceable artifacts.
@@ -872,4 +839,5 @@ Media summary:
 15 images. Please process /tmp/media/images.csv
 9 shapes. Please process /tmp/media/shapes.csv
 
-Running time: 2 min, 51 sec
+Running time: 0 min, 06 sec
+

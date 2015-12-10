@@ -1,5 +1,5 @@
 --------------------------------------------------------------------------------
-Subset26 reader Version 0.6
+Subset26 reader Version 0.8
 
 INPUT
 Input filename      : /tmp/chap2.doc                                            
@@ -265,10 +265,6 @@ Prefix              : Subset026-
 456/459                  2.6.8.3[2].a: Transitions between level NTC and level N
 457/459                  2.6.8.3[2].b: Transitions between level 2 and level 2 r
 Performing second pass of generated document hierarchy.
-NLP is active. Processing may take a while...
-  145 NLP-jobs remaining.
-  111 NLP-jobs remaining.
-   56 NLP-jobs remaining.
 Starting XML serialization
 Processed 299 traceable artifacts.
 DONE
@@ -276,4 +272,4 @@ DONE
 Media summary:
 7 images. Please process /tmp/media/images.csv
 
-Running time: 0 min, 23 sec
+Running time: 0 min, 02 sec

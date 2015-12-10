@@ -1,5 +1,5 @@
 --------------------------------------------------------------------------------
-Subset26 reader Version 0.6
+Subset26 reader Version 0.8
 
 INPUT
 Input filename      : /tmp/chap4.doc                                            
@@ -563,31 +563,13 @@ Prefix              : Subset026-
 8230/8232                      4.11.1.2: Note: Status of stored information, whi
 8231/8232                      4.11.1.3: If a cold movement has been detected, o
 Performing second pass of generated document hierarchy.
-NLP is active. Processing may take a while...
-Mai 15, 2015 3:45:12 PM helper.subset26.MetadataDeterminerSecondPass processRequirement
+Dez 10, 2015 11:56:14 PM helper.subset26.MetadataDeterminerSecondPass processRequirement
 WARNUNG: 4.4.13.1.1: Encountered a deleted requirement with children.
-  617 NLP-jobs remaining.
-  583 NLP-jobs remaining.
-  547 NLP-jobs remaining.
-  517 NLP-jobs remaining.
-  503 NLP-jobs remaining.
-  479 NLP-jobs remaining.
-  457 NLP-jobs remaining.
-  422 NLP-jobs remaining.
-  401 NLP-jobs remaining.
-  355 NLP-jobs remaining.
-  286 NLP-jobs remaining.
-  257 NLP-jobs remaining.
-  231 NLP-jobs remaining.
-  176 NLP-jobs remaining.
-  133 NLP-jobs remaining.
-   72 NLP-jobs remaining.
-   57 NLP-jobs remaining.
 Starting XML serialization
-DONE
 Processed 6402 traceable artifacts.
+DONE
 
 Media summary:
 1 images. Please process /tmp/media/images.csv
 
-Running time: 1 min, 46 sec
+Running time: 0 min, 11 sec
