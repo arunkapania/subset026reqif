@@ -1,3 +1,11 @@
+## 0.8.1 (2015-12-14)
+
+Bugfixes:
+
+- removed empty tr-tag from chapter7 to make the ReqIF validator happy
+- fixed wrong bullet hierarchy which affects artifacs 3.6.2.3.1.1 and 7.3.3.2 of subset026 3.3.0
+
+
 ## 0.8 (2015-12-10)
 
 Features:

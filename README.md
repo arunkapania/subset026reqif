@@ -62,7 +62,7 @@ Here are some additional technical notes and an explanation on the data provided
 ## Technical remarks
 
 1. The reference renderer for the **input files** is Microsoft Word 2003 on Windows XP. Other versions of Word (from Version 97 onwards) should produce similar renderings. However, please *do not* attempt to compare the output ReqIF with the visual representation obtained from any third-party tool (e.g. one of the many Staroffice descendants) or even the PDFs.
-2. The reference renderer for the **output files** is formalmind Studio in version 1.0.0.201505141419. Please *do not* attempt to open the files with stock ProR or the openETCS tool. You may, however, try with other tools known to support XHTML (DOORS and friends) and report the results back to me.
+2. The reference renderer for the **output files** is formalmind Studio in version 1.0.0.201512091947. Please *do not* attempt to open the files with stock ProR or the openETCS tool. You may, however, try with other tools known to support XHTML (DOORS and friends) and report the results back to me.
 
 ## Description of the provided data 
 
