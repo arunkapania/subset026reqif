@@ -1,5 +1,5 @@
 --------------------------------------------------------------------------------
-Subset26 reader Version 0.7
+Subset26 reader Version 0.8.1
 
 INPUT
 Input filename      : /tmp/chap4.doc                                            
@@ -478,7 +478,7 @@ Prefix              : Subset026-
 6749/6752                  4.10.1.4.2.v: SoM position report confirmed by RBC
 6750/6752                  4.10.1.4.2.w: Track Ahead Free up to level 2/3 transi
 Performing second pass of generated document hierarchy.
-Okt 05, 2015 10:57:20 AM helper.subset26.MetadataDeterminerSecondPass processRequirement
+Dez 15, 2015 1:45:02 AM helper.subset26.MetadataDeterminerSecondPass processRequirement
 WARNUNG: 4.4.13.1.1: Encountered a deleted requirement with children.
 Starting XML serialization
 DONE

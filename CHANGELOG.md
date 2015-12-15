@@ -1,5 +1,9 @@
 ## 0.8.1 (2015-12-14)
 
+Features:
+
+- (actually an anti-feature) all files now come without class-attributes and without NLP enabled
+
 Bugfixes:
 
 - removed empty tr-tag from chapter7 to make the ReqIF validator happy

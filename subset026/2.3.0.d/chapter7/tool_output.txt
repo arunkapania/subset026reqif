@@ -1,5 +1,5 @@
 --------------------------------------------------------------------------------
-Subset26 reader Version 0.7
+Subset26 reader Version 0.8.1
 
 INPUT
 Input filename      : /tmp/chap7.doc                                            
@@ -53,9 +53,9 @@ Prefix              : Subset026-
  262/7902                       7.3.3.1: Packets are multiple variables grouped 
  263/7902                       7.3.3.2: This structure consists of a packet hea
  264/7902                  7.3.3.2.*[1]: Track to Train: a unique packet number,
- 265/7902                  7.3.3.2.*[2]: 
- 286/7902                  7.3.3.2.*[3]: Train to Track: a unique packet number,
- 287/7902                  7.3.3.2.*[4]: 
+ 265/7902               7.3.3.2.*[1][2]: 
+ 286/7902                  7.3.3.2.*[2]: Train to Track: a unique packet number,
+ 287/7902               7.3.3.2.*[2][2]: 
  304/7902                       7.3.3.3: The packet definition does not change w
  305/7902                       7.3.3.4: All currently not defined packet identi
  306/7902                       7.3.3.5: Exception: Packet 255: “End of Telegram
@@ -530,4 +530,4 @@ Starting XML serialization
 DONE
 Processed 6564 traceable artifacts.
 
-Running time: 0 min, 10 sec
+Running time: 0 min, 11 sec

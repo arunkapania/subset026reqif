@@ -1,5 +1,5 @@
 --------------------------------------------------------------------------------
-Subset26 reader Version 0.6
+Subset26 reader Version 0.8.1
 
 INPUT
 Input filename      : /tmp/subset23.doc                                         
@@ -28,9 +28,9 @@ Output filename     : /tmp/out.reqif
 Media output dir    : media                                                     
 Prefix              : Subset026-                                                
 --------------------------------------------------------------------------------
-Mai 15, 2015 4:05:46 PM docreader.ReaderData checkDocumentAssumptions
+Dez 15, 2015 1:40:07 AM docreader.ReaderData checkDocumentAssumptions
 INFORMATION: This document contains textboxes. Will skip them.
-Mai 15, 2015 4:05:47 PM docreader.range.TitleReader extractChapterNum
+Dez 15, 2015 1:40:07 AM docreader.range.TitleReader extractChapterNum
 WARNUNG: Could not extract a chapter number from the input document. Will use "R".
   18/1268                           R.1: Modification History
   20/1268                        R.1[2]: 
@@ -49,39 +49,32 @@ WARNUNG: Could not extract a chapter number from the input document. Will use "R
  132/1268                      R.3.2[9]: 3. Some terms from the references have 
  133/1268                     R.3.2[10]: 4. Low level ETCS documents such as tho
  135/1268                           R.4: Terms
-Mai 15, 2015 4:05:50 PM docreader.range.paragraph.characterRun.OfficeDrawingReader extractArrow
+Dez 15, 2015 1:40:08 AM docreader.range.paragraph.characterRun.OfficeDrawingReader extractArrow
 WARNUNG: OfficeDrawing contains a shape which is not a simple line. Cannot handle that. Will skip this drawing. Current offset: 13695
-Mai 15, 2015 4:05:50 PM docreader.range.table.TableContentOverrideManager computeOverrides
+Dez 15, 2015 1:40:08 AM docreader.range.table.TableContentOverrideManager computeOverrides
 WARNUNG: Current cell contains an OfficeDrawing which is not an arrow. No idea how to formalize that. Will skip.
-Mai 15, 2015 4:05:50 PM docreader.range.paragraph.characterRun.OfficeDrawingReader extractArrow
+Dez 15, 2015 1:40:08 AM docreader.range.paragraph.characterRun.OfficeDrawingReader extractArrow
 WARNUNG: OfficeDrawing contains a shape which is not a simple line. Cannot handle that. Will skip this drawing. Current offset: 13696
-Mai 15, 2015 4:05:50 PM docreader.range.table.TableContentOverrideManager computeOverrides
+Dez 15, 2015 1:40:08 AM docreader.range.table.TableContentOverrideManager computeOverrides
 WARNUNG: Current cell contains an OfficeDrawing which is not an arrow. No idea how to formalize that. Will skip.
-Mai 15, 2015 4:05:50 PM docreader.range.paragraph.characterRun.OfficeDrawingReader extractArrow
+Dez 15, 2015 1:40:08 AM docreader.range.paragraph.characterRun.OfficeDrawingReader extractArrow
 WARNUNG: Not enough data for this drawing available. Will skip.
-Mai 15, 2015 4:05:50 PM docreader.range.table.TableContentOverrideManager computeOverrides
+Dez 15, 2015 1:40:08 AM docreader.range.table.TableContentOverrideManager computeOverrides
 WARNUNG: Current cell contains an OfficeDrawing which is not an arrow. No idea how to formalize that. Will skip.
-Mai 15, 2015 4:05:50 PM docreader.range.paragraph.characterRun.OfficeDrawingReader extractArrow
+Dez 15, 2015 1:40:08 AM docreader.range.paragraph.characterRun.OfficeDrawingReader extractArrow
 WARNUNG: OfficeDrawing contains a shape which is not a simple line. Cannot handle that. Will skip this drawing. Current offset: 13699
-Mai 15, 2015 4:05:50 PM docreader.range.table.TableContentOverrideManager computeOverrides
+Dez 15, 2015 1:40:08 AM docreader.range.table.TableContentOverrideManager computeOverrides
 WARNUNG: Current cell contains an OfficeDrawing which is not an arrow. No idea how to formalize that. Will skip.
-Mai 15, 2015 4:05:50 PM docreader.range.paragraph.characterRun.OfficeDrawingReader extractArrow
+Dez 15, 2015 1:40:08 AM docreader.range.paragraph.characterRun.OfficeDrawingReader extractArrow
 WARNUNG: Not enough data for this drawing available. Will skip.
-Mai 15, 2015 4:05:50 PM docreader.range.table.TableContentOverrideManager computeOverrides
+Dez 15, 2015 1:40:08 AM docreader.range.table.TableContentOverrideManager computeOverrides
 WARNUNG: Current cell contains an OfficeDrawing which is not an arrow. No idea how to formalize that. Will skip.
  136/1268                        R.4[2]: 
  930/1268                           R.5: Abbreviations
  931/1268                        R.5[2]: 
 Performing second pass of generated document hierarchy.
-NLP is active. Processing may take a while...
-  296 NLP-jobs remaining.
-  255 NLP-jobs remaining.
-  211 NLP-jobs remaining.
-  164 NLP-jobs remaining.
-  128 NLP-jobs remaining.
-   78 NLP-jobs remaining.
 Starting XML serialization
-Processed 1162 traceable artifacts.
 DONE
+Processed 1162 traceable artifacts.
 
-Running time: 0 min, 41 sec
+Running time: 0 min, 03 sec

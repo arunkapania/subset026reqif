@@ -1,5 +1,5 @@
 --------------------------------------------------------------------------------
-Subset26 reader Version 0.7
+Subset26 reader Version 0.8.1
 
 INPUT
 Input filename      : /tmp/chap1.doc                                            
@@ -81,7 +81,7 @@ Prefix              : Subset026-
 224/224                       1.8.9.2: The scope of this chapter is limited to t
 Performing second pass of generated document hierarchy.
 Starting XML serialization
-DONE
 Processed 60 traceable artifacts.
+DONE
 
 Running time: 0 min, 01 sec

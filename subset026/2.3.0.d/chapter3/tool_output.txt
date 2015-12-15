@@ -1,5 +1,5 @@
 --------------------------------------------------------------------------------
-Subset26 reader Version 0.7
+Subset26 reader Version 0.8.1
 
 INPUT
 Input filename      : /tmp/chap3.doc                                            

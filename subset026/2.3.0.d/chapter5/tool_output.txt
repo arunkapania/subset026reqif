@@ -1,5 +1,5 @@
 --------------------------------------------------------------------------------
-Subset26 reader Version 0.7
+Subset26 reader Version 0.8.1
 
 INPUT
 Input filename      : /tmp/chap5.doc                                            
@@ -513,10 +513,10 @@ Prefix              : Subset026-
 1398/1398                      5.15.4.3: If the ERTMS/ETCS on-board equipment is
 Performing second pass of generated document hierarchy.
 Starting XML serialization
+DONE
 Processed 1136 traceable artifacts.
 
 Media summary:
 9 images. Please process /tmp/media/images.csv
 
 Running time: 0 min, 04 sec
-DONE

@@ -1,5 +1,5 @@
 --------------------------------------------------------------------------------
-Subset26 reader Version 0.7
+Subset26 reader Version 0.8.1
 
 INPUT
 Input filename      : /tmp/chap8.doc                                            
@@ -91,13 +91,13 @@ Prefix              : Subset026-
  454/1964                       8.4.4.5: If needed to obtain an integer number o
  456/1964                       8.4.4.6: Standard format of a radio message from
  457/1964                     8.4.4.6.1: Format:
-Okt 05, 2015 10:59:52 AM docreader.range.paragraph.characterRun.CharacterRunReaderRich read
+Dez 15, 2015 1:49:03 AM docreader.range.paragraph.characterRun.CharacterRunReaderRich read
 INFORMATION: We have vanished text here. Will mark it as strike through.
  459/1964                  8.4.4.6.1[2]: 
  501/1964                     8.4.4.6.2: Note: In section 8.7 giving the content
  502/1964                       8.4.4.7: Standard format of a radio message from
  503/1964                     8.4.4.7.1: Format:
-Okt 05, 2015 10:59:52 AM docreader.range.paragraph.characterRun.CharacterRunReaderRich read
+Dez 15, 2015 1:49:03 AM docreader.range.paragraph.characterRun.CharacterRunReaderRich read
 INFORMATION: We have vanished text here. Will mark it as strike through.
  505/1964                  8.4.4.7.1[2]: 
  546/1964                     8.4.4.7.2: Exception:  The position report (packet

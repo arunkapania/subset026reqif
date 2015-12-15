@@ -2,7 +2,7 @@
 <REQ-IF xmlns="http://www.omg.org/spec/ReqIF/20110401/reqif.xsd" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:configuration="http://eclipse.org/rmf/pror/toolextensions/1.0">
   <THE-HEADER>
     <REQ-IF-HEADER IDENTIFIER="_Subset026-_reqif">
-      <CREATION-TIME>2015-10-05T10:53:38.628+02:00</CREATION-TIME>
+      <CREATION-TIME>2015-12-15T01:42:22.583+01:00</CREATION-TIME>
       <REQ-IF-TOOL-ID>subset026-writer</REQ-IF-TOOL-ID>
       <REQ-IF-VERSION>1.0</REQ-IF-VERSION>
       <SOURCE-TOOL-ID>subset026-writer</SOURCE-TOOL-ID>
@@ -12,138 +12,138 @@
   <CORE-CONTENT>
     <REQ-IF-CONTENT>
       <DATATYPES>
-        <DATATYPE-DEFINITION-INTEGER IDENTIFIER="_dtype_Integer" LAST-CHANGE="2015-10-05T10:53:38.629+02:00" LONG-NAME="T_Integer" MAX="2147483647" MIN="0"/>
-        <DATATYPE-DEFINITION-ENUMERATION IDENTIFIER="_dtype_Kind" LAST-CHANGE="2015-10-05T10:53:38.630+02:00" LONG-NAME="T_Kind">
+        <DATATYPE-DEFINITION-INTEGER IDENTIFIER="_dtype_Integer" LAST-CHANGE="2015-12-15T01:42:22.584+01:00" LONG-NAME="T_Integer" MAX="2147483647" MIN="0"/>
+        <DATATYPE-DEFINITION-ENUMERATION IDENTIFIER="_dtype_Kind" LAST-CHANGE="2015-12-15T01:42:22.584+01:00" LONG-NAME="T_Kind">
           <SPECIFIED-VALUES>
-            <ENUM-VALUE IDENTIFIER="_enumVal_Kind_ORDINARY" LAST-CHANGE="2015-10-05T10:53:38.630+02:00" LONG-NAME="ordinary">
+            <ENUM-VALUE IDENTIFIER="_enumVal_Kind_ORDINARY" LAST-CHANGE="2015-12-15T01:42:22.585+01:00" LONG-NAME="ordinary">
               <PROPERTIES>
                 <EMBEDDED-VALUE KEY="1" OTHER-CONTENT="Other content for: ordinary"/>
               </PROPERTIES>
             </ENUM-VALUE>
-            <ENUM-VALUE IDENTIFIER="_enumVal_Kind_TABLE" LAST-CHANGE="2015-10-05T10:53:38.630+02:00" LONG-NAME="Table">
+            <ENUM-VALUE IDENTIFIER="_enumVal_Kind_TABLE" LAST-CHANGE="2015-12-15T01:42:22.585+01:00" LONG-NAME="Table">
               <PROPERTIES>
                 <EMBEDDED-VALUE KEY="2" OTHER-CONTENT="Other content for: Table"/>
               </PROPERTIES>
             </ENUM-VALUE>
-            <ENUM-VALUE IDENTIFIER="_enumVal_Kind_FIGURE" LAST-CHANGE="2015-10-05T10:53:38.630+02:00" LONG-NAME="Figure">
+            <ENUM-VALUE IDENTIFIER="_enumVal_Kind_FIGURE" LAST-CHANGE="2015-12-15T01:42:22.585+01:00" LONG-NAME="Figure">
               <PROPERTIES>
                 <EMBEDDED-VALUE KEY="3" OTHER-CONTENT="Other content for: Figure"/>
               </PROPERTIES>
             </ENUM-VALUE>
-            <ENUM-VALUE IDENTIFIER="_enumVal_Kind_NOTE" LAST-CHANGE="2015-10-05T10:53:38.631+02:00" LONG-NAME="Note">
+            <ENUM-VALUE IDENTIFIER="_enumVal_Kind_NOTE" LAST-CHANGE="2015-12-15T01:42:22.585+01:00" LONG-NAME="Note">
               <PROPERTIES>
                 <EMBEDDED-VALUE KEY="4" OTHER-CONTENT="Other content for: Note"/>
               </PROPERTIES>
             </ENUM-VALUE>
-            <ENUM-VALUE IDENTIFIER="_enumVal_Kind_EXAMPLE" LAST-CHANGE="2015-10-05T10:53:38.631+02:00" LONG-NAME="Example">
+            <ENUM-VALUE IDENTIFIER="_enumVal_Kind_EXAMPLE" LAST-CHANGE="2015-12-15T01:42:22.585+01:00" LONG-NAME="Example">
               <PROPERTIES>
                 <EMBEDDED-VALUE KEY="5" OTHER-CONTENT="Other content for: Example"/>
               </PROPERTIES>
             </ENUM-VALUE>
-            <ENUM-VALUE IDENTIFIER="_enumVal_Kind_JUSTIFICATION" LAST-CHANGE="2015-10-05T10:53:38.631+02:00" LONG-NAME="Justification">
+            <ENUM-VALUE IDENTIFIER="_enumVal_Kind_JUSTIFICATION" LAST-CHANGE="2015-12-15T01:42:22.585+01:00" LONG-NAME="Justification">
               <PROPERTIES>
                 <EMBEDDED-VALUE KEY="6" OTHER-CONTENT="Other content for: Justification"/>
               </PROPERTIES>
             </ENUM-VALUE>
-            <ENUM-VALUE IDENTIFIER="_enumVal_Kind_HEADING" LAST-CHANGE="2015-10-05T10:53:38.631+02:00" LONG-NAME="Heading">
+            <ENUM-VALUE IDENTIFIER="_enumVal_Kind_HEADING" LAST-CHANGE="2015-12-15T01:42:22.586+01:00" LONG-NAME="Heading">
               <PROPERTIES>
                 <EMBEDDED-VALUE KEY="7" OTHER-CONTENT="Other content for: Heading"/>
               </PROPERTIES>
             </ENUM-VALUE>
-            <ENUM-VALUE IDENTIFIER="_enumVal_Kind_PLACEHOLDER" LAST-CHANGE="2015-10-05T10:53:38.631+02:00" LONG-NAME="Placeholder">
+            <ENUM-VALUE IDENTIFIER="_enumVal_Kind_PLACEHOLDER" LAST-CHANGE="2015-12-15T01:42:22.586+01:00" LONG-NAME="Placeholder">
               <PROPERTIES>
                 <EMBEDDED-VALUE KEY="8" OTHER-CONTENT="Other content for: Placeholder"/>
               </PROPERTIES>
             </ENUM-VALUE>
-            <ENUM-VALUE IDENTIFIER="_enumVal_Kind_DEFINITION" LAST-CHANGE="2015-10-05T10:53:38.631+02:00" LONG-NAME="Definition">
+            <ENUM-VALUE IDENTIFIER="_enumVal_Kind_DEFINITION" LAST-CHANGE="2015-12-15T01:42:22.586+01:00" LONG-NAME="Definition">
               <PROPERTIES>
                 <EMBEDDED-VALUE KEY="9" OTHER-CONTENT="Other content for: Definition"/>
               </PROPERTIES>
             </ENUM-VALUE>
           </SPECIFIED-VALUES>
         </DATATYPE-DEFINITION-ENUMERATION>
-        <DATATYPE-DEFINITION-ENUMERATION IDENTIFIER="_dtype_LegalObligation" LAST-CHANGE="2015-10-05T10:53:38.632+02:00" LONG-NAME="T_LegalObligation">
+        <DATATYPE-DEFINITION-ENUMERATION IDENTIFIER="_dtype_LegalObligation" LAST-CHANGE="2015-12-15T01:42:22.586+01:00" LONG-NAME="T_LegalObligation">
           <SPECIFIED-VALUES>
-            <ENUM-VALUE IDENTIFIER="_enumVal_LegalObligation_MANDATORY_LIST_OR" LAST-CHANGE="2015-10-05T10:53:38.632+02:00" LONG-NAME="mandatory (&gt;= 1)">
+            <ENUM-VALUE IDENTIFIER="_enumVal_LegalObligation_MANDATORY_LIST_OR" LAST-CHANGE="2015-12-15T01:42:22.586+01:00" LONG-NAME="mandatory (&gt;= 1)">
               <PROPERTIES>
                 <EMBEDDED-VALUE KEY="1" OTHER-CONTENT="Other content for: mandatory (&gt;= 1)"/>
               </PROPERTIES>
             </ENUM-VALUE>
-            <ENUM-VALUE IDENTIFIER="_enumVal_LegalObligation_MANDATORY_LIST_XOR" LAST-CHANGE="2015-10-05T10:53:38.632+02:00" LONG-NAME="mandatory (== 1)">
+            <ENUM-VALUE IDENTIFIER="_enumVal_LegalObligation_MANDATORY_LIST_XOR" LAST-CHANGE="2015-12-15T01:42:22.587+01:00" LONG-NAME="mandatory (== 1)">
               <PROPERTIES>
                 <EMBEDDED-VALUE KEY="2" OTHER-CONTENT="Other content for: mandatory (== 1)"/>
               </PROPERTIES>
             </ENUM-VALUE>
-            <ENUM-VALUE IDENTIFIER="_enumVal_LegalObligation_MANDATORY" LAST-CHANGE="2015-10-05T10:53:38.632+02:00" LONG-NAME="mandatory">
+            <ENUM-VALUE IDENTIFIER="_enumVal_LegalObligation_MANDATORY" LAST-CHANGE="2015-12-15T01:42:22.587+01:00" LONG-NAME="mandatory">
               <PROPERTIES>
                 <EMBEDDED-VALUE KEY="3" OTHER-CONTENT="Other content for: mandatory"/>
               </PROPERTIES>
             </ENUM-VALUE>
-            <ENUM-VALUE IDENTIFIER="_enumVal_LegalObligation_OPTIONAL_LIST_XOR" LAST-CHANGE="2015-10-05T10:53:38.636+02:00" LONG-NAME="optional (== 1)">
+            <ENUM-VALUE IDENTIFIER="_enumVal_LegalObligation_OPTIONAL_LIST_XOR" LAST-CHANGE="2015-12-15T01:42:22.587+01:00" LONG-NAME="optional (== 1)">
               <PROPERTIES>
                 <EMBEDDED-VALUE KEY="4" OTHER-CONTENT="Other content for: optional (== 1)"/>
               </PROPERTIES>
             </ENUM-VALUE>
-            <ENUM-VALUE IDENTIFIER="_enumVal_LegalObligation_OPTIONAL" LAST-CHANGE="2015-10-05T10:53:38.636+02:00" LONG-NAME="optional">
+            <ENUM-VALUE IDENTIFIER="_enumVal_LegalObligation_OPTIONAL" LAST-CHANGE="2015-12-15T01:42:22.587+01:00" LONG-NAME="optional">
               <PROPERTIES>
                 <EMBEDDED-VALUE KEY="5" OTHER-CONTENT="Other content for: optional"/>
               </PROPERTIES>
             </ENUM-VALUE>
-            <ENUM-VALUE IDENTIFIER="_enumVal_LegalObligation_MIXED" LAST-CHANGE="2015-10-05T10:53:38.636+02:00" LONG-NAME="mixed">
+            <ENUM-VALUE IDENTIFIER="_enumVal_LegalObligation_MIXED" LAST-CHANGE="2015-12-15T01:42:22.587+01:00" LONG-NAME="mixed">
               <PROPERTIES>
                 <EMBEDDED-VALUE KEY="6" OTHER-CONTENT="Other content for: mixed"/>
               </PROPERTIES>
             </ENUM-VALUE>
-            <ENUM-VALUE IDENTIFIER="_enumVal_LegalObligation_UNKNOWN" LAST-CHANGE="2015-10-05T10:53:38.636+02:00" LONG-NAME="unknown">
+            <ENUM-VALUE IDENTIFIER="_enumVal_LegalObligation_UNKNOWN" LAST-CHANGE="2015-12-15T01:42:22.587+01:00" LONG-NAME="unknown">
               <PROPERTIES>
                 <EMBEDDED-VALUE KEY="7" OTHER-CONTENT="Other content for: unknown"/>
               </PROPERTIES>
             </ENUM-VALUE>
-            <ENUM-VALUE IDENTIFIER="_enumVal_LegalObligation_NA" LAST-CHANGE="2015-10-05T10:53:38.637+02:00" LONG-NAME="not applicable">
+            <ENUM-VALUE IDENTIFIER="_enumVal_LegalObligation_NA" LAST-CHANGE="2015-12-15T01:42:22.587+01:00" LONG-NAME="not applicable">
               <PROPERTIES>
                 <EMBEDDED-VALUE KEY="8" OTHER-CONTENT="Other content for: not applicable"/>
               </PROPERTIES>
             </ENUM-VALUE>
           </SPECIFIED-VALUES>
         </DATATYPE-DEFINITION-ENUMERATION>
-        <DATATYPE-DEFINITION-XHTML IDENTIFIER="_dtype_XHTML" LAST-CHANGE="2015-10-05T10:53:38.637+02:00" LONG-NAME="T_XHTML"/>
-        <DATATYPE-DEFINITION-STRING IDENTIFIER="_dtype_String" LAST-CHANGE="2015-10-05T10:53:38.637+02:00" LONG-NAME="T_String" MAX-LENGTH="32000"/>
-        <DATATYPE-DEFINITION-BOOLEAN IDENTIFIER="_dtype_Boolean" LAST-CHANGE="2015-10-05T10:53:38.637+02:00" LONG-NAME="T_Boolean"/>
+        <DATATYPE-DEFINITION-XHTML IDENTIFIER="_dtype_XHTML" LAST-CHANGE="2015-12-15T01:42:22.588+01:00" LONG-NAME="T_XHTML"/>
+        <DATATYPE-DEFINITION-STRING IDENTIFIER="_dtype_String" LAST-CHANGE="2015-12-15T01:42:22.588+01:00" LONG-NAME="T_String" MAX-LENGTH="32000"/>
+        <DATATYPE-DEFINITION-BOOLEAN IDENTIFIER="_dtype_Boolean" LAST-CHANGE="2015-12-15T01:42:22.588+01:00" LONG-NAME="T_Boolean"/>
       </DATATYPES>
       <SPEC-TYPES>
-        <SPEC-OBJECT-TYPE IDENTIFIER="_stype_requirement" LAST-CHANGE="2015-10-05T10:53:38.637+02:00" LONG-NAME="Requirement Type">
+        <SPEC-OBJECT-TYPE IDENTIFIER="_stype_requirement" LAST-CHANGE="2015-12-15T01:42:22.589+01:00" LONG-NAME="Requirement Type">
           <SPEC-ATTRIBUTES>
-            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_stype_requirement_ListNumberText" LAST-CHANGE="2015-10-05T10:53:38.637+02:00" LONG-NAME="ListNumberText" IS-EDITABLE="false">
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_stype_requirement_ListNumberText" LAST-CHANGE="2015-12-15T01:42:22.589+01:00" LONG-NAME="ListNumberText" IS-EDITABLE="false">
               <TYPE>
                 <DATATYPE-DEFINITION-STRING-REF>_dtype_String</DATATYPE-DEFINITION-STRING-REF>
               </TYPE>
             </ATTRIBUTE-DEFINITION-STRING>
-            <ATTRIBUTE-DEFINITION-XHTML IDENTIFIER="_stype_requirement_implementerEnhanced" LAST-CHANGE="2015-10-05T10:53:38.638+02:00" LONG-NAME="implementerEnhanced" IS-EDITABLE="true">
+            <ATTRIBUTE-DEFINITION-XHTML IDENTIFIER="_stype_requirement_implementerEnhanced" LAST-CHANGE="2015-12-15T01:42:22.589+01:00" LONG-NAME="implementerEnhanced" IS-EDITABLE="true">
               <TYPE>
                 <DATATYPE-DEFINITION-XHTML-REF>_dtype_XHTML</DATATYPE-DEFINITION-XHTML-REF>
               </TYPE>
             </ATTRIBUTE-DEFINITION-XHTML>
-            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_stype_requirement_requirementID" LAST-CHANGE="2015-10-05T10:53:38.638+02:00" LONG-NAME="requirementID" IS-EDITABLE="false">
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_stype_requirement_requirementID" LAST-CHANGE="2015-12-15T01:42:22.589+01:00" LONG-NAME="requirementID" IS-EDITABLE="false">
               <TYPE>
                 <DATATYPE-DEFINITION-STRING-REF>_dtype_String</DATATYPE-DEFINITION-STRING-REF>
               </TYPE>
             </ATTRIBUTE-DEFINITION-STRING>
-            <ATTRIBUTE-DEFINITION-ENUMERATION IDENTIFIER="_stype_requirement_kind" LAST-CHANGE="2015-10-05T10:53:38.638+02:00" LONG-NAME="kind" MULTI-VALUED="false" IS-EDITABLE="false">
+            <ATTRIBUTE-DEFINITION-ENUMERATION IDENTIFIER="_stype_requirement_kind" LAST-CHANGE="2015-12-15T01:42:22.589+01:00" LONG-NAME="kind" MULTI-VALUED="false" IS-EDITABLE="false">
               <TYPE>
                 <DATATYPE-DEFINITION-ENUMERATION-REF>_dtype_Kind</DATATYPE-DEFINITION-ENUMERATION-REF>
               </TYPE>
             </ATTRIBUTE-DEFINITION-ENUMERATION>
-            <ATTRIBUTE-DEFINITION-INTEGER IDENTIFIER="_stype_requirement_WordTraceId" LAST-CHANGE="2015-10-05T10:53:38.638+02:00" LONG-NAME="WordTraceId" IS-EDITABLE="false">
+            <ATTRIBUTE-DEFINITION-INTEGER IDENTIFIER="_stype_requirement_WordTraceId" LAST-CHANGE="2015-12-15T01:42:22.590+01:00" LONG-NAME="WordTraceId" IS-EDITABLE="false">
               <TYPE>
                 <DATATYPE-DEFINITION-INTEGER-REF>_dtype_Integer</DATATYPE-DEFINITION-INTEGER-REF>
               </TYPE>
             </ATTRIBUTE-DEFINITION-INTEGER>
-            <ATTRIBUTE-DEFINITION-XHTML IDENTIFIER="_stype_requirement_RichText" LAST-CHANGE="2015-10-05T10:53:38.638+02:00" LONG-NAME="RichText" IS-EDITABLE="false">
+            <ATTRIBUTE-DEFINITION-XHTML IDENTIFIER="_stype_requirement_RichText" LAST-CHANGE="2015-12-15T01:42:22.590+01:00" LONG-NAME="RichText" IS-EDITABLE="false">
               <TYPE>
                 <DATATYPE-DEFINITION-XHTML-REF>_dtype_XHTML</DATATYPE-DEFINITION-XHTML-REF>
               </TYPE>
             </ATTRIBUTE-DEFINITION-XHTML>
-            <ATTRIBUTE-DEFINITION-BOOLEAN IDENTIFIER="_stype_requirement_implement" LAST-CHANGE="2015-10-05T10:53:38.639+02:00" LONG-NAME="implement" IS-EDITABLE="true">
+            <ATTRIBUTE-DEFINITION-BOOLEAN IDENTIFIER="_stype_requirement_implement" LAST-CHANGE="2015-12-15T01:42:22.590+01:00" LONG-NAME="implement" IS-EDITABLE="true">
               <TYPE>
                 <DATATYPE-DEFINITION-BOOLEAN-REF>_dtype_Boolean</DATATYPE-DEFINITION-BOOLEAN-REF>
               </TYPE>
@@ -155,17 +155,17 @@
                 </ATTRIBUTE-VALUE-BOOLEAN>
               </DEFAULT-VALUE>
             </ATTRIBUTE-DEFINITION-BOOLEAN>
-            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_stype_requirement_PlainText" LAST-CHANGE="2015-10-05T10:53:38.639+02:00" LONG-NAME="PlainText" IS-EDITABLE="false">
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_stype_requirement_PlainText" LAST-CHANGE="2015-12-15T01:42:22.590+01:00" LONG-NAME="PlainText" IS-EDITABLE="false">
               <TYPE>
                 <DATATYPE-DEFINITION-STRING-REF>_dtype_String</DATATYPE-DEFINITION-STRING-REF>
               </TYPE>
             </ATTRIBUTE-DEFINITION-STRING>
-            <ATTRIBUTE-DEFINITION-ENUMERATION IDENTIFIER="_stype_requirement_Legal-Obligation" LAST-CHANGE="2015-10-05T10:53:38.639+02:00" LONG-NAME="Legal Obligation" MULTI-VALUED="false" IS-EDITABLE="true">
+            <ATTRIBUTE-DEFINITION-ENUMERATION IDENTIFIER="_stype_requirement_Legal-Obligation" LAST-CHANGE="2015-12-15T01:42:22.590+01:00" LONG-NAME="Legal Obligation" MULTI-VALUED="false" IS-EDITABLE="true">
               <TYPE>
                 <DATATYPE-DEFINITION-ENUMERATION-REF>_dtype_LegalObligation</DATATYPE-DEFINITION-ENUMERATION-REF>
               </TYPE>
             </ATTRIBUTE-DEFINITION-ENUMERATION>
-            <ATTRIBUTE-DEFINITION-BOOLEAN IDENTIFIER="_stype_requirement_atomic" LAST-CHANGE="2015-10-05T10:53:38.639+02:00" LONG-NAME="atomic" IS-EDITABLE="true">
+            <ATTRIBUTE-DEFINITION-BOOLEAN IDENTIFIER="_stype_requirement_atomic" LAST-CHANGE="2015-12-15T01:42:22.591+01:00" LONG-NAME="atomic" IS-EDITABLE="true">
               <TYPE>
                 <DATATYPE-DEFINITION-BOOLEAN-REF>_dtype_Boolean</DATATYPE-DEFINITION-BOOLEAN-REF>
               </TYPE>
@@ -179,29 +179,29 @@
             </ATTRIBUTE-DEFINITION-BOOLEAN>
           </SPEC-ATTRIBUTES>
         </SPEC-OBJECT-TYPE>
-        <SPEC-OBJECT-TYPE IDENTIFIER="_stype_requirementproxy" LAST-CHANGE="2015-10-05T10:53:38.640+02:00" LONG-NAME="Proxy Type">
+        <SPEC-OBJECT-TYPE IDENTIFIER="_stype_requirementproxy" LAST-CHANGE="2015-12-15T01:42:22.591+01:00" LONG-NAME="Proxy Type">
           <SPEC-ATTRIBUTES>
-            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_stype_requirementproxy_requirementID" LAST-CHANGE="2015-10-05T10:53:38.640+02:00" LONG-NAME="requirementID" IS-EDITABLE="false">
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_stype_requirementproxy_requirementID" LAST-CHANGE="2015-12-15T01:42:22.591+01:00" LONG-NAME="requirementID" IS-EDITABLE="false">
               <TYPE>
                 <DATATYPE-DEFINITION-STRING-REF>_dtype_String</DATATYPE-DEFINITION-STRING-REF>
               </TYPE>
             </ATTRIBUTE-DEFINITION-STRING>
           </SPEC-ATTRIBUTES>
         </SPEC-OBJECT-TYPE>
-        <SPECIFICATION-TYPE IDENTIFIER="_stype_specification" LAST-CHANGE="2015-10-05T10:53:38.640+02:00" LONG-NAME="Specification Type">
+        <SPECIFICATION-TYPE IDENTIFIER="_stype_specification" LAST-CHANGE="2015-12-15T01:42:22.591+01:00" LONG-NAME="Specification Type">
           <SPEC-ATTRIBUTES>
-            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_stype_specification_description" LAST-CHANGE="2015-10-05T10:53:38.640+02:00" LONG-NAME="Description">
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_stype_specification_description" LAST-CHANGE="2015-12-15T01:42:22.591+01:00" LONG-NAME="Description">
               <TYPE>
                 <DATATYPE-DEFINITION-STRING-REF>_dtype_String</DATATYPE-DEFINITION-STRING-REF>
               </TYPE>
             </ATTRIBUTE-DEFINITION-STRING>
           </SPEC-ATTRIBUTES>
         </SPECIFICATION-TYPE>
-        <SPEC-RELATION-TYPE IDENTIFIER="_stype_relation_crossref" LAST-CHANGE="2015-10-05T10:53:38.640+02:00" LONG-NAME="CrossRefLink"/>
-        <SPEC-RELATION-TYPE IDENTIFIER="_stype_relation_term" LAST-CHANGE="2015-10-05T10:53:38.641+02:00" LONG-NAME="KnownTermLink"/>
+        <SPEC-RELATION-TYPE IDENTIFIER="_stype_relation_crossref" LAST-CHANGE="2015-12-15T01:42:22.592+01:00" LONG-NAME="CrossRefLink"/>
+        <SPEC-RELATION-TYPE IDENTIFIER="_stype_relation_term" LAST-CHANGE="2015-12-15T01:42:22.592+01:00" LONG-NAME="KnownTermLink"/>
       </SPEC-TYPES>
       <SPEC-OBJECTS>
-        <SPEC-OBJECT IDENTIFIER="_1" LAST-CHANGE="2015-10-05T10:53:38.716+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1" LAST-CHANGE="2015-12-15T01:42:22.695+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="">
               <DEFINITION>
@@ -279,7 +279,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.1" LAST-CHANGE="2015-10-05T10:53:38.725+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.1" LAST-CHANGE="2015-12-15T01:42:22.700+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.1">
               <DEFINITION>
@@ -352,7 +352,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.1_BrLeft_2_BrRight_" LAST-CHANGE="2015-10-05T10:53:38.727+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.1_BrLeft_2_BrRight_" LAST-CHANGE="2015-12-15T01:42:22.702+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="">
               <DEFINITION>
@@ -421,7 +421,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.1_BrLeft_2_BrRight_._BrLeft_t_BrRight__Star_" LAST-CHANGE="2015-10-05T10:53:38.728+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.1_BrLeft_2_BrRight_._BrLeft_t_BrRight__Star_" LAST-CHANGE="2015-12-15T01:42:22.703+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="">
               <DEFINITION>
@@ -460,7 +460,7 @@
               </DEFINITION>
               <THE-VALUE>
                 <xhtml:div>
-                  <xhtml:table style="border-collapse:collapse; border-spacing:0;" class="VersionHistoryTable">
+                  <xhtml:table style="border-collapse:collapse; border-spacing:0;">
                     <xhtml:tr>
                       <xhtml:td style="border-color:Black; border-style:solid; border-width:1px; padding:0px 0px 4px; vertical-align:top; width:123pt;">
                         <xhtml:p style="display:block; text-align:center;">
@@ -922,7 +922,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.2" LAST-CHANGE="2015-10-05T10:53:38.739+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.2" LAST-CHANGE="2015-12-15T01:42:22.877+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.2">
               <DEFINITION>
@@ -995,7 +995,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.3" LAST-CHANGE="2015-10-05T10:53:38.741+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.3" LAST-CHANGE="2015-12-15T01:42:22.878+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.3">
               <DEFINITION>
@@ -1068,7 +1068,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.3.1" LAST-CHANGE="2015-10-05T10:53:38.742+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.3.1" LAST-CHANGE="2015-12-15T01:42:22.878+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="">
               <DEFINITION>
@@ -1139,7 +1139,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.3.1.1" LAST-CHANGE="2015-10-05T10:53:38.743+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.3.1.1" LAST-CHANGE="2015-12-15T01:42:22.879+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.3.1.1">
               <DEFINITION>
@@ -1151,7 +1151,7 @@
                 <ATTRIBUTE-DEFINITION-XHTML-REF>_stype_requirement_implementerEnhanced</ATTRIBUTE-DEFINITION-XHTML-REF>
               </DEFINITION>
               <THE-VALUE>
-                <xhtml:div>Train control is an important part of any railway operations management system. In the past a number of different Automatic Train Control <xhtml:span class="ExceptionIdentifier" style="color:#C0C0C0;">(<xhtml:span class="NamedEntity" style="font-family:monospace; font-style:italic;">ATC</xhtml:span>)</xhtml:span> systems have evolved in different countries at different times. These systems are incompatible and not interoperable with each other. Only a few of these systems are used in more than one country, and even in those cases there have been differences in detailed development which have resulted in incompatible and not interoperable versions.</xhtml:div>
+                <xhtml:div>Train control is an important part of any railway operations management system. In the past a number of different Automatic Train Control <xhtml:span style="color:#C0C0C0;">(<xhtml:span style="font-family:monospace; font-style:italic;">ATC</xhtml:span>)</xhtml:span> systems have evolved in different countries at different times. These systems are incompatible and not interoperable with each other. Only a few of these systems are used in more than one country, and even in those cases there have been differences in detailed development which have resulted in incompatible and not interoperable versions.</xhtml:div>
               </THE-VALUE>
             </ATTRIBUTE-VALUE-XHTML>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.3.1.1">
@@ -1210,7 +1210,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.3.1.2" LAST-CHANGE="2015-10-05T10:53:38.746+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.3.1.2" LAST-CHANGE="2015-12-15T01:42:22.881+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.3.1.2">
               <DEFINITION>
@@ -1222,10 +1222,10 @@
                 <ATTRIBUTE-DEFINITION-XHTML-REF>_stype_requirement_implementerEnhanced</ATTRIBUTE-DEFINITION-XHTML-REF>
               </DEFINITION>
               <THE-VALUE>
-                <xhtml:div>Many railways anticipate a <xhtml:span class="weak" style="border:1px solid #FF8C00; display:inline-table; margin:0.1em;">
-                    <xhtml:span class="content" style="padding-left:0.2em; padding-right:0.1em;">significant</xhtml:span>
-                    <xhtml:span class="weak_annotation" style="background-color:#FF8C00; color:white; display:table-cell; font-family:sans-serif; font-size:x-small; font-style:normal; padding-left:1em; padding-right:0.2em;">[WEAK]</xhtml:span>
-                  </xhtml:span> increase in density of train traffic and are rethinking their infrastructure strategy, to accommodate high levels of traffic, in which <xhtml:span class="NamedEntity" style="font-family:monospace; font-style:italic;">ATC</xhtml:span> systems play an important part. Also many railways would like to introduce standardised systems to reduce system costs. In order to establish international standardisation of <xhtml:span class="NamedEntity" style="font-family:monospace; font-style:italic;">ATC</xhtml:span> systems, the following document specifies the European Rail Traffic Management System/European Train Control System <xhtml:span class="ExceptionIdentifier" style="color:#C0C0C0;">(<xhtml:span class="NamedEntity" style="font-family:monospace; font-style:italic;">ERTMS</xhtml:span>/<xhtml:span class="NamedEntity" style="font-family:monospace; font-style:italic;">ETCS</xhtml:span>)</xhtml:span>.</xhtml:div>
+                <xhtml:div>Many railways anticipate a <xhtml:span style="border:1px solid #FF8C00; display:inline-table; margin:0.1em;">
+                    <xhtml:span style="padding-left:0.2em; padding-right:0.1em;">significant</xhtml:span>
+                    <xhtml:span style="background-color:#FF8C00; color:white; display:table-cell; font-family:sans-serif; font-size:x-small; font-style:normal; padding-left:1em; padding-right:0.2em;">[WEAK]</xhtml:span>
+                  </xhtml:span> increase in density of train traffic and are rethinking their infrastructure strategy, to accommodate high levels of traffic, in which <xhtml:span style="font-family:monospace; font-style:italic;">ATC</xhtml:span> systems play an important part. Also many railways would like to introduce standardised systems to reduce system costs. In order to establish international standardisation of <xhtml:span style="font-family:monospace; font-style:italic;">ATC</xhtml:span> systems, the following document specifies the European Rail Traffic Management System/European Train Control System <xhtml:span style="color:#C0C0C0;">(<xhtml:span style="font-family:monospace; font-style:italic;">ERTMS</xhtml:span>/<xhtml:span style="font-family:monospace; font-style:italic;">ETCS</xhtml:span>)</xhtml:span>.</xhtml:div>
               </THE-VALUE>
             </ATTRIBUTE-VALUE-XHTML>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.3.1.2">
@@ -1284,7 +1284,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.4" LAST-CHANGE="2015-10-05T10:53:38.748+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.4" LAST-CHANGE="2015-12-15T01:42:22.882+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.4">
               <DEFINITION>
@@ -1357,7 +1357,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.4.1" LAST-CHANGE="2015-10-05T10:53:38.749+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.4.1" LAST-CHANGE="2015-12-15T01:42:22.882+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="">
               <DEFINITION>
@@ -1428,7 +1428,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.4.1.1" LAST-CHANGE="2015-10-05T10:53:38.750+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.4.1.1" LAST-CHANGE="2015-12-15T01:42:22.883+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.4.1.1">
               <DEFINITION>
@@ -1440,7 +1440,7 @@
                 <ATTRIBUTE-DEFINITION-XHTML-REF>_stype_requirement_implementerEnhanced</ATTRIBUTE-DEFINITION-XHTML-REF>
               </DEFINITION>
               <THE-VALUE>
-                <xhtml:div>The advantages expected by the railways <xhtml:span class="LegalObligationUnknown" style="background-color:#D3D3D3; padding-left:0.1em; padding-right:0.1em;">can</xhtml:span> be summarised as:</xhtml:div>
+                <xhtml:div>The advantages expected by the railways <xhtml:span style="background-color:#D3D3D3; padding-left:0.1em; padding-right:0.1em;">can</xhtml:span> be summarised as:</xhtml:div>
               </THE-VALUE>
             </ATTRIBUTE-VALUE-XHTML>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.4.1.1">
@@ -1499,7 +1499,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.4.1.1._Star__BrLeft_1_BrRight_" LAST-CHANGE="2015-10-05T10:53:38.752+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.4.1.1._Star__BrLeft_1_BrRight_" LAST-CHANGE="2015-12-15T01:42:22.884+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="·">
               <DEFINITION>
@@ -1570,7 +1570,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.4.1.1._Star__BrLeft_2_BrRight_" LAST-CHANGE="2015-10-05T10:53:38.753+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.4.1.1._Star__BrLeft_2_BrRight_" LAST-CHANGE="2015-12-15T01:42:22.884+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="·">
               <DEFINITION>
@@ -1641,7 +1641,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.4.1.1._Star__BrLeft_3_BrRight_" LAST-CHANGE="2015-10-05T10:53:38.754+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.4.1.1._Star__BrLeft_3_BrRight_" LAST-CHANGE="2015-12-15T01:42:22.885+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="·">
               <DEFINITION>
@@ -1712,7 +1712,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.4.1.1._Star__BrLeft_4_BrRight_" LAST-CHANGE="2015-10-05T10:53:38.755+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.4.1.1._Star__BrLeft_4_BrRight_" LAST-CHANGE="2015-12-15T01:42:22.886+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="·">
               <DEFINITION>
@@ -1783,7 +1783,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.4.1.1._Star__BrLeft_5_BrRight_" LAST-CHANGE="2015-10-05T10:53:38.756+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.4.1.1._Star__BrLeft_5_BrRight_" LAST-CHANGE="2015-12-15T01:42:22.887+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="·">
               <DEFINITION>
@@ -1854,7 +1854,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.4.1.1._Star__BrLeft_6_BrRight_" LAST-CHANGE="2015-10-05T10:53:38.757+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.4.1.1._Star__BrLeft_6_BrRight_" LAST-CHANGE="2015-12-15T01:42:22.888+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="·">
               <DEFINITION>
@@ -1866,7 +1866,7 @@
                 <ATTRIBUTE-DEFINITION-XHTML-REF>_stype_requirement_implementerEnhanced</ATTRIBUTE-DEFINITION-XHTML-REF>
               </DEFINITION>
               <THE-VALUE>
-                <xhtml:div>Enabling Pan-European competition between the manufacturers of <xhtml:span class="NamedEntity" style="font-family:monospace; font-style:italic;">ERTMS</xhtml:span>/<xhtml:span class="NamedEntity" style="font-family:monospace; font-style:italic;">ETCS</xhtml:span> components. Strengthening the position of the European railway industry on the world market.</xhtml:div>
+                <xhtml:div>Enabling Pan-European competition between the manufacturers of <xhtml:span style="font-family:monospace; font-style:italic;">ERTMS</xhtml:span>/<xhtml:span style="font-family:monospace; font-style:italic;">ETCS</xhtml:span> components. Strengthening the position of the European railway industry on the world market.</xhtml:div>
               </THE-VALUE>
             </ATTRIBUTE-VALUE-XHTML>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.4.1.1.*[6]">
@@ -1925,7 +1925,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.4.1.1._Star__BrLeft_7_BrRight_" LAST-CHANGE="2015-10-05T10:53:38.758+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.4.1.1._Star__BrLeft_7_BrRight_" LAST-CHANGE="2015-12-15T01:42:22.889+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="·">
               <DEFINITION>
@@ -1996,7 +1996,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.5" LAST-CHANGE="2015-10-05T10:53:38.759+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.5" LAST-CHANGE="2015-12-15T01:42:22.891+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.5">
               <DEFINITION>
@@ -2069,7 +2069,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.5.1" LAST-CHANGE="2015-10-05T10:53:38.760+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.5.1" LAST-CHANGE="2015-12-15T01:42:22.892+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="">
               <DEFINITION>
@@ -2140,7 +2140,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.5.1.1" LAST-CHANGE="2015-10-05T10:53:38.761+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.5.1.1" LAST-CHANGE="2015-12-15T01:42:22.892+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.5.1.1">
               <DEFINITION>
@@ -2152,7 +2152,7 @@
                 <ATTRIBUTE-DEFINITION-XHTML-REF>_stype_requirement_implementerEnhanced</ATTRIBUTE-DEFINITION-XHTML-REF>
               </DEFINITION>
               <THE-VALUE>
-                <xhtml:div>The purpose of this document is to specify the future unified standard European Train Control System <xhtml:span class="NamedEntity" style="font-family:monospace; font-style:italic;">ETCS</xhtml:span> from a technical point of view.</xhtml:div>
+                <xhtml:div>The purpose of this document is to specify the future unified standard European Train Control System <xhtml:span style="font-family:monospace; font-style:italic;">ETCS</xhtml:span> from a technical point of view.</xhtml:div>
               </THE-VALUE>
             </ATTRIBUTE-VALUE-XHTML>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.5.1.1">
@@ -2211,7 +2211,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.5.1.2" LAST-CHANGE="2015-10-05T10:53:38.762+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.5.1.2" LAST-CHANGE="2015-12-15T01:42:22.893+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.5.1.2">
               <DEFINITION>
@@ -2223,10 +2223,10 @@
                 <ATTRIBUTE-DEFINITION-XHTML-REF>_stype_requirement_implementerEnhanced</ATTRIBUTE-DEFINITION-XHTML-REF>
               </DEFINITION>
               <THE-VALUE>
-                <xhtml:div>Some parts of the system are only specified to allow a migration from existing train control systems to <xhtml:span class="NamedEntity" style="font-family:monospace; font-style:italic;">ETCS</xhtml:span> <xhtml:span class="ExceptionIdentifier" style="color:#C0C0C0;">(<xhtml:span class="weak" style="border:1px solid #FF8C00; display:inline-table; margin:0.1em;">
-                      <xhtml:span class="content" style="padding-left:0.2em; padding-right:0.1em;">e.g.</xhtml:span>
-                      <xhtml:span class="weak_annotation" style="background-color:#FF8C00; color:white; display:table-cell; font-family:sans-serif; font-size:x-small; font-style:normal; padding-left:1em; padding-right:0.2em;">[WEAK]</xhtml:span>
-                    </xhtml:span> STM’s)</xhtml:span> over a transition period. They <xhtml:span class="LegalObligationUnknown" style="background-color:#D3D3D3; padding-left:0.1em; padding-right:0.1em;">might</xhtml:span> be removed in a future edition of the standard.</xhtml:div>
+                <xhtml:div>Some parts of the system are only specified to allow a migration from existing train control systems to <xhtml:span style="font-family:monospace; font-style:italic;">ETCS</xhtml:span> <xhtml:span style="color:#C0C0C0;">(<xhtml:span style="border:1px solid #FF8C00; display:inline-table; margin:0.1em;">
+                      <xhtml:span style="padding-left:0.2em; padding-right:0.1em;">e.g.</xhtml:span>
+                      <xhtml:span style="background-color:#FF8C00; color:white; display:table-cell; font-family:sans-serif; font-size:x-small; font-style:normal; padding-left:1em; padding-right:0.2em;">[WEAK]</xhtml:span>
+                    </xhtml:span> STM’s)</xhtml:span> over a transition period. They <xhtml:span style="background-color:#D3D3D3; padding-left:0.1em; padding-right:0.1em;">might</xhtml:span> be removed in a future edition of the standard.</xhtml:div>
               </THE-VALUE>
             </ATTRIBUTE-VALUE-XHTML>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.5.1.2">
@@ -2285,7 +2285,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.5.1.3" LAST-CHANGE="2015-10-05T10:53:38.764+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.5.1.3" LAST-CHANGE="2015-12-15T01:42:22.895+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.5.1.3">
               <DEFINITION>
@@ -2297,9 +2297,9 @@
                 <ATTRIBUTE-DEFINITION-XHTML-REF>_stype_requirement_implementerEnhanced</ATTRIBUTE-DEFINITION-XHTML-REF>
               </DEFINITION>
               <THE-VALUE>
-                <xhtml:div>To reach technical interoperability it is necessary not only that telegrams are generated and understood according to well specified rules but also that a train respectively <xhtml:span class="External" style="border:1px solid #D9766E; display:inline-table; margin:0.1em;">
-                    <xhtml:span class="content" style="padding-left:0.2em; padding-right:0.1em;">trackside</xhtml:span>
-                    <xhtml:span class="External_annotation" style="background-color:#D9766E; color:white; display:table-cell; font-family:sans-serif; font-size:x-small; font-style:normal; padding-left:1em; padding-right:0.2em;">[EXTERNAL]</xhtml:span>
+                <xhtml:div>To reach technical interoperability it is necessary not only that telegrams are generated and understood according to well specified rules but also that a train respectively <xhtml:span style="border:1px solid #D9766E; display:inline-table; margin:0.1em;">
+                    <xhtml:span style="padding-left:0.2em; padding-right:0.1em;">trackside</xhtml:span>
+                    <xhtml:span style="background-color:#D9766E; color:white; display:table-cell; font-family:sans-serif; font-size:x-small; font-style:normal; padding-left:1em; padding-right:0.2em;">[EXTERNAL]</xhtml:span>
                   </xhtml:span> equipment reacts in a uniform way to information received. Technical interoperability requires specifications of a detailed level.</xhtml:div>
               </THE-VALUE>
             </ATTRIBUTE-VALUE-XHTML>
@@ -2359,7 +2359,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.5.1.4" LAST-CHANGE="2015-10-05T10:53:38.765+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.5.1.4" LAST-CHANGE="2015-12-15T01:42:22.896+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.5.1.4">
               <DEFINITION>
@@ -2371,9 +2371,9 @@
                 <ATTRIBUTE-DEFINITION-XHTML-REF>_stype_requirement_implementerEnhanced</ATTRIBUTE-DEFINITION-XHTML-REF>
               </DEFINITION>
               <THE-VALUE>
-                <xhtml:div>For operational interoperability it is necessary to add operating rules, engineering standards <xhtml:span class="weak" style="border:1px solid #FF8C00; display:inline-table; margin:0.1em;">
-                    <xhtml:span class="content" style="padding-left:0.2em; padding-right:0.1em;">etc.</xhtml:span>
-                    <xhtml:span class="weak_annotation" style="background-color:#FF8C00; color:white; display:table-cell; font-family:sans-serif; font-size:x-small; font-style:normal; padding-left:1em; padding-right:0.2em;">[WEAK]</xhtml:span>
+                <xhtml:div>For operational interoperability it is necessary to add operating rules, engineering standards <xhtml:span style="border:1px solid #FF8C00; display:inline-table; margin:0.1em;">
+                    <xhtml:span style="padding-left:0.2em; padding-right:0.1em;">etc.</xhtml:span>
+                    <xhtml:span style="background-color:#FF8C00; color:white; display:table-cell; font-family:sans-serif; font-size:x-small; font-style:normal; padding-left:1em; padding-right:0.2em;">[WEAK]</xhtml:span>
                   </xhtml:span> to the system design. Reaching operational interoperability is outside the scope of the SRS.</xhtml:div>
               </THE-VALUE>
             </ATTRIBUTE-VALUE-XHTML>
@@ -2433,7 +2433,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.6" LAST-CHANGE="2015-10-05T10:53:38.767+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.6" LAST-CHANGE="2015-12-15T01:42:22.897+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.6">
               <DEFINITION>
@@ -2508,7 +2508,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.6.1" LAST-CHANGE="2015-10-05T10:53:38.768+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.6.1" LAST-CHANGE="2015-12-15T01:42:22.898+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="">
               <DEFINITION>
@@ -2579,7 +2579,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.6.1.1" LAST-CHANGE="2015-10-05T10:53:38.768+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.6.1.1" LAST-CHANGE="2015-12-15T01:42:22.898+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.6.1.1">
               <DEFINITION>
@@ -2650,7 +2650,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.6.1.2" LAST-CHANGE="2015-10-05T10:53:38.770+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.6.1.2" LAST-CHANGE="2015-12-15T01:42:22.899+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.6.1.2">
               <DEFINITION>
@@ -2662,7 +2662,7 @@
                 <ATTRIBUTE-DEFINITION-XHTML-REF>_stype_requirement_implementerEnhanced</ATTRIBUTE-DEFINITION-XHTML-REF>
               </DEFINITION>
               <THE-VALUE>
-                <xhtml:div>All readers <xhtml:span class="LegalObligation" style="background-color:#D3D3D3; font-weight:bold; padding-left:0.1em; padding-right:0.1em;">may</xhtml:span> need to refer to the <xhtml:span class="NamedEntity" style="font-family:monospace; font-style:italic;">UNISIG</xhtml:span> Glossary.</xhtml:div>
+                <xhtml:div>All readers <xhtml:span style="background-color:#D3D3D3; font-weight:bold; padding-left:0.1em; padding-right:0.1em;">may</xhtml:span> need to refer to the <xhtml:span style="font-family:monospace; font-style:italic;">UNISIG</xhtml:span> Glossary.</xhtml:div>
               </THE-VALUE>
             </ATTRIBUTE-VALUE-XHTML>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.6.1.2">
@@ -2721,7 +2721,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.7" LAST-CHANGE="2015-10-05T10:53:38.771+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.7" LAST-CHANGE="2015-12-15T01:42:22.901+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.7">
               <DEFINITION>
@@ -2796,7 +2796,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.7.1" LAST-CHANGE="2015-10-05T10:53:38.772+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.7.1" LAST-CHANGE="2015-12-15T01:42:22.902+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="">
               <DEFINITION>
@@ -2867,7 +2867,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.7.1.1" LAST-CHANGE="2015-10-05T10:53:38.773+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.7.1.1" LAST-CHANGE="2015-12-15T01:42:22.902+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.7.1.1">
               <DEFINITION>
@@ -2879,7 +2879,7 @@
                 <ATTRIBUTE-DEFINITION-XHTML-REF>_stype_requirement_implementerEnhanced</ATTRIBUTE-DEFINITION-XHTML-REF>
               </DEFINITION>
               <THE-VALUE>
-                <xhtml:div>This specification often offers multiple solutions on how to implement a specific function. It therefore contains both mandatory and optional requirements. Mandatory requirements are always referred to using the word <xhtml:span class="NamedEntity" style="font-family:monospace; font-style:italic;">“shall”</xhtml:span> where else optional requirements are referred to using the word <xhtml:span class="NamedEntity" style="font-family:monospace; font-style:italic;">“may”</xhtml:span>.</xhtml:div>
+                <xhtml:div>This specification often offers multiple solutions on how to implement a specific function. It therefore contains both mandatory and optional requirements. Mandatory requirements are always referred to using the word <xhtml:span style="font-family:monospace; font-style:italic;">“shall”</xhtml:span> where else optional requirements are referred to using the word <xhtml:span style="font-family:monospace; font-style:italic;">“may”</xhtml:span>.</xhtml:div>
               </THE-VALUE>
             </ATTRIBUTE-VALUE-XHTML>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.7.1.1">
@@ -2938,7 +2938,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.7.1.2" LAST-CHANGE="2015-10-05T10:53:38.774+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.7.1.2" LAST-CHANGE="2015-12-15T01:42:22.905+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.7.1.2">
               <DEFINITION>
@@ -2950,18 +2950,18 @@
                 <ATTRIBUTE-DEFINITION-XHTML-REF>_stype_requirement_implementerEnhanced</ATTRIBUTE-DEFINITION-XHTML-REF>
               </DEFINITION>
               <THE-VALUE>
-                <xhtml:div>The fact that this specification indicates a mandatory solution for the implementation of a function does not <xhtml:span class="weak" style="border:1px solid #FF8C00; display:inline-table; margin:0.1em;">
-                    <xhtml:span class="content" style="padding-left:0.2em; padding-right:0.1em;">generally</xhtml:span>
-                    <xhtml:span class="weak_annotation" style="background-color:#FF8C00; color:white; display:table-cell; font-family:sans-serif; font-size:x-small; font-style:normal; padding-left:1em; padding-right:0.2em;">[WEAK]</xhtml:span>
-                  </xhtml:span> require that the function is implemented on a specific line but only that <xhtml:span class="Condition" style="border:1px solid #97B4D4; display:inline-table; margin:0.1em;">
-                    <xhtml:span class="content" style="padding-left:0.2em; padding-right:0.1em;">if</xhtml:span>
-                    <xhtml:span class="Condition_annotation" style="background-color:#97B4D4; color:white; display:table-cell; font-family:sans-serif; font-size:x-small; font-style:normal; padding-left:1em; padding-right:0.2em;">[CONDITION]</xhtml:span>
-                  </xhtml:span> the function is implemented it <xhtml:span class="LegalObligation" style="background-color:#D3D3D3; font-weight:bold; padding-left:0.1em; padding-right:0.1em;">shall</xhtml:span> be done in the specified way. Trains <xhtml:span class="LegalObligationUnknown" style="background-color:#D3D3D3; padding-left:0.1em; padding-right:0.1em;">will</xhtml:span> have to handle all mandatory functions as it is decided <xhtml:span class="External" style="border:1px solid #D9766E; display:inline-table; margin:0.1em;">
-                    <xhtml:span class="content" style="padding-left:0.2em; padding-right:0.1em;">trackside</xhtml:span>
-                    <xhtml:span class="External_annotation" style="background-color:#D9766E; color:white; display:table-cell; font-family:sans-serif; font-size:x-small; font-style:normal; padding-left:1em; padding-right:0.2em;">[EXTERNAL]</xhtml:span>
-                  </xhtml:span> <xhtml:span class="Condition" style="border:1px solid #97B4D4; display:inline-table; margin:0.1em;">
-                    <xhtml:span class="content" style="padding-left:0.2em; padding-right:0.1em;">whether</xhtml:span>
-                    <xhtml:span class="Condition_annotation" style="background-color:#97B4D4; color:white; display:table-cell; font-family:sans-serif; font-size:x-small; font-style:normal; padding-left:1em; padding-right:0.2em;">[CONDITION]</xhtml:span>
+                <xhtml:div>The fact that this specification indicates a mandatory solution for the implementation of a function does not <xhtml:span style="border:1px solid #FF8C00; display:inline-table; margin:0.1em;">
+                    <xhtml:span style="padding-left:0.2em; padding-right:0.1em;">generally</xhtml:span>
+                    <xhtml:span style="background-color:#FF8C00; color:white; display:table-cell; font-family:sans-serif; font-size:x-small; font-style:normal; padding-left:1em; padding-right:0.2em;">[WEAK]</xhtml:span>
+                  </xhtml:span> require that the function is implemented on a specific line but only that <xhtml:span style="border:1px solid #97B4D4; display:inline-table; margin:0.1em;">
+                    <xhtml:span style="padding-left:0.2em; padding-right:0.1em;">if</xhtml:span>
+                    <xhtml:span style="background-color:#97B4D4; color:white; display:table-cell; font-family:sans-serif; font-size:x-small; font-style:normal; padding-left:1em; padding-right:0.2em;">[CONDITION]</xhtml:span>
+                  </xhtml:span> the function is implemented it <xhtml:span style="background-color:#D3D3D3; font-weight:bold; padding-left:0.1em; padding-right:0.1em;">shall</xhtml:span> be done in the specified way. Trains <xhtml:span style="background-color:#D3D3D3; padding-left:0.1em; padding-right:0.1em;">will</xhtml:span> have to handle all mandatory functions as it is decided <xhtml:span style="border:1px solid #D9766E; display:inline-table; margin:0.1em;">
+                    <xhtml:span style="padding-left:0.2em; padding-right:0.1em;">trackside</xhtml:span>
+                    <xhtml:span style="background-color:#D9766E; color:white; display:table-cell; font-family:sans-serif; font-size:x-small; font-style:normal; padding-left:1em; padding-right:0.2em;">[EXTERNAL]</xhtml:span>
+                  </xhtml:span> <xhtml:span style="border:1px solid #97B4D4; display:inline-table; margin:0.1em;">
+                    <xhtml:span style="padding-left:0.2em; padding-right:0.1em;">whether</xhtml:span>
+                    <xhtml:span style="background-color:#97B4D4; color:white; display:table-cell; font-family:sans-serif; font-size:x-small; font-style:normal; padding-left:1em; padding-right:0.2em;">[CONDITION]</xhtml:span>
                   </xhtml:span> to use them or not.</xhtml:div>
               </THE-VALUE>
             </ATTRIBUTE-VALUE-XHTML>
@@ -3021,7 +3021,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.7.1.3" LAST-CHANGE="2015-10-05T10:53:38.776+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.7.1.3" LAST-CHANGE="2015-12-15T01:42:22.907+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.7.1.3">
               <DEFINITION>
@@ -3033,13 +3033,13 @@
                 <ATTRIBUTE-DEFINITION-XHTML-REF>_stype_requirement_implementerEnhanced</ATTRIBUTE-DEFINITION-XHTML-REF>
               </DEFINITION>
               <THE-VALUE>
-                <xhtml:div>Some parts of the specifications are depending on how <xhtml:span class="NamedEntity" style="font-family:monospace; font-style:italic;">ETCS</xhtml:span> is implemented <xhtml:span class="ExceptionIdentifier" style="color:#C0C0C0;">(<xhtml:span class="weak" style="border:1px solid #FF8C00; display:inline-table; margin:0.1em;">
-                      <xhtml:span class="content" style="padding-left:0.2em; padding-right:0.1em;">e.g.</xhtml:span>
-                      <xhtml:span class="weak_annotation" style="background-color:#FF8C00; color:white; display:table-cell; font-family:sans-serif; font-size:x-small; font-style:normal; padding-left:1em; padding-right:0.2em;">[WEAK]</xhtml:span>
-                    </xhtml:span>, level)</xhtml:span>.  Corresponding functionality <xhtml:span class="LegalObligation" style="background-color:#D3D3D3; font-weight:bold; padding-left:0.1em; padding-right:0.1em;">shall</xhtml:span> be mandatory or not on-board, according to the <xhtml:span class="External" style="border:1px solid #D9766E; display:inline-table; margin:0.1em;">
-                    <xhtml:span class="content" style="padding-left:0.2em; padding-right:0.1em;">trackside</xhtml:span>
-                    <xhtml:span class="External_annotation" style="background-color:#D9766E; color:white; display:table-cell; font-family:sans-serif; font-size:x-small; font-style:normal; padding-left:1em; padding-right:0.2em;">[EXTERNAL]</xhtml:span>
-                  </xhtml:span> implementation.  It is not the scope of this specification to mandate a specific use of <xhtml:span class="NamedEntity" style="font-family:monospace; font-style:italic;">ETCS</xhtml:span>.</xhtml:div>
+                <xhtml:div>Some parts of the specifications are depending on how <xhtml:span style="font-family:monospace; font-style:italic;">ETCS</xhtml:span> is implemented <xhtml:span style="color:#C0C0C0;">(<xhtml:span style="border:1px solid #FF8C00; display:inline-table; margin:0.1em;">
+                      <xhtml:span style="padding-left:0.2em; padding-right:0.1em;">e.g.</xhtml:span>
+                      <xhtml:span style="background-color:#FF8C00; color:white; display:table-cell; font-family:sans-serif; font-size:x-small; font-style:normal; padding-left:1em; padding-right:0.2em;">[WEAK]</xhtml:span>
+                    </xhtml:span>, level)</xhtml:span>.  Corresponding functionality <xhtml:span style="background-color:#D3D3D3; font-weight:bold; padding-left:0.1em; padding-right:0.1em;">shall</xhtml:span> be mandatory or not on-board, according to the <xhtml:span style="border:1px solid #D9766E; display:inline-table; margin:0.1em;">
+                    <xhtml:span style="padding-left:0.2em; padding-right:0.1em;">trackside</xhtml:span>
+                    <xhtml:span style="background-color:#D9766E; color:white; display:table-cell; font-family:sans-serif; font-size:x-small; font-style:normal; padding-left:1em; padding-right:0.2em;">[EXTERNAL]</xhtml:span>
+                  </xhtml:span> implementation.  It is not the scope of this specification to mandate a specific use of <xhtml:span style="font-family:monospace; font-style:italic;">ETCS</xhtml:span>.</xhtml:div>
               </THE-VALUE>
             </ATTRIBUTE-VALUE-XHTML>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.7.1.3">
@@ -3098,7 +3098,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.7.1.4" LAST-CHANGE="2015-10-05T10:53:38.779+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.7.1.4" LAST-CHANGE="2015-12-15T01:42:22.908+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.7.1.4">
               <DEFINITION>
@@ -3169,7 +3169,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.7.1.5" LAST-CHANGE="2015-10-05T10:53:38.780+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.7.1.5" LAST-CHANGE="2015-12-15T01:42:22.909+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.7.1.5">
               <DEFINITION>
@@ -3181,9 +3181,9 @@
                 <ATTRIBUTE-DEFINITION-XHTML-REF>_stype_requirement_implementerEnhanced</ATTRIBUTE-DEFINITION-XHTML-REF>
               </DEFINITION>
               <THE-VALUE>
-                <xhtml:div>Not specified requirements and solutions are only permitted <xhtml:span class="Time" style="border:1px solid #D79BFF; display:inline-table; margin:0.1em;">
-                    <xhtml:span class="content" style="padding-left:0.2em; padding-right:0.1em;">as long as</xhtml:span>
-                    <xhtml:span class="Time_annotation" style="background-color:#D79BFF; color:white; display:table-cell; font-family:sans-serif; font-size:x-small; font-style:normal; padding-left:1em; padding-right:0.2em;">[TIME]</xhtml:span>
+                <xhtml:div>Not specified requirements and solutions are only permitted <xhtml:span style="border:1px solid #D79BFF; display:inline-table; margin:0.1em;">
+                    <xhtml:span style="padding-left:0.2em; padding-right:0.1em;">as long as</xhtml:span>
+                    <xhtml:span style="background-color:#D79BFF; color:white; display:table-cell; font-family:sans-serif; font-size:x-small; font-style:normal; padding-left:1em; padding-right:0.2em;">[TIME]</xhtml:span>
                   </xhtml:span> they do not generate any interoperability problems.</xhtml:div>
               </THE-VALUE>
             </ATTRIBUTE-VALUE-XHTML>
@@ -3243,7 +3243,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.8" LAST-CHANGE="2015-10-05T10:53:38.781+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.8" LAST-CHANGE="2015-12-15T01:42:22.910+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.8">
               <DEFINITION>
@@ -3318,7 +3318,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.8.1" LAST-CHANGE="2015-10-05T10:53:38.782+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.8.1" LAST-CHANGE="2015-12-15T01:42:22.911+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="">
               <DEFINITION>
@@ -3389,7 +3389,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.8.1.1" LAST-CHANGE="2015-10-05T10:53:38.783+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.8.1.1" LAST-CHANGE="2015-12-15T01:42:22.912+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.8.1.1">
               <DEFINITION>
@@ -3401,7 +3401,7 @@
                 <ATTRIBUTE-DEFINITION-XHTML-REF>_stype_requirement_implementerEnhanced</ATTRIBUTE-DEFINITION-XHTML-REF>
               </DEFINITION>
               <THE-VALUE>
-                <xhtml:div>The SRS defines the system requirements for the European Train Control System <xhtml:span class="ExceptionIdentifier" style="color:#C0C0C0;">(<xhtml:span class="NamedEntity" style="font-family:monospace; font-style:italic;">ETCS</xhtml:span>)</xhtml:span> of <xhtml:span class="NamedEntity" style="font-family:monospace; font-style:italic;">ERTMS</xhtml:span>. It is the translation of the mandatory functional requirements defined by the Functional Requirements Specification <xhtml:span class="ExceptionIdentifier" style="color:#C0C0C0;">(<xhtml:span class="NamedEntity" style="font-family:monospace; font-style:italic;">UIC</xhtml:span>/A200 <xhtml:span class="NamedEntity" style="font-family:monospace; font-style:italic;">FRS</xhtml:span> version 4.3, in the following chapters refered to as <xhtml:span class="NamedEntity" style="font-family:monospace; font-style:italic;">“FRS”</xhtml:span>)</xhtml:span> into a technical specification for developers.</xhtml:div>
+                <xhtml:div>The SRS defines the system requirements for the European Train Control System <xhtml:span style="color:#C0C0C0;">(<xhtml:span style="font-family:monospace; font-style:italic;">ETCS</xhtml:span>)</xhtml:span> of <xhtml:span style="font-family:monospace; font-style:italic;">ERTMS</xhtml:span>. It is the translation of the mandatory functional requirements defined by the Functional Requirements Specification <xhtml:span style="color:#C0C0C0;">(<xhtml:span style="font-family:monospace; font-style:italic;">UIC</xhtml:span>/A200 <xhtml:span style="font-family:monospace; font-style:italic;">FRS</xhtml:span> version 4.3, in the following chapters refered to as <xhtml:span style="font-family:monospace; font-style:italic;">“FRS”</xhtml:span>)</xhtml:span> into a technical specification for developers.</xhtml:div>
               </THE-VALUE>
             </ATTRIBUTE-VALUE-XHTML>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.8.1.1">
@@ -3460,7 +3460,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.8.1.2" LAST-CHANGE="2015-10-05T10:53:38.784+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.8.1.2" LAST-CHANGE="2015-12-15T01:42:22.913+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.8.1.2">
               <DEFINITION>
@@ -3472,10 +3472,10 @@
                 <ATTRIBUTE-DEFINITION-XHTML-REF>_stype_requirement_implementerEnhanced</ATTRIBUTE-DEFINITION-XHTML-REF>
               </DEFINITION>
               <THE-VALUE>
-                <xhtml:div>This sub-section is intended to give a <xhtml:span class="weak" style="border:1px solid #FF8C00; display:inline-table; margin:0.1em;">
-                    <xhtml:span class="content" style="padding-left:0.2em; padding-right:0.1em;">rough</xhtml:span>
-                    <xhtml:span class="weak_annotation" style="background-color:#FF8C00; color:white; display:table-cell; font-family:sans-serif; font-size:x-small; font-style:normal; padding-left:1em; padding-right:0.2em;">[WEAK]</xhtml:span>
-                  </xhtml:span> overview of the contents of each chapter within the SRS so that readers interested only in specialised subjects <xhtml:span class="LegalObligationUnknown" style="background-color:#D3D3D3; padding-left:0.1em; padding-right:0.1em;">can</xhtml:span> easily find the relevant chapters.</xhtml:div>
+                <xhtml:div>This sub-section is intended to give a <xhtml:span style="border:1px solid #FF8C00; display:inline-table; margin:0.1em;">
+                    <xhtml:span style="padding-left:0.2em; padding-right:0.1em;">rough</xhtml:span>
+                    <xhtml:span style="background-color:#FF8C00; color:white; display:table-cell; font-family:sans-serif; font-size:x-small; font-style:normal; padding-left:1em; padding-right:0.2em;">[WEAK]</xhtml:span>
+                  </xhtml:span> overview of the contents of each chapter within the SRS so that readers interested only in specialised subjects <xhtml:span style="background-color:#D3D3D3; padding-left:0.1em; padding-right:0.1em;">can</xhtml:span> easily find the relevant chapters.</xhtml:div>
               </THE-VALUE>
             </ATTRIBUTE-VALUE-XHTML>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.8.1.2">
@@ -3534,7 +3534,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.8.2" LAST-CHANGE="2015-10-05T10:53:38.786+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.8.2" LAST-CHANGE="2015-12-15T01:42:22.914+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.8.2">
               <DEFINITION>
@@ -3607,7 +3607,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.8.2.1" LAST-CHANGE="2015-10-05T10:53:38.786+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.8.2.1" LAST-CHANGE="2015-12-15T01:42:22.915+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.8.2.1">
               <DEFINITION>
@@ -3619,7 +3619,7 @@
                 <ATTRIBUTE-DEFINITION-XHTML-REF>_stype_requirement_implementerEnhanced</ATTRIBUTE-DEFINITION-XHTML-REF>
               </DEFINITION>
               <THE-VALUE>
-                <xhtml:div>Chapter 1 <xhtml:span class="ExceptionIdentifier" style="color:#C0C0C0;">(this chapter)</xhtml:span> gives a general introduction to the intention and structure of the SRS, including a brief overview of the contents of each chapter.</xhtml:div>
+                <xhtml:div>Chapter 1 <xhtml:span style="color:#C0C0C0;">(this chapter)</xhtml:span> gives a general introduction to the intention and structure of the SRS, including a brief overview of the contents of each chapter.</xhtml:div>
               </THE-VALUE>
             </ATTRIBUTE-VALUE-XHTML>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.8.2.1">
@@ -3678,7 +3678,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.8.3" LAST-CHANGE="2015-10-05T10:53:38.788+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.8.3" LAST-CHANGE="2015-12-15T01:42:22.916+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.8.3">
               <DEFINITION>
@@ -3751,7 +3751,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.8.3.1" LAST-CHANGE="2015-10-05T10:53:38.789+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.8.3.1" LAST-CHANGE="2015-12-15T01:42:22.918+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.8.3.1">
               <DEFINITION>
@@ -3763,7 +3763,7 @@
                 <ATTRIBUTE-DEFINITION-XHTML-REF>_stype_requirement_implementerEnhanced</ATTRIBUTE-DEFINITION-XHTML-REF>
               </DEFINITION>
               <THE-VALUE>
-                <xhtml:div>Chapter 2 gives an overview of the <xhtml:span class="NamedEntity" style="font-family:monospace; font-style:italic;">ERTMS</xhtml:span>/<xhtml:span class="NamedEntity" style="font-family:monospace; font-style:italic;">ETCS</xhtml:span> system structure.</xhtml:div>
+                <xhtml:div>Chapter 2 gives an overview of the <xhtml:span style="font-family:monospace; font-style:italic;">ERTMS</xhtml:span>/<xhtml:span style="font-family:monospace; font-style:italic;">ETCS</xhtml:span> system structure.</xhtml:div>
               </THE-VALUE>
             </ATTRIBUTE-VALUE-XHTML>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.8.3.1">
@@ -3822,7 +3822,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.8.3.2" LAST-CHANGE="2015-10-05T10:53:38.790+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.8.3.2" LAST-CHANGE="2015-12-15T01:42:22.919+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.8.3.2">
               <DEFINITION>
@@ -3893,7 +3893,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.8.3.3" LAST-CHANGE="2015-10-05T10:53:38.791+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.8.3.3" LAST-CHANGE="2015-12-15T01:42:22.919+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.8.3.3">
               <DEFINITION>
@@ -3964,7 +3964,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.8.4" LAST-CHANGE="2015-10-05T10:53:38.792+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.8.4" LAST-CHANGE="2015-12-15T01:42:22.920+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.8.4">
               <DEFINITION>
@@ -4037,7 +4037,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.8.4.1" LAST-CHANGE="2015-10-05T10:53:38.793+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.8.4.1" LAST-CHANGE="2015-12-15T01:42:22.921+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.8.4.1">
               <DEFINITION>
@@ -4049,9 +4049,9 @@
                 <ATTRIBUTE-DEFINITION-XHTML-REF>_stype_requirement_implementerEnhanced</ATTRIBUTE-DEFINITION-XHTML-REF>
               </DEFINITION>
               <THE-VALUE>
-                <xhtml:div>Chapter 3 specifies the system principles of <xhtml:span class="NamedEntity" style="font-family:monospace; font-style:italic;">ETCS</xhtml:span>/<xhtml:span class="NamedEntity" style="font-family:monospace; font-style:italic;">ERTMS</xhtml:span>. These principles apply to onboard and <xhtml:span class="External" style="border:1px solid #D9766E; display:inline-table; margin:0.1em;">
-                    <xhtml:span class="content" style="padding-left:0.2em; padding-right:0.1em;">trackside</xhtml:span>
-                    <xhtml:span class="External_annotation" style="background-color:#D9766E; color:white; display:table-cell; font-family:sans-serif; font-size:x-small; font-style:normal; padding-left:1em; padding-right:0.2em;">[EXTERNAL]</xhtml:span>
+                <xhtml:div>Chapter 3 specifies the system principles of <xhtml:span style="font-family:monospace; font-style:italic;">ETCS</xhtml:span>/<xhtml:span style="font-family:monospace; font-style:italic;">ERTMS</xhtml:span>. These principles apply to onboard and <xhtml:span style="border:1px solid #D9766E; display:inline-table; margin:0.1em;">
+                    <xhtml:span style="padding-left:0.2em; padding-right:0.1em;">trackside</xhtml:span>
+                    <xhtml:span style="background-color:#D9766E; color:white; display:table-cell; font-family:sans-serif; font-size:x-small; font-style:normal; padding-left:1em; padding-right:0.2em;">[EXTERNAL]</xhtml:span>
                   </xhtml:span> subsystems.</xhtml:div>
               </THE-VALUE>
             </ATTRIBUTE-VALUE-XHTML>
@@ -4111,7 +4111,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.8.4.2" LAST-CHANGE="2015-10-05T10:53:38.794+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.8.4.2" LAST-CHANGE="2015-12-15T01:42:22.923+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.8.4.2">
               <DEFINITION>
@@ -4182,7 +4182,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.8.5" LAST-CHANGE="2015-10-05T10:53:38.796+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.8.5" LAST-CHANGE="2015-12-15T01:42:22.923+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.8.5">
               <DEFINITION>
@@ -4255,7 +4255,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.8.5.1" LAST-CHANGE="2015-10-05T10:53:38.797+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.8.5.1" LAST-CHANGE="2015-12-15T01:42:22.924+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="">
               <DEFINITION>
@@ -4326,7 +4326,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.8.5.1.1" LAST-CHANGE="2015-10-05T10:53:38.797+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.8.5.1.1" LAST-CHANGE="2015-12-15T01:42:22.925+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.8.5.1.1">
               <DEFINITION>
@@ -4338,10 +4338,10 @@
                 <ATTRIBUTE-DEFINITION-XHTML-REF>_stype_requirement_implementerEnhanced</ATTRIBUTE-DEFINITION-XHTML-REF>
               </DEFINITION>
               <THE-VALUE>
-                <xhtml:div>Chapter 4 defines the modes of the <xhtml:span class="Self" style="border:1px solid #A66844; display:inline-table; margin:0.1em;">
-                    <xhtml:span class="content" style="padding-left:0.2em; padding-right:0.1em;">
-                      <xhtml:span class="NamedEntity" style="font-family:monospace; font-style:italic;">ERTMS</xhtml:span>/<xhtml:span class="NamedEntity" style="font-family:monospace; font-style:italic;">ETCS</xhtml:span> onboard equipment</xhtml:span>
-                    <xhtml:span class="Self_annotation" style="background-color:#A66844; color:white; display:table-cell; font-family:sans-serif; font-size:x-small; font-style:normal; padding-left:1em; padding-right:0.2em;">[SELF]</xhtml:span>
+                <xhtml:div>Chapter 4 defines the modes of the <xhtml:span style="border:1px solid #A66844; display:inline-table; margin:0.1em;">
+                    <xhtml:span style="padding-left:0.2em; padding-right:0.1em;">
+                      <xhtml:span style="font-family:monospace; font-style:italic;">ERTMS</xhtml:span>/<xhtml:span style="font-family:monospace; font-style:italic;">ETCS</xhtml:span> onboard equipment</xhtml:span>
+                    <xhtml:span style="background-color:#A66844; color:white; display:table-cell; font-family:sans-serif; font-size:x-small; font-style:normal; padding-left:1em; padding-right:0.2em;">[SELF]</xhtml:span>
                   </xhtml:span> and all transitions between modes.</xhtml:div>
               </THE-VALUE>
             </ATTRIBUTE-VALUE-XHTML>
@@ -4401,7 +4401,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.8.6" LAST-CHANGE="2015-10-05T10:53:38.799+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.8.6" LAST-CHANGE="2015-12-15T01:42:22.926+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.8.6">
               <DEFINITION>
@@ -4474,7 +4474,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.8.6.1" LAST-CHANGE="2015-10-05T10:53:38.800+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.8.6.1" LAST-CHANGE="2015-12-15T01:42:22.927+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.8.6.1">
               <DEFINITION>
@@ -4486,11 +4486,11 @@
                 <ATTRIBUTE-DEFINITION-XHTML-REF>_stype_requirement_implementerEnhanced</ATTRIBUTE-DEFINITION-XHTML-REF>
               </DEFINITION>
               <THE-VALUE>
-                <xhtml:div>Chapter 5 defines the dynamic behaviour of procedures that are necessary for interoperability. Procedures are presented by a state transition chart and a corresponding table, where all elements <xhtml:span class="ExceptionIdentifier" style="color:#C0C0C0;">(States, events, transitions)</xhtml:span> of the chart are defined. The description of the procedures shows all states of the <xhtml:span class="Self" style="border:1px solid #A66844; display:inline-table; margin:0.1em;">
-                    <xhtml:span class="content" style="padding-left:0.2em; padding-right:0.1em;">
-                      <xhtml:span class="NamedEntity" style="font-family:monospace; font-style:italic;">ERTMS</xhtml:span>/<xhtml:span class="NamedEntity" style="font-family:monospace; font-style:italic;">ETCS</xhtml:span> onboard</xhtml:span>
-                    <xhtml:span class="Self_annotation" style="background-color:#A66844; color:white; display:table-cell; font-family:sans-serif; font-size:x-small; font-style:normal; padding-left:1em; padding-right:0.2em;">[SELF]</xhtml:span>
-                  </xhtml:span> unit and the conditions that <xhtml:span class="LegalObligationUnknown" style="background-color:#D3D3D3; padding-left:0.1em; padding-right:0.1em;">must</xhtml:span> be fulfilled to switch from one state to another.</xhtml:div>
+                <xhtml:div>Chapter 5 defines the dynamic behaviour of procedures that are necessary for interoperability. Procedures are presented by a state transition chart and a corresponding table, where all elements <xhtml:span style="color:#C0C0C0;">(States, events, transitions)</xhtml:span> of the chart are defined. The description of the procedures shows all states of the <xhtml:span style="border:1px solid #A66844; display:inline-table; margin:0.1em;">
+                    <xhtml:span style="padding-left:0.2em; padding-right:0.1em;">
+                      <xhtml:span style="font-family:monospace; font-style:italic;">ERTMS</xhtml:span>/<xhtml:span style="font-family:monospace; font-style:italic;">ETCS</xhtml:span> onboard</xhtml:span>
+                    <xhtml:span style="background-color:#A66844; color:white; display:table-cell; font-family:sans-serif; font-size:x-small; font-style:normal; padding-left:1em; padding-right:0.2em;">[SELF]</xhtml:span>
+                  </xhtml:span> unit and the conditions that <xhtml:span style="background-color:#D3D3D3; padding-left:0.1em; padding-right:0.1em;">must</xhtml:span> be fulfilled to switch from one state to another.</xhtml:div>
               </THE-VALUE>
             </ATTRIBUTE-VALUE-XHTML>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.8.6.1">
@@ -4549,7 +4549,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.8.7" LAST-CHANGE="2015-10-05T10:53:38.801+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.8.7" LAST-CHANGE="2015-12-15T01:42:22.929+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.8.7">
               <DEFINITION>
@@ -4622,7 +4622,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.8.8" LAST-CHANGE="2015-10-05T10:53:38.802+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.8.8" LAST-CHANGE="2015-12-15T01:42:22.929+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.8.8">
               <DEFINITION>
@@ -4634,7 +4634,7 @@
                 <ATTRIBUTE-DEFINITION-XHTML-REF>_stype_requirement_implementerEnhanced</ATTRIBUTE-DEFINITION-XHTML-REF>
               </DEFINITION>
               <THE-VALUE>
-                <xhtml:div>Chapter 7: <xhtml:span class="NamedEntity" style="font-family:monospace; font-style:italic;">ERTMS</xhtml:span>/<xhtml:span class="NamedEntity" style="font-family:monospace; font-style:italic;">ETCS</xhtml:span> Language</xhtml:div>
+                <xhtml:div>Chapter 7: <xhtml:span style="font-family:monospace; font-style:italic;">ERTMS</xhtml:span>/<xhtml:span style="font-family:monospace; font-style:italic;">ETCS</xhtml:span> Language</xhtml:div>
               </THE-VALUE>
             </ATTRIBUTE-VALUE-XHTML>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.8.8">
@@ -4695,7 +4695,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.8.8.1" LAST-CHANGE="2015-10-05T10:53:38.803+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.8.8.1" LAST-CHANGE="2015-12-15T01:42:22.930+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.8.8.1">
               <DEFINITION>
@@ -4766,7 +4766,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.8.9" LAST-CHANGE="2015-10-05T10:53:38.804+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.8.9" LAST-CHANGE="2015-12-15T01:42:22.931+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.8.9">
               <DEFINITION>
@@ -4839,7 +4839,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.8.9.1" LAST-CHANGE="2015-10-05T10:53:38.805+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.8.9.1" LAST-CHANGE="2015-12-15T01:42:22.932+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.8.9.1">
               <DEFINITION>
@@ -4851,7 +4851,7 @@
                 <ATTRIBUTE-DEFINITION-XHTML-REF>_stype_requirement_implementerEnhanced</ATTRIBUTE-DEFINITION-XHTML-REF>
               </DEFINITION>
               <THE-VALUE>
-                <xhtml:div>Chapter 8 defines the application protocol <xhtml:span class="ExceptionIdentifier" style="color:#C0C0C0;">(format and content of messages, logical sequence for radio)</xhtml:span> necessary to achieve technical interoperability.</xhtml:div>
+                <xhtml:div>Chapter 8 defines the application protocol <xhtml:span style="color:#C0C0C0;">(format and content of messages, logical sequence for radio)</xhtml:span> necessary to achieve technical interoperability.</xhtml:div>
               </THE-VALUE>
             </ATTRIBUTE-VALUE-XHTML>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.8.9.1">
@@ -4910,7 +4910,7 @@
             <SPEC-OBJECT-TYPE-REF>_stype_requirement</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_1.8.9.2" LAST-CHANGE="2015-10-05T10:53:38.806+02:00">
+        <SPEC-OBJECT IDENTIFIER="_1.8.9.2" LAST-CHANGE="2015-12-15T01:42:22.934+01:00">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="1.8.9.2">
               <DEFINITION>
@@ -4984,7 +4984,7 @@
       </SPEC-OBJECTS>
       <SPEC-RELATIONS/>
       <SPECIFICATIONS>
-        <SPECIFICATION IDENTIFIER="_specificationDocument" LAST-CHANGE="2015-10-05T10:53:38.716+02:00" LONG-NAME="Specification Document">
+        <SPECIFICATION IDENTIFIER="_specificationDocument" LAST-CHANGE="2015-12-15T01:42:22.695+01:00" LONG-NAME="Specification Document">
           <VALUES>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="Subset026">
               <DEFINITION>
@@ -4996,49 +4996,49 @@
             <SPECIFICATION-TYPE-REF>_stype_specification</SPECIFICATION-TYPE-REF>
           </TYPE>
           <CHILDREN>
-            <SPEC-HIERARCHY IDENTIFIER="_1_singleton" LAST-CHANGE="2015-10-05T10:53:38.724+02:00">
+            <SPEC-HIERARCHY IDENTIFIER="_1_singleton" LAST-CHANGE="2015-12-15T01:42:22.700+01:00">
               <OBJECT>
                 <SPEC-OBJECT-REF>_1</SPEC-OBJECT-REF>
               </OBJECT>
               <CHILDREN>
-                <SPEC-HIERARCHY IDENTIFIER="_1.1_singleton" LAST-CHANGE="2015-10-05T10:53:38.726+02:00">
+                <SPEC-HIERARCHY IDENTIFIER="_1.1_singleton" LAST-CHANGE="2015-12-15T01:42:22.701+01:00">
                   <OBJECT>
                     <SPEC-OBJECT-REF>_1.1</SPEC-OBJECT-REF>
                   </OBJECT>
                 </SPEC-HIERARCHY>
-                <SPEC-HIERARCHY IDENTIFIER="_1.1_BrLeft_2_BrRight__singleton" LAST-CHANGE="2015-10-05T10:53:38.728+02:00">
+                <SPEC-HIERARCHY IDENTIFIER="_1.1_BrLeft_2_BrRight__singleton" LAST-CHANGE="2015-12-15T01:42:22.703+01:00">
                   <OBJECT>
                     <SPEC-OBJECT-REF>_1.1_BrLeft_2_BrRight_</SPEC-OBJECT-REF>
                   </OBJECT>
                   <CHILDREN>
-                    <SPEC-HIERARCHY IDENTIFIER="_1.1_BrLeft_2_BrRight_._BrLeft_t_BrRight__Star__singleton" LAST-CHANGE="2015-10-05T10:53:38.739+02:00">
+                    <SPEC-HIERARCHY IDENTIFIER="_1.1_BrLeft_2_BrRight_._BrLeft_t_BrRight__Star__singleton" LAST-CHANGE="2015-12-15T01:42:22.877+01:00">
                       <OBJECT>
                         <SPEC-OBJECT-REF>_1.1_BrLeft_2_BrRight_._BrLeft_t_BrRight__Star_</SPEC-OBJECT-REF>
                       </OBJECT>
                     </SPEC-HIERARCHY>
                   </CHILDREN>
                 </SPEC-HIERARCHY>
-                <SPEC-HIERARCHY IDENTIFIER="_1.2_singleton" LAST-CHANGE="2015-10-05T10:53:38.741+02:00">
+                <SPEC-HIERARCHY IDENTIFIER="_1.2_singleton" LAST-CHANGE="2015-12-15T01:42:22.878+01:00">
                   <OBJECT>
                     <SPEC-OBJECT-REF>_1.2</SPEC-OBJECT-REF>
                   </OBJECT>
                 </SPEC-HIERARCHY>
-                <SPEC-HIERARCHY IDENTIFIER="_1.3_singleton" LAST-CHANGE="2015-10-05T10:53:38.742+02:00">
+                <SPEC-HIERARCHY IDENTIFIER="_1.3_singleton" LAST-CHANGE="2015-12-15T01:42:22.878+01:00">
                   <OBJECT>
                     <SPEC-OBJECT-REF>_1.3</SPEC-OBJECT-REF>
                   </OBJECT>
                   <CHILDREN>
-                    <SPEC-HIERARCHY IDENTIFIER="_1.3.1_singleton" LAST-CHANGE="2015-10-05T10:53:38.743+02:00">
+                    <SPEC-HIERARCHY IDENTIFIER="_1.3.1_singleton" LAST-CHANGE="2015-12-15T01:42:22.879+01:00">
                       <OBJECT>
                         <SPEC-OBJECT-REF>_1.3.1</SPEC-OBJECT-REF>
                       </OBJECT>
                       <CHILDREN>
-                        <SPEC-HIERARCHY IDENTIFIER="_1.3.1.1_singleton" LAST-CHANGE="2015-10-05T10:53:38.746+02:00">
+                        <SPEC-HIERARCHY IDENTIFIER="_1.3.1.1_singleton" LAST-CHANGE="2015-12-15T01:42:22.881+01:00">
                           <OBJECT>
                             <SPEC-OBJECT-REF>_1.3.1.1</SPEC-OBJECT-REF>
                           </OBJECT>
                         </SPEC-HIERARCHY>
-                        <SPEC-HIERARCHY IDENTIFIER="_1.3.1.2_singleton" LAST-CHANGE="2015-10-05T10:53:38.747+02:00">
+                        <SPEC-HIERARCHY IDENTIFIER="_1.3.1.2_singleton" LAST-CHANGE="2015-12-15T01:42:22.882+01:00">
                           <OBJECT>
                             <SPEC-OBJECT-REF>_1.3.1.2</SPEC-OBJECT-REF>
                           </OBJECT>
@@ -5047,52 +5047,52 @@
                     </SPEC-HIERARCHY>
                   </CHILDREN>
                 </SPEC-HIERARCHY>
-                <SPEC-HIERARCHY IDENTIFIER="_1.4_singleton" LAST-CHANGE="2015-10-05T10:53:38.749+02:00">
+                <SPEC-HIERARCHY IDENTIFIER="_1.4_singleton" LAST-CHANGE="2015-12-15T01:42:22.882+01:00">
                   <OBJECT>
                     <SPEC-OBJECT-REF>_1.4</SPEC-OBJECT-REF>
                   </OBJECT>
                   <CHILDREN>
-                    <SPEC-HIERARCHY IDENTIFIER="_1.4.1_singleton" LAST-CHANGE="2015-10-05T10:53:38.750+02:00">
+                    <SPEC-HIERARCHY IDENTIFIER="_1.4.1_singleton" LAST-CHANGE="2015-12-15T01:42:22.883+01:00">
                       <OBJECT>
                         <SPEC-OBJECT-REF>_1.4.1</SPEC-OBJECT-REF>
                       </OBJECT>
                       <CHILDREN>
-                        <SPEC-HIERARCHY IDENTIFIER="_1.4.1.1_singleton" LAST-CHANGE="2015-10-05T10:53:38.751+02:00">
+                        <SPEC-HIERARCHY IDENTIFIER="_1.4.1.1_singleton" LAST-CHANGE="2015-12-15T01:42:22.883+01:00">
                           <OBJECT>
                             <SPEC-OBJECT-REF>_1.4.1.1</SPEC-OBJECT-REF>
                           </OBJECT>
                           <CHILDREN>
-                            <SPEC-HIERARCHY IDENTIFIER="_1.4.1.1._Star__BrLeft_1_BrRight__singleton" LAST-CHANGE="2015-10-05T10:53:38.753+02:00">
+                            <SPEC-HIERARCHY IDENTIFIER="_1.4.1.1._Star__BrLeft_1_BrRight__singleton" LAST-CHANGE="2015-12-15T01:42:22.884+01:00">
                               <OBJECT>
                                 <SPEC-OBJECT-REF>_1.4.1.1._Star__BrLeft_1_BrRight_</SPEC-OBJECT-REF>
                               </OBJECT>
                             </SPEC-HIERARCHY>
-                            <SPEC-HIERARCHY IDENTIFIER="_1.4.1.1._Star__BrLeft_2_BrRight__singleton" LAST-CHANGE="2015-10-05T10:53:38.754+02:00">
+                            <SPEC-HIERARCHY IDENTIFIER="_1.4.1.1._Star__BrLeft_2_BrRight__singleton" LAST-CHANGE="2015-12-15T01:42:22.885+01:00">
                               <OBJECT>
                                 <SPEC-OBJECT-REF>_1.4.1.1._Star__BrLeft_2_BrRight_</SPEC-OBJECT-REF>
                               </OBJECT>
                             </SPEC-HIERARCHY>
-                            <SPEC-HIERARCHY IDENTIFIER="_1.4.1.1._Star__BrLeft_3_BrRight__singleton" LAST-CHANGE="2015-10-05T10:53:38.755+02:00">
+                            <SPEC-HIERARCHY IDENTIFIER="_1.4.1.1._Star__BrLeft_3_BrRight__singleton" LAST-CHANGE="2015-12-15T01:42:22.886+01:00">
                               <OBJECT>
                                 <SPEC-OBJECT-REF>_1.4.1.1._Star__BrLeft_3_BrRight_</SPEC-OBJECT-REF>
                               </OBJECT>
                             </SPEC-HIERARCHY>
-                            <SPEC-HIERARCHY IDENTIFIER="_1.4.1.1._Star__BrLeft_4_BrRight__singleton" LAST-CHANGE="2015-10-05T10:53:38.756+02:00">
+                            <SPEC-HIERARCHY IDENTIFIER="_1.4.1.1._Star__BrLeft_4_BrRight__singleton" LAST-CHANGE="2015-12-15T01:42:22.887+01:00">
                               <OBJECT>
                                 <SPEC-OBJECT-REF>_1.4.1.1._Star__BrLeft_4_BrRight_</SPEC-OBJECT-REF>
                               </OBJECT>
                             </SPEC-HIERARCHY>
-                            <SPEC-HIERARCHY IDENTIFIER="_1.4.1.1._Star__BrLeft_5_BrRight__singleton" LAST-CHANGE="2015-10-05T10:53:38.757+02:00">
+                            <SPEC-HIERARCHY IDENTIFIER="_1.4.1.1._Star__BrLeft_5_BrRight__singleton" LAST-CHANGE="2015-12-15T01:42:22.888+01:00">
                               <OBJECT>
                                 <SPEC-OBJECT-REF>_1.4.1.1._Star__BrLeft_5_BrRight_</SPEC-OBJECT-REF>
                               </OBJECT>
                             </SPEC-HIERARCHY>
-                            <SPEC-HIERARCHY IDENTIFIER="_1.4.1.1._Star__BrLeft_6_BrRight__singleton" LAST-CHANGE="2015-10-05T10:53:38.758+02:00">
+                            <SPEC-HIERARCHY IDENTIFIER="_1.4.1.1._Star__BrLeft_6_BrRight__singleton" LAST-CHANGE="2015-12-15T01:42:22.889+01:00">
                               <OBJECT>
                                 <SPEC-OBJECT-REF>_1.4.1.1._Star__BrLeft_6_BrRight_</SPEC-OBJECT-REF>
                               </OBJECT>
                             </SPEC-HIERARCHY>
-                            <SPEC-HIERARCHY IDENTIFIER="_1.4.1.1._Star__BrLeft_7_BrRight__singleton" LAST-CHANGE="2015-10-05T10:53:38.759+02:00">
+                            <SPEC-HIERARCHY IDENTIFIER="_1.4.1.1._Star__BrLeft_7_BrRight__singleton" LAST-CHANGE="2015-12-15T01:42:22.890+01:00">
                               <OBJECT>
                                 <SPEC-OBJECT-REF>_1.4.1.1._Star__BrLeft_7_BrRight_</SPEC-OBJECT-REF>
                               </OBJECT>
@@ -5103,32 +5103,32 @@
                     </SPEC-HIERARCHY>
                   </CHILDREN>
                 </SPEC-HIERARCHY>
-                <SPEC-HIERARCHY IDENTIFIER="_1.5_singleton" LAST-CHANGE="2015-10-05T10:53:38.760+02:00">
+                <SPEC-HIERARCHY IDENTIFIER="_1.5_singleton" LAST-CHANGE="2015-12-15T01:42:22.891+01:00">
                   <OBJECT>
                     <SPEC-OBJECT-REF>_1.5</SPEC-OBJECT-REF>
                   </OBJECT>
                   <CHILDREN>
-                    <SPEC-HIERARCHY IDENTIFIER="_1.5.1_singleton" LAST-CHANGE="2015-10-05T10:53:38.761+02:00">
+                    <SPEC-HIERARCHY IDENTIFIER="_1.5.1_singleton" LAST-CHANGE="2015-12-15T01:42:22.892+01:00">
                       <OBJECT>
                         <SPEC-OBJECT-REF>_1.5.1</SPEC-OBJECT-REF>
                       </OBJECT>
                       <CHILDREN>
-                        <SPEC-HIERARCHY IDENTIFIER="_1.5.1.1_singleton" LAST-CHANGE="2015-10-05T10:53:38.762+02:00">
+                        <SPEC-HIERARCHY IDENTIFIER="_1.5.1.1_singleton" LAST-CHANGE="2015-12-15T01:42:22.893+01:00">
                           <OBJECT>
                             <SPEC-OBJECT-REF>_1.5.1.1</SPEC-OBJECT-REF>
                           </OBJECT>
                         </SPEC-HIERARCHY>
-                        <SPEC-HIERARCHY IDENTIFIER="_1.5.1.2_singleton" LAST-CHANGE="2015-10-05T10:53:38.764+02:00">
+                        <SPEC-HIERARCHY IDENTIFIER="_1.5.1.2_singleton" LAST-CHANGE="2015-12-15T01:42:22.895+01:00">
                           <OBJECT>
                             <SPEC-OBJECT-REF>_1.5.1.2</SPEC-OBJECT-REF>
                           </OBJECT>
                         </SPEC-HIERARCHY>
-                        <SPEC-HIERARCHY IDENTIFIER="_1.5.1.3_singleton" LAST-CHANGE="2015-10-05T10:53:38.765+02:00">
+                        <SPEC-HIERARCHY IDENTIFIER="_1.5.1.3_singleton" LAST-CHANGE="2015-12-15T01:42:22.896+01:00">
                           <OBJECT>
                             <SPEC-OBJECT-REF>_1.5.1.3</SPEC-OBJECT-REF>
                           </OBJECT>
                         </SPEC-HIERARCHY>
-                        <SPEC-HIERARCHY IDENTIFIER="_1.5.1.4_singleton" LAST-CHANGE="2015-10-05T10:53:38.766+02:00">
+                        <SPEC-HIERARCHY IDENTIFIER="_1.5.1.4_singleton" LAST-CHANGE="2015-12-15T01:42:22.897+01:00">
                           <OBJECT>
                             <SPEC-OBJECT-REF>_1.5.1.4</SPEC-OBJECT-REF>
                           </OBJECT>
@@ -5137,22 +5137,22 @@
                     </SPEC-HIERARCHY>
                   </CHILDREN>
                 </SPEC-HIERARCHY>
-                <SPEC-HIERARCHY IDENTIFIER="_1.6_singleton" LAST-CHANGE="2015-10-05T10:53:38.768+02:00">
+                <SPEC-HIERARCHY IDENTIFIER="_1.6_singleton" LAST-CHANGE="2015-12-15T01:42:22.898+01:00">
                   <OBJECT>
                     <SPEC-OBJECT-REF>_1.6</SPEC-OBJECT-REF>
                   </OBJECT>
                   <CHILDREN>
-                    <SPEC-HIERARCHY IDENTIFIER="_1.6.1_singleton" LAST-CHANGE="2015-10-05T10:53:38.768+02:00">
+                    <SPEC-HIERARCHY IDENTIFIER="_1.6.1_singleton" LAST-CHANGE="2015-12-15T01:42:22.898+01:00">
                       <OBJECT>
                         <SPEC-OBJECT-REF>_1.6.1</SPEC-OBJECT-REF>
                       </OBJECT>
                       <CHILDREN>
-                        <SPEC-HIERARCHY IDENTIFIER="_1.6.1.1_singleton" LAST-CHANGE="2015-10-05T10:53:38.769+02:00">
+                        <SPEC-HIERARCHY IDENTIFIER="_1.6.1.1_singleton" LAST-CHANGE="2015-12-15T01:42:22.899+01:00">
                           <OBJECT>
                             <SPEC-OBJECT-REF>_1.6.1.1</SPEC-OBJECT-REF>
                           </OBJECT>
                         </SPEC-HIERARCHY>
-                        <SPEC-HIERARCHY IDENTIFIER="_1.6.1.2_singleton" LAST-CHANGE="2015-10-05T10:53:38.771+02:00">
+                        <SPEC-HIERARCHY IDENTIFIER="_1.6.1.2_singleton" LAST-CHANGE="2015-12-15T01:42:22.900+01:00">
                           <OBJECT>
                             <SPEC-OBJECT-REF>_1.6.1.2</SPEC-OBJECT-REF>
                           </OBJECT>
@@ -5161,37 +5161,37 @@
                     </SPEC-HIERARCHY>
                   </CHILDREN>
                 </SPEC-HIERARCHY>
-                <SPEC-HIERARCHY IDENTIFIER="_1.7_singleton" LAST-CHANGE="2015-10-05T10:53:38.772+02:00">
+                <SPEC-HIERARCHY IDENTIFIER="_1.7_singleton" LAST-CHANGE="2015-12-15T01:42:22.902+01:00">
                   <OBJECT>
                     <SPEC-OBJECT-REF>_1.7</SPEC-OBJECT-REF>
                   </OBJECT>
                   <CHILDREN>
-                    <SPEC-HIERARCHY IDENTIFIER="_1.7.1_singleton" LAST-CHANGE="2015-10-05T10:53:38.773+02:00">
+                    <SPEC-HIERARCHY IDENTIFIER="_1.7.1_singleton" LAST-CHANGE="2015-12-15T01:42:22.902+01:00">
                       <OBJECT>
                         <SPEC-OBJECT-REF>_1.7.1</SPEC-OBJECT-REF>
                       </OBJECT>
                       <CHILDREN>
-                        <SPEC-HIERARCHY IDENTIFIER="_1.7.1.1_singleton" LAST-CHANGE="2015-10-05T10:53:38.774+02:00">
+                        <SPEC-HIERARCHY IDENTIFIER="_1.7.1.1_singleton" LAST-CHANGE="2015-12-15T01:42:22.905+01:00">
                           <OBJECT>
                             <SPEC-OBJECT-REF>_1.7.1.1</SPEC-OBJECT-REF>
                           </OBJECT>
                         </SPEC-HIERARCHY>
-                        <SPEC-HIERARCHY IDENTIFIER="_1.7.1.2_singleton" LAST-CHANGE="2015-10-05T10:53:38.776+02:00">
+                        <SPEC-HIERARCHY IDENTIFIER="_1.7.1.2_singleton" LAST-CHANGE="2015-12-15T01:42:22.907+01:00">
                           <OBJECT>
                             <SPEC-OBJECT-REF>_1.7.1.2</SPEC-OBJECT-REF>
                           </OBJECT>
                         </SPEC-HIERARCHY>
-                        <SPEC-HIERARCHY IDENTIFIER="_1.7.1.3_singleton" LAST-CHANGE="2015-10-05T10:53:38.778+02:00">
+                        <SPEC-HIERARCHY IDENTIFIER="_1.7.1.3_singleton" LAST-CHANGE="2015-12-15T01:42:22.908+01:00">
                           <OBJECT>
                             <SPEC-OBJECT-REF>_1.7.1.3</SPEC-OBJECT-REF>
                           </OBJECT>
                         </SPEC-HIERARCHY>
-                        <SPEC-HIERARCHY IDENTIFIER="_1.7.1.4_singleton" LAST-CHANGE="2015-10-05T10:53:38.780+02:00">
+                        <SPEC-HIERARCHY IDENTIFIER="_1.7.1.4_singleton" LAST-CHANGE="2015-12-15T01:42:22.909+01:00">
                           <OBJECT>
                             <SPEC-OBJECT-REF>_1.7.1.4</SPEC-OBJECT-REF>
                           </OBJECT>
                         </SPEC-HIERARCHY>
-                        <SPEC-HIERARCHY IDENTIFIER="_1.7.1.5_singleton" LAST-CHANGE="2015-10-05T10:53:38.781+02:00">
+                        <SPEC-HIERARCHY IDENTIFIER="_1.7.1.5_singleton" LAST-CHANGE="2015-12-15T01:42:22.910+01:00">
                           <OBJECT>
                             <SPEC-OBJECT-REF>_1.7.1.5</SPEC-OBJECT-REF>
                           </OBJECT>
@@ -5200,90 +5200,90 @@
                     </SPEC-HIERARCHY>
                   </CHILDREN>
                 </SPEC-HIERARCHY>
-                <SPEC-HIERARCHY IDENTIFIER="_1.8_singleton" LAST-CHANGE="2015-10-05T10:53:38.782+02:00">
+                <SPEC-HIERARCHY IDENTIFIER="_1.8_singleton" LAST-CHANGE="2015-12-15T01:42:22.911+01:00">
                   <OBJECT>
                     <SPEC-OBJECT-REF>_1.8</SPEC-OBJECT-REF>
                   </OBJECT>
                   <CHILDREN>
-                    <SPEC-HIERARCHY IDENTIFIER="_1.8.1_singleton" LAST-CHANGE="2015-10-05T10:53:38.783+02:00">
+                    <SPEC-HIERARCHY IDENTIFIER="_1.8.1_singleton" LAST-CHANGE="2015-12-15T01:42:22.912+01:00">
                       <OBJECT>
                         <SPEC-OBJECT-REF>_1.8.1</SPEC-OBJECT-REF>
                       </OBJECT>
                       <CHILDREN>
-                        <SPEC-HIERARCHY IDENTIFIER="_1.8.1.1_singleton" LAST-CHANGE="2015-10-05T10:53:38.784+02:00">
+                        <SPEC-HIERARCHY IDENTIFIER="_1.8.1.1_singleton" LAST-CHANGE="2015-12-15T01:42:22.913+01:00">
                           <OBJECT>
                             <SPEC-OBJECT-REF>_1.8.1.1</SPEC-OBJECT-REF>
                           </OBJECT>
                         </SPEC-HIERARCHY>
-                        <SPEC-HIERARCHY IDENTIFIER="_1.8.1.2_singleton" LAST-CHANGE="2015-10-05T10:53:38.785+02:00">
+                        <SPEC-HIERARCHY IDENTIFIER="_1.8.1.2_singleton" LAST-CHANGE="2015-12-15T01:42:22.914+01:00">
                           <OBJECT>
                             <SPEC-OBJECT-REF>_1.8.1.2</SPEC-OBJECT-REF>
                           </OBJECT>
                         </SPEC-HIERARCHY>
                       </CHILDREN>
                     </SPEC-HIERARCHY>
-                    <SPEC-HIERARCHY IDENTIFIER="_1.8.2_singleton" LAST-CHANGE="2015-10-05T10:53:38.786+02:00">
+                    <SPEC-HIERARCHY IDENTIFIER="_1.8.2_singleton" LAST-CHANGE="2015-12-15T01:42:22.915+01:00">
                       <OBJECT>
                         <SPEC-OBJECT-REF>_1.8.2</SPEC-OBJECT-REF>
                       </OBJECT>
                       <CHILDREN>
-                        <SPEC-HIERARCHY IDENTIFIER="_1.8.2.1_singleton" LAST-CHANGE="2015-10-05T10:53:38.787+02:00">
+                        <SPEC-HIERARCHY IDENTIFIER="_1.8.2.1_singleton" LAST-CHANGE="2015-12-15T01:42:22.916+01:00">
                           <OBJECT>
                             <SPEC-OBJECT-REF>_1.8.2.1</SPEC-OBJECT-REF>
                           </OBJECT>
                         </SPEC-HIERARCHY>
                       </CHILDREN>
                     </SPEC-HIERARCHY>
-                    <SPEC-HIERARCHY IDENTIFIER="_1.8.3_singleton" LAST-CHANGE="2015-10-05T10:53:38.788+02:00">
+                    <SPEC-HIERARCHY IDENTIFIER="_1.8.3_singleton" LAST-CHANGE="2015-12-15T01:42:22.917+01:00">
                       <OBJECT>
                         <SPEC-OBJECT-REF>_1.8.3</SPEC-OBJECT-REF>
                       </OBJECT>
                       <CHILDREN>
-                        <SPEC-HIERARCHY IDENTIFIER="_1.8.3.1_singleton" LAST-CHANGE="2015-10-05T10:53:38.790+02:00">
+                        <SPEC-HIERARCHY IDENTIFIER="_1.8.3.1_singleton" LAST-CHANGE="2015-12-15T01:42:22.919+01:00">
                           <OBJECT>
                             <SPEC-OBJECT-REF>_1.8.3.1</SPEC-OBJECT-REF>
                           </OBJECT>
                         </SPEC-HIERARCHY>
-                        <SPEC-HIERARCHY IDENTIFIER="_1.8.3.2_singleton" LAST-CHANGE="2015-10-05T10:53:38.791+02:00">
+                        <SPEC-HIERARCHY IDENTIFIER="_1.8.3.2_singleton" LAST-CHANGE="2015-12-15T01:42:22.919+01:00">
                           <OBJECT>
                             <SPEC-OBJECT-REF>_1.8.3.2</SPEC-OBJECT-REF>
                           </OBJECT>
                         </SPEC-HIERARCHY>
-                        <SPEC-HIERARCHY IDENTIFIER="_1.8.3.3_singleton" LAST-CHANGE="2015-10-05T10:53:38.792+02:00">
+                        <SPEC-HIERARCHY IDENTIFIER="_1.8.3.3_singleton" LAST-CHANGE="2015-12-15T01:42:22.920+01:00">
                           <OBJECT>
                             <SPEC-OBJECT-REF>_1.8.3.3</SPEC-OBJECT-REF>
                           </OBJECT>
                         </SPEC-HIERARCHY>
                       </CHILDREN>
                     </SPEC-HIERARCHY>
-                    <SPEC-HIERARCHY IDENTIFIER="_1.8.4_singleton" LAST-CHANGE="2015-10-05T10:53:38.792+02:00">
+                    <SPEC-HIERARCHY IDENTIFIER="_1.8.4_singleton" LAST-CHANGE="2015-12-15T01:42:22.921+01:00">
                       <OBJECT>
                         <SPEC-OBJECT-REF>_1.8.4</SPEC-OBJECT-REF>
                       </OBJECT>
                       <CHILDREN>
-                        <SPEC-HIERARCHY IDENTIFIER="_1.8.4.1_singleton" LAST-CHANGE="2015-10-05T10:53:38.794+02:00">
+                        <SPEC-HIERARCHY IDENTIFIER="_1.8.4.1_singleton" LAST-CHANGE="2015-12-15T01:42:22.923+01:00">
                           <OBJECT>
                             <SPEC-OBJECT-REF>_1.8.4.1</SPEC-OBJECT-REF>
                           </OBJECT>
                         </SPEC-HIERARCHY>
-                        <SPEC-HIERARCHY IDENTIFIER="_1.8.4.2_singleton" LAST-CHANGE="2015-10-05T10:53:38.796+02:00">
+                        <SPEC-HIERARCHY IDENTIFIER="_1.8.4.2_singleton" LAST-CHANGE="2015-12-15T01:42:22.923+01:00">
                           <OBJECT>
                             <SPEC-OBJECT-REF>_1.8.4.2</SPEC-OBJECT-REF>
                           </OBJECT>
                         </SPEC-HIERARCHY>
                       </CHILDREN>
                     </SPEC-HIERARCHY>
-                    <SPEC-HIERARCHY IDENTIFIER="_1.8.5_singleton" LAST-CHANGE="2015-10-05T10:53:38.797+02:00">
+                    <SPEC-HIERARCHY IDENTIFIER="_1.8.5_singleton" LAST-CHANGE="2015-12-15T01:42:22.924+01:00">
                       <OBJECT>
                         <SPEC-OBJECT-REF>_1.8.5</SPEC-OBJECT-REF>
                       </OBJECT>
                       <CHILDREN>
-                        <SPEC-HIERARCHY IDENTIFIER="_1.8.5.1_singleton" LAST-CHANGE="2015-10-05T10:53:38.797+02:00">
+                        <SPEC-HIERARCHY IDENTIFIER="_1.8.5.1_singleton" LAST-CHANGE="2015-12-15T01:42:22.925+01:00">
                           <OBJECT>
                             <SPEC-OBJECT-REF>_1.8.5.1</SPEC-OBJECT-REF>
                           </OBJECT>
                           <CHILDREN>
-                            <SPEC-HIERARCHY IDENTIFIER="_1.8.5.1.1_singleton" LAST-CHANGE="2015-10-05T10:53:38.798+02:00">
+                            <SPEC-HIERARCHY IDENTIFIER="_1.8.5.1.1_singleton" LAST-CHANGE="2015-12-15T01:42:22.926+01:00">
                               <OBJECT>
                                 <SPEC-OBJECT-REF>_1.8.5.1.1</SPEC-OBJECT-REF>
                               </OBJECT>
@@ -5292,46 +5292,46 @@
                         </SPEC-HIERARCHY>
                       </CHILDREN>
                     </SPEC-HIERARCHY>
-                    <SPEC-HIERARCHY IDENTIFIER="_1.8.6_singleton" LAST-CHANGE="2015-10-05T10:53:38.799+02:00">
+                    <SPEC-HIERARCHY IDENTIFIER="_1.8.6_singleton" LAST-CHANGE="2015-12-15T01:42:22.926+01:00">
                       <OBJECT>
                         <SPEC-OBJECT-REF>_1.8.6</SPEC-OBJECT-REF>
                       </OBJECT>
                       <CHILDREN>
-                        <SPEC-HIERARCHY IDENTIFIER="_1.8.6.1_singleton" LAST-CHANGE="2015-10-05T10:53:38.801+02:00">
+                        <SPEC-HIERARCHY IDENTIFIER="_1.8.6.1_singleton" LAST-CHANGE="2015-12-15T01:42:22.928+01:00">
                           <OBJECT>
                             <SPEC-OBJECT-REF>_1.8.6.1</SPEC-OBJECT-REF>
                           </OBJECT>
                         </SPEC-HIERARCHY>
                       </CHILDREN>
                     </SPEC-HIERARCHY>
-                    <SPEC-HIERARCHY IDENTIFIER="_1.8.7_singleton" LAST-CHANGE="2015-10-05T10:53:38.802+02:00">
+                    <SPEC-HIERARCHY IDENTIFIER="_1.8.7_singleton" LAST-CHANGE="2015-12-15T01:42:22.929+01:00">
                       <OBJECT>
                         <SPEC-OBJECT-REF>_1.8.7</SPEC-OBJECT-REF>
                       </OBJECT>
                     </SPEC-HIERARCHY>
-                    <SPEC-HIERARCHY IDENTIFIER="_1.8.8_singleton" LAST-CHANGE="2015-10-05T10:53:38.803+02:00">
+                    <SPEC-HIERARCHY IDENTIFIER="_1.8.8_singleton" LAST-CHANGE="2015-12-15T01:42:22.930+01:00">
                       <OBJECT>
                         <SPEC-OBJECT-REF>_1.8.8</SPEC-OBJECT-REF>
                       </OBJECT>
                       <CHILDREN>
-                        <SPEC-HIERARCHY IDENTIFIER="_1.8.8.1_singleton" LAST-CHANGE="2015-10-05T10:53:38.804+02:00">
+                        <SPEC-HIERARCHY IDENTIFIER="_1.8.8.1_singleton" LAST-CHANGE="2015-12-15T01:42:22.931+01:00">
                           <OBJECT>
                             <SPEC-OBJECT-REF>_1.8.8.1</SPEC-OBJECT-REF>
                           </OBJECT>
                         </SPEC-HIERARCHY>
                       </CHILDREN>
                     </SPEC-HIERARCHY>
-                    <SPEC-HIERARCHY IDENTIFIER="_1.8.9_singleton" LAST-CHANGE="2015-10-05T10:53:38.805+02:00">
+                    <SPEC-HIERARCHY IDENTIFIER="_1.8.9_singleton" LAST-CHANGE="2015-12-15T01:42:22.932+01:00">
                       <OBJECT>
                         <SPEC-OBJECT-REF>_1.8.9</SPEC-OBJECT-REF>
                       </OBJECT>
                       <CHILDREN>
-                        <SPEC-HIERARCHY IDENTIFIER="_1.8.9.1_singleton" LAST-CHANGE="2015-10-05T10:53:38.806+02:00">
+                        <SPEC-HIERARCHY IDENTIFIER="_1.8.9.1_singleton" LAST-CHANGE="2015-12-15T01:42:22.934+01:00">
                           <OBJECT>
                             <SPEC-OBJECT-REF>_1.8.9.1</SPEC-OBJECT-REF>
                           </OBJECT>
                         </SPEC-HIERARCHY>
-                        <SPEC-HIERARCHY IDENTIFIER="_1.8.9.2_singleton" LAST-CHANGE="2015-10-05T10:53:38.807+02:00">
+                        <SPEC-HIERARCHY IDENTIFIER="_1.8.9.2_singleton" LAST-CHANGE="2015-12-15T01:42:22.935+01:00">
                           <OBJECT>
                             <SPEC-OBJECT-REF>_1.8.9.2</SPEC-OBJECT-REF>
                           </OBJECT>
@@ -5350,12 +5350,16 @@
   <TOOL-EXTENSIONS>
     <REQ-IF-TOOL-EXTENSION>
       <configuration:ProrToolExtension>
+        <configuration:presentationConfigurations/>
         <configuration:specViewConfigurations>
           <configuration:ProrSpecViewConfiguration specification="_specificationDocument">
             <configuration:columns>
               <configuration:Column label="requirementID" width="370"/>
               <configuration:Column label="RichText" width="820"/>
             </configuration:columns>
+            <configuration:leftHeaderColumn>
+              <configuration:Column label="Lead Header Column" width="71"/>
+            </configuration:leftHeaderColumn>
           </configuration:ProrSpecViewConfiguration>
         </configuration:specViewConfigurations>
         <configuration:generalConfiguration>
